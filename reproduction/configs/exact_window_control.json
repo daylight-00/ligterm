@@ -1,0 +1,70 @@
+{
+ "seed_training": 20261113,
+ "seed_bootstrap": 20261115,
+ "studies": [
+  "33968037",
+  "35251023",
+  "35154160",
+  "32983136",
+  "36215666",
+  "25502872",
+  "33936100",
+  "28467828",
+  "39617188",
+  "34433824",
+  "33392160",
+  "32157095",
+  "40689854",
+  "42228098",
+  "31611695",
+  "41315082",
+  "41534530",
+  "34932366",
+  "40684438",
+  "33091337"
+ ],
+ "seen": [
+  "33858848",
+  "34357683",
+  "32350084",
+  "33968037",
+  "33592498",
+  "29242379"
+ ],
+ "primary_grouping": "u30",
+ "terminus": "C",
+ "analysis": "complete_standard_4plus3_window",
+ "models": [
+  "LR-Both(4+3)",
+  "LR-Both4",
+  "NetCleave-style (protocol negatives)"
+ ],
+ "pairs": [
+  {
+   "a": "LR-Both(4+3)",
+   "b": "NetCleave-style (protocol negatives)"
+  },
+  {
+   "a": "LR-Both(4+3)",
+   "b": "LR-Both4"
+  },
+  {
+   "a": "LR-Both4",
+   "b": "NetCleave-style (protocol negatives)"
+  }
+ ],
+ "lr": {
+  "C_position_lr": 1.0,
+  "C_window_lr": 0.1,
+  "max_iter": 1000,
+  "tol": 0.0001
+ },
+ "kmer_overlap": 9,
+ "neg_ratio": 6,
+ "bootstrap": 2000,
+ "netcleave": {
+  "max_epochs": 300,
+  "seed": 20261114,
+  "frozen_weights": "II_mass-spectrometry_HLA"
+ }
+}

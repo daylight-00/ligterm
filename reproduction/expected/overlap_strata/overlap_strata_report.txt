@@ -1,0 +1,40 @@
+Overlap-stratified analysis of the development studies (post hoc, exploratory, descriptive; no gate): 19 unseen development studies, stored logits, strict training rows of each refit
+guards: the strict rows equal the stored information of the refits; the per-protein values of all positives equal the records of the ensemble seed-robustness stage (1e-9); a study-terminus with fewer than 20 positive bonds in a stratum is left out of that stratum's median
+--- terminus N: the share of the observed ligand-terminal bonds that are shared with the training (a terminal bond of the same terminus of a strict training unit): median 0.000 (range 0.000 to 0.000)
+    median Bond-AUROC [studies included / left out]: LigTerm-GB all: 0.7755 [19/0] | LigTerm-GB shared_with_training:   n/a  [0/19] | LigTerm-GB novel_to_training: 0.7755 [19/0] | LigTerm all: 0.7955 [19/0] | LigTerm shared_with_training:   n/a  [0/19] | LigTerm novel_to_training: 0.7955 [19/0]
+    median pooled Local-AUC:                   LigTerm-GB all: 0.7485 | LigTerm-GB shared_with_training:   n/a  | LigTerm-GB novel_to_training: 0.7485 | LigTerm all: 0.7630 | LigTerm shared_with_training:   n/a  | LigTerm novel_to_training: 0.7630
+    novel_to_training - all|LigTerm-GB|bond_auroc                           : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    novel_to_training - all|LigTerm-GB|local_auc                            : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    novel_to_training - all|LigTerm|bond_auroc                              : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    novel_to_training - all|LigTerm|local_auc                               : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    LigTerm - LigTerm-GB|novel_to_training|bond_auroc                       : median 0.0139, studies with a positive difference 19 of 19 (left out 0)
+    LigTerm - LigTerm-GB|novel_to_training|local_auc                        : median 0.0163, studies with a positive difference 19 of 19 (left out 0)
+--- terminus C: the share of the observed ligand-terminal bonds that are shared with the training (a terminal bond of the same terminus of a strict training unit): median 0.000 (range 0.000 to 0.000)
+    median Bond-AUROC [studies included / left out]: LigTerm-GB all: 0.7606 [19/0] | LigTerm-GB shared_with_training:   n/a  [0/19] | LigTerm-GB novel_to_training: 0.7606 [19/0] | LigTerm all: 0.7752 [19/0] | LigTerm shared_with_training:   n/a  [0/19] | LigTerm novel_to_training: 0.7752 [19/0]
+    median pooled Local-AUC:                   LigTerm-GB all: 0.7164 | LigTerm-GB shared_with_training:   n/a  | LigTerm-GB novel_to_training: 0.7164 | LigTerm all: 0.7259 | LigTerm shared_with_training:   n/a  | LigTerm novel_to_training: 0.7259
+    novel_to_training - all|LigTerm-GB|bond_auroc                           : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    novel_to_training - all|LigTerm-GB|local_auc                            : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    novel_to_training - all|LigTerm|bond_auroc                              : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    novel_to_training - all|LigTerm|local_auc                               : median 0.0000, studies with a positive difference 0 of 19 (left out 0)
+    LigTerm - LigTerm-GB|novel_to_training|bond_auroc                       : median 0.0143, studies with a positive difference 19 of 19 (left out 0)
+    LigTerm - LigTerm-GB|novel_to_training|local_auc                        : median 0.0169, studies with a positive difference 19 of 19 (left out 0)
+per study (N | C): share shared with the training; Bond-AUROC all / shared_with_training / novel_to_training for LigTerm-GB, then LigTerm
+  25502872 | N: share 0.00 (pos 6273/0/6273) LigTerm-GB 0.7471/n/a/0.7471 ; LigTerm 0.7551/n/a/0.7551 | C: share 0.00 (pos 6653/0/6653) LigTerm-GB 0.7135/n/a/0.7135 ; LigTerm 0.7262/n/a/0.7262
+  28467828 | N: share 0.00 (pos 3981/0/3981) LigTerm-GB 0.8304/n/a/0.8304 ; LigTerm 0.8586/n/a/0.8586 | C: share 0.00 (pos 4539/0/4539) LigTerm-GB 0.8017/n/a/0.8017 ; LigTerm 0.8313/n/a/0.8313
+  31611695 | N: share 0.00 (pos 2447/0/2447) LigTerm-GB 0.7629/n/a/0.7629 ; LigTerm 0.7775/n/a/0.7775 | C: share 0.00 (pos 2119/0/2119) LigTerm-GB 0.7667/n/a/0.7667 ; LigTerm 0.7826/n/a/0.7826
+  32157095 | N: share 0.00 (pos 3151/0/3151) LigTerm-GB 0.8539/n/a/0.8539 ; LigTerm 0.8706/n/a/0.8706 | C: share 0.00 (pos 3151/0/3151) LigTerm-GB 0.8528/n/a/0.8528 ; LigTerm 0.8743/n/a/0.8743
+  32983136 | N: share 0.00 (pos 8238/0/8238) LigTerm-GB 0.7755/n/a/0.7755 ; LigTerm 0.7955/n/a/0.7955 | C: share 0.00 (pos 7983/0/7983) LigTerm-GB 0.7722/n/a/0.7722 ; LigTerm 0.7949/n/a/0.7949
+  33091337 | N: share 0.00 (pos 1783/0/1783) LigTerm-GB 0.6808/n/a/0.6808 ; LigTerm 0.6876/n/a/0.6876 | C: share 0.00 (pos 1705/0/1705) LigTerm-GB 0.6579/n/a/0.6579 ; LigTerm 0.6628/n/a/0.6628
+  33392160 | N: share 0.00 (pos 3873/0/3873) LigTerm-GB 0.6511/n/a/0.6511 ; LigTerm 0.6591/n/a/0.6591 | C: share 0.00 (pos 3664/0/3664) LigTerm-GB 0.6505/n/a/0.6505 ; LigTerm 0.6588/n/a/0.6588
+  33936100 | N: share 0.00 (pos 5240/0/5240) LigTerm-GB 0.7974/n/a/0.7974 ; LigTerm 0.8150/n/a/0.8150 | C: share 0.00 (pos 5406/0/5406) LigTerm-GB 0.7749/n/a/0.7749 ; LigTerm 0.7908/n/a/0.7908
+  34433824 | N: share 0.00 (pos 3041/0/3041) LigTerm-GB 0.7890/n/a/0.7890 ; LigTerm 0.7971/n/a/0.7971 | C: share 0.00 (pos 3356/0/3356) LigTerm-GB 0.7291/n/a/0.7291 ; LigTerm 0.7419/n/a/0.7419
+  34932366 | N: share 0.00 (pos 1654/0/1654) LigTerm-GB 0.7820/n/a/0.7820 ; LigTerm 0.8010/n/a/0.8010 | C: share 0.00 (pos 1774/0/1774) LigTerm-GB 0.7606/n/a/0.7606 ; LigTerm 0.7804/n/a/0.7804
+  35154160 | N: share 0.00 (pos 10689/0/10689) LigTerm-GB 0.8072/n/a/0.8072 ; LigTerm 0.8290/n/a/0.8290 | C: share 0.00 (pos 12685/0/12685) LigTerm-GB 0.7674/n/a/0.7674 ; LigTerm 0.7863/n/a/0.7863
+  35251023 | N: share 0.00 (pos 16323/0/16323) LigTerm-GB 0.7844/n/a/0.7844 ; LigTerm 0.7983/n/a/0.7983 | C: share 0.00 (pos 17714/0/17714) LigTerm-GB 0.7669/n/a/0.7669 ; LigTerm 0.7752/n/a/0.7752
+  36215666 | N: share 0.00 (pos 8335/0/8335) LigTerm-GB 0.7046/n/a/0.7046 ; LigTerm 0.7184/n/a/0.7184 | C: share 0.00 (pos 7816/0/7816) LigTerm-GB 0.6846/n/a/0.6846 ; LigTerm 0.6953/n/a/0.6953
+  39617188 | N: share 0.00 (pos 3985/0/3985) LigTerm-GB 0.7676/n/a/0.7676 ; LigTerm 0.7840/n/a/0.7840 | C: share 0.00 (pos 3761/0/3761) LigTerm-GB 0.7976/n/a/0.7976 ; LigTerm 0.8118/n/a/0.8118
+  40684438 | N: share 0.00 (pos 2023/0/2023) LigTerm-GB 0.6839/n/a/0.6839 ; LigTerm 0.6933/n/a/0.6933 | C: share 0.00 (pos 2039/0/2039) LigTerm-GB 0.6990/n/a/0.6990 ; LigTerm 0.7107/n/a/0.7107
+  40689854 | N: share 0.00 (pos 3491/0/3491) LigTerm-GB 0.8284/n/a/0.8284 ; LigTerm 0.8479/n/a/0.8479 | C: share 0.00 (pos 3216/0/3216) LigTerm-GB 0.8118/n/a/0.8118 ; LigTerm 0.8343/n/a/0.8343
+  41315082 | N: share 0.00 (pos 2045/0/2045) LigTerm-GB 0.7676/n/a/0.7676 ; LigTerm 0.7794/n/a/0.7794 | C: share 0.00 (pos 1924/0/1924) LigTerm-GB 0.6946/n/a/0.6946 ; LigTerm 0.7064/n/a/0.7064
+  41534530 | N: share 0.00 (pos 2153/0/2153) LigTerm-GB 0.7377/n/a/0.7377 ; LigTerm 0.7451/n/a/0.7451 | C: share 0.00 (pos 2144/0/2144) LigTerm-GB 0.7126/n/a/0.7126 ; LigTerm 0.7244/n/a/0.7244
+  42228098 | N: share 0.00 (pos 2849/0/2849) LigTerm-GB 0.7830/n/a/0.7830 ; LigTerm 0.7966/n/a/0.7966 | C: share 0.00 (pos 2586/0/2586) LigTerm-GB 0.7474/n/a/0.7474 ; LigTerm 0.7750/n/a/0.7750

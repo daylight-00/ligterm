@@ -1,0 +1,14 @@
+{
+ "bonds": 1304,
+ "mlp_seeds": 3,
+ "model_family": "ens",
+ "n_trees": {
+  "C": 800,
+  "N": 800
+ },
+ "note": "scores are logits that rank bonds and peptides within a protein; they are not probabilities and not comparable across proteins; 'N_score' of bond i = peptide starting at residue i+1, 'C_score' of bond i = peptide ending at residue i; bond ranks are competition ranks (rank 1 = highest score, tied scores share the best rank); peptide ranks are ordinal positions in the written order (ties keep the order of increasing length, then of increasing start); a measure of observed ligand-terminal propensity, not of proteolytic cleavage",
+ "peptides_written": 80,
+ "proteins": 4,
+ "skipped_shorter_than_2_residues": [],
+ "window": 16
+}

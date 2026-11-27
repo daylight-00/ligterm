@@ -1,0 +1,9 @@
+# Versions that the stored results were produced and re-checked with (CPU only). Other versions usually work but may change the last digits of a number:
+# 90_check_reproduction.py compares exactly, except for the retrained NetCleave-style networks (1e-4).
+numpy==2.5.2
+scipy==1.18.1
+scikit-learn==1.9.1
+# torch (CPU build) is needed by scripts 20, 21 and 22 (the retrained NetCleave-style network) and by `42_train_window_mlp.py`
+torch==2.14.0
+# h5py is needed once, by 00_fetch_data.py, to convert the NetCleave weights to numpy arrays
+h5py

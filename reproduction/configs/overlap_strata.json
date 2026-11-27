@@ -1,0 +1,43 @@
+{
+ "studies": [
+  "25502872",
+  "28467828",
+  "31611695",
+  "32157095",
+  "32983136",
+  "33091337",
+  "33392160",
+  "33936100",
+  "34433824",
+  "34932366",
+  "35154160",
+  "35251023",
+  "36215666",
+  "39617188",
+  "40684438",
+  "40689854",
+  "41315082",
+  "41534530",
+  "42228098"
+ ],
+ "primary_grouping": "u30",
+ "min_positive_bonds": 20,
+ "record_tolerance": 1e-09,
+ "models": [
+  {
+   "model": "LigTerm-GB"
+  },
+  {
+   "model": "LigTerm"
+  }
+ ],
+ "strata": [
+  "all",
+  "shared_with_training",
+  "novel_to_training"
+ ],
+ "metrics": [
+  "bond_auroc",
+  "local_auc"
+ ]
+}

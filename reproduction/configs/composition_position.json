@@ -1,0 +1,270 @@
+{
+ "seed_training": 20261113,
+ "studies": [
+  "33968037",
+  "35251023",
+  "35154160",
+  "32983136",
+  "36215666",
+  "25502872",
+  "33936100",
+  "28467828",
+  "39617188",
+  "34433824",
+  "33392160",
+  "32157095",
+  "40689854",
+  "42228098",
+  "31611695",
+  "41315082",
+  "41534530",
+  "34932366",
+  "40684438",
+  "33091337"
+ ],
+ "seen": [
+  "33858848",
+  "34357683",
+  "32350084",
+  "33968037",
+  "33592498",
+  "29242379"
+ ],
+ "primary_grouping": "u30",
+ "neg_ratio": 6,
+ "bootstrap": 2000,
+ "kmer_overlap": 9,
+ "lr": {
+  "C_position_lr": 1.0,
+  "C_window_lr": 0.1,
+  "max_iter": 1000,
+  "tol": 0.0001
+ },
+ "largest_group_size": 3492,
+ "ref_models": [
+  "LR-Both8",
+  "LR-Out8",
+  "LR-In8"
+ ],
+ "linear": {
+  "seed_bootstrap": 20261116,
+  "weights_for": [
+   "LR-Full8",
+   "LR-Comp8",
+   "LR-Cys8",
+   "LR-Prox2",
+   "LR-Comp8+Prox2"
+  ],
+  "pairs": [
+   {
+    "a": "LR-Full8",
+    "b": "LR-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Comp8+Prox2",
+    "b": "LR-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Full8",
+    "b": "LR-Comp8+Prox2",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Comp8",
+    "b": "LR-Cys8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Prox2",
+    "b": "LR-Dist6",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Full8",
+    "b": "LR-In8",
+    "fit_a": "cv"
+   },
+   {
+    "a": "LR-In8",
+    "b": "LR-Comp8",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "LR-Comp8+Prox2",
+    "b": "LR-Comp8",
+    "fit_a": "fixed",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "LR-In8",
+    "b": "LR-Comp8+Prox2",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "LR-Comp8",
+    "b": "LR-Cys8",
+    "fit_a": "fixed",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "LR-Prox2",
+    "b": "LR-Dist6",
+    "fit_a": "fixed",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "LR-In8",
+    "b": "LR-Out8"
+   },
+   {
+    "a": "LR-Both8",
+    "b": "LR-In8"
+   }
+  ],
+  "pairs_without_largest_group": [
+   {
+    "a": "LR-Full8",
+    "b": "LR-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Comp8+Prox2",
+    "b": "LR-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-Full8",
+    "b": "LR-Comp8+Prox2",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "LR-In8",
+    "b": "LR-Out8"
+   },
+   {
+    "a": "LR-Both8",
+    "b": "LR-In8"
+   }
+  ]
+ },
+ "boosted": {
+  "seed_bootstrap": 20261117,
+  "pairs": [
+   {
+    "a": "GB-In8",
+    "b": "GB-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-Comp8+Prox2",
+    "b": "GB-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "GB-Comp8+Prox2",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-Prox2",
+    "b": "GB-Dist6",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "GB-Pos8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-Both8",
+    "b": "GB-In8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "GB-Out8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-Both8",
+    "b": "LR-Both8",
+    "fit_a": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "LR-In8",
+    "fit_a": "cv"
+   },
+   {
+    "a": "GB-Out8",
+    "b": "LR-Out8",
+    "fit_a": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "GB-Comp8",
+    "fit_a": "fixed",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "GB-Comp8+Prox2",
+    "b": "GB-Comp8",
+    "fit_a": "fixed",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "GB-In8",
+    "b": "GB-Comp8+Prox2",
+    "fit_a": "fixed",
+    "fit_b": "fixed"
+   },
+   {
+    "a": "GB-In8",
+    "b": "LR-In8",
+    "fit_a": "fixed"
+   }
+  ],
+  "pairs_without_largest_group": [
+   {
+    "a": "GB-In8",
+    "b": "GB-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-Comp8+Prox2",
+    "b": "GB-Comp8",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "GB-Comp8+Prox2",
+    "fit_a": "cv",
+    "fit_b": "cv"
+   },
+   {
+    "a": "GB-In8",
+    "b": "LR-In8",
+    "fit_a": "cv"
+   }
+  ]
+ }
+}

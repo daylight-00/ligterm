@@ -1,0 +1,37 @@
+{
+ "record_files_url": null,
+ "manifest_sha256": "7d6dc7d67a1c8b7dedb0f5bc1305e9ab82c37b39baff2e6ab9fa6c5edb85379b",
+ "intermediates": [
+  "development_refits",
+  "historical_test",
+  "mhcii_np_comparison",
+  "predictor_development"
+ ],
+ "files": {
+  "datasets.tar.zst": {
+   "bytes": 13486242,
+   "sha256": "ee709a1a8c12d08eef587fb12033da153f54f05d49ff565a6794f378240d0a4e"
+  },
+  "results.tar.zst": {
+   "bytes": 11707324,
+   "sha256": "0c9aea917ed88c8310b4370d7667dff1defb16a3d07217e6359c1e607e92de7e"
+  },
+  "development_refits.tar.zst": {
+   "bytes": 6360283,
+   "sha256": "d8de2742a148197662e5ce6b243801e7e39e9c09f74e08f6794657f59741631d"
+  },
+  "historical_test.tar.zst": {
+   "bytes": 4499204,
+   "sha256": "326585cec00aeed15f5133ee52e489b0505af02bf378d0b2ad8237fd9884a330"
+  },
+  "mhcii_np_comparison.tar.zst": {
+   "bytes": 41183,
+   "sha256": "a0a8f6f247b93073dd07ea59207591c1c947894be6c83b3b71ae3771aa8cfcd1"
+  },
+  "predictor_development.tar.zst": {
+   "bytes": 710891636,
+   "sha256": "b64195925d9fdb3c5d5b598407ebe75a9c6e8acb7f6e996527fc10d7b69c2294"
+  }
+ },
+ "unpacked_files": 315
+}

@@ -1,0 +1,11 @@
+Ensemble score scaling: 19 unseen development studies (+1 seen study listed in the per-study table); medians of per-study values:
+  LigTerm-GB               Bond-AUROC N 0.7755  C 0.7606   Length-matched AUC 0.8066  Near-miss AUC 0.7974
+  Window MLP               Bond-AUROC N 0.7788  C 0.7720   Length-matched AUC 0.8088  Near-miss AUC 0.7896
+  Scale-matched ensemble   Bond-AUROC N 0.7935  C 0.7751   Length-matched AUC 0.8239  Near-miss AUC 0.8081
+  LigTerm-1S               Bond-AUROC N 0.7936  C 0.7750   Length-matched AUC 0.8239  Near-miss AUC 0.8084
+paired differences (median over the unseen studies; studies with a positive difference):
+  LigTerm-1S - LigTerm-GB: Bond-AUROC N +0.0128 (19) C +0.0127 (19) | Local-AUC N +0.0124 C +0.0110 | Peptide-AUROC +0.0129 (19) Length-matched AUC +0.0146 (19) Near-miss AUC +0.0129 (19) | Peptide-AUROC (+length) +0.0063 (19)
+  Scale-matched ensemble - LigTerm-GB: Bond-AUROC N +0.0126 (19) C +0.0127 (19) | Local-AUC N +0.0130 C +0.0115 | Peptide-AUROC +0.0132 (19) Length-matched AUC +0.0145 (19) Near-miss AUC +0.0128 (19) | Peptide-AUROC (+length) +0.0062 (19)
+  LigTerm-1S - Scale-matched ensemble: Bond-AUROC N +0.0000 (11) C +0.0000 (10) | Local-AUC N -0.0002 C +0.0000 | Peptide-AUROC +0.0000 (10) Length-matched AUC -0.0000 (9) Near-miss AUC +0.0000 (11) | Peptide-AUROC (+length) +0.0000 (10)
+  Window MLP - LigTerm-GB: Bond-AUROC N +0.0028 (10) C +0.0052 (15) | Local-AUC N -0.0006 C +0.0004 | Peptide-AUROC +0.0058 (14) Length-matched AUC +0.0079 (14) Near-miss AUC -0.0034 (8) | Peptide-AUROC (+length) +0.0030 (14)
+READING (mechanical): (a) Bond-AUROC gate N True, C True -> True; (b) Length-matched AUC True, Near-miss AUC True -> True; LigTerm-1S keeps the improvement: True

@@ -1,0 +1,227 @@
+{
+ "seed_training": 20261113,
+ "lr": {
+  "C_position_lr": 1.0,
+  "C_window_lr": 0.1,
+  "max_iter": 1000,
+  "tol": 0.0001
+ },
+ "studies": [
+  "42155283",
+  "35051231"
+ ],
+ "regimes": [
+  {
+   "name": "group_disjoint",
+   "grouping": "u30",
+   "lab_exclusion": false
+  },
+  {
+   "name": "lab_excluded",
+   "grouping": "u30",
+   "lab_exclusion": true
+  },
+  {
+   "name": "identity_50_grouping",
+   "grouping": "m50",
+   "lab_exclusion": true
+  }
+ ],
+ "models": [
+  {
+   "model": "LigTerm-GB"
+  },
+  {
+   "model": "LR-Both8"
+  },
+  {
+   "model": "LR-Both16"
+  },
+  {
+   "model": "LR-Both16",
+   "fit": "cv"
+  },
+  {
+   "model": "Paul-style motif"
+  }
+ ],
+ "variants": [
+  "length_only",
+  "both_bonds",
+  "both_bonds_and_length"
+ ],
+ "neg_ratio": 6,
+ "kmer_overlap": 9,
+ "n_folds": 3,
+ "penalty_grid": [
+  0.01,
+  0.03,
+  0.1,
+  0.3,
+  1.0,
+  3.0,
+  10.0
+ ],
+ "iteration_grid": [
+  50,
+  100,
+  200,
+  400,
+  800
+ ],
+ "max_iter": 1000,
+ "tol": 0.0001,
+ "peptide_length": {
+  "min": 9,
+  "max": 30
+ },
+ "near_miss_shift": 3,
+ "evaluation_block": 200000,
+ "guard_models": [
+  {
+   "model": "LR-Both16"
+  },
+  {
+   "model": "LigTerm-GB"
+  },
+  {
+   "model": "Paul-style motif"
+  }
+ ],
+ "brute_force_tolerance": 1e-09,
+ "bootstrap": {
+  "resamples": 2000,
+  "seed": [
+   20261116,
+   3
+  ]
+ },
+ "contrasts": [
+  {
+   "a": "LigTerm-GB",
+   "b": "LR-Both16"
+  },
+  {
+   "a": "LigTerm-GB",
+   "b": "LR-Both16",
+   "fit_b": "cv"
+  },
+  {
+   "a": "LR-Both16",
+   "b": "LR-Both16",
+   "fit_a": "cv"
+  },
+  {
+   "a": "LR-Both16",
+   "b": "LR-Both8"
+  },
+  {
+   "a": "LR-Both16",
+   "b": "Paul-style motif"
+  }
+ ],
+ "training_lists": [
+  {
+   "study": "42155283",
+   "regime": "group_disjoint",
+   "units": 44764,
+   "proteins": 5589,
+   "train_pos": [
+    {
+     "terminus": "N",
+     "n_pos": 29685
+    },
+    {
+     "terminus": "C",
+     "n_pos": 29870
+    }
+   ],
+   "sha256": "39c58fe670c9a36dc7669eaddd046375c0faa3a0edb5842d0c67e7a9ad0c5e54"
+  },
+  {
+   "study": "42155283",
+   "regime": "lab_excluded",
+   "units": 14105,
+   "proteins": 4148,
+   "train_pos": [
+    {
+     "terminus": "N",
+     "n_pos": 11429
+    },
+    {
+     "terminus": "C",
+     "n_pos": 11535
+    }
+   ],
+   "sha256": "ccbc3d23d4a4efc8aa4c7ca8fccde346a815d2b7c14495e232a65dffca4505a3"
+  },
+  {
+   "study": "42155283",
+   "regime": "identity_50_grouping",
+   "units": 27952,
+   "proteins": 7102,
+   "train_pos": [
+    {
+     "terminus": "N",
+     "n_pos": 22506
+    },
+    {
+     "terminus": "C",
+     "n_pos": 22642
+    }
+   ],
+   "sha256": "ec4cb1b00b7b086b4320fabe0d87bbd4a3fcfba360d3182c4c44538b4bc29206"
+  },
+  {
+   "study": "35051231",
+   "regime": "group_disjoint",
+   "units": 53316,
+   "proteins": 3964,
+   "train_pos": [
+    {
+     "terminus": "N",
+     "n_pos": 29387
+    },
+    {
+     "terminus": "C",
+     "n_pos": 29693
+    }
+   ],
+   "sha256": "92583ad14e87f94d600b4fbf3759eb84759f8884ca39889b7e18561fe120d951"
+  },
+  {
+   "study": "35051231",
+   "regime": "lab_excluded",
+   "units": 24787,
+   "proteins": 3208,
+   "train_pos": [
+    {
+     "terminus": "N",
+     "n_pos": 15297
+    },
+    {
+     "terminus": "C",
+     "n_pos": 15256
+    }
+   ],
+   "sha256": "013a98e676a7e432c3e8a03c991c0f7ff37125499401f1ac9ce050206e40a10b"
+  },
+  {
+   "study": "35051231",
+   "regime": "identity_50_grouping",
+   "units": 39480,
+   "proteins": 5046,
+   "train_pos": [
+    {
+     "terminus": "N",
+     "n_pos": 24344
+    },
+    {
+     "terminus": "C",
+     "n_pos": 24389
+    }
+   ],
+   "sha256": "61660b6a6ff17da8d9e5c679e2567549e0c56e9157b95f894ef7ce273e69933c"
+  }
+ ]
+}

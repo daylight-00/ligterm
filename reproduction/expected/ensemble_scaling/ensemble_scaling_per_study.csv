@@ -1,0 +1,801 @@
+study,seen,model,fit,seed,terminus,variant,metric,value
+25502872,False,LigTerm-GB,,,N,,bond_auroc,0.747115
+25502872,False,LigTerm-GB,,,C,,bond_auroc,0.713458
+25502872,False,LigTerm-GB,,,N,,local_auc,0.758832
+25502872,False,LigTerm-GB,,,C,,local_auc,0.710132
+25502872,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.772211
+25502872,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.765702
+25502872,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.797415
+25502872,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.862488
+25502872,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.765702
+25502872,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.832179
+25502872,False,Window MLP,,,N,,bond_auroc,0.735349
+25502872,False,Window MLP,,,C,,bond_auroc,0.711183
+25502872,False,Window MLP,,,N,,local_auc,0.743212
+25502872,False,Window MLP,,,C,,local_auc,0.688138
+25502872,False,Window MLP,,,,both_bonds,peptide_auroc,0.764830
+25502872,False,Window MLP,,,,both_bonds,length_matched_auc,0.760879
+25502872,False,Window MLP,,,,both_bonds,near_miss_auc,0.776459
+25502872,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.856360
+25502872,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.760879
+25502872,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.818110
+25502872,False,Scale-matched ensemble,,,N,,bond_auroc,0.750261
+25502872,False,Scale-matched ensemble,,,C,,bond_auroc,0.723530
+25502872,False,Scale-matched ensemble,,,N,,local_auc,0.762968
+25502872,False,Scale-matched ensemble,,,C,,local_auc,0.716402
+25502872,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.777728
+25502872,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.771637
+25502872,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.803711
+25502872,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.864930
+25502872,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.771637
+25502872,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.837544
+25502872,False,LigTerm-1S,,,N,,bond_auroc,0.750576
+25502872,False,LigTerm-1S,,,C,,bond_auroc,0.723584
+25502872,False,LigTerm-1S,,,N,,local_auc,0.762920
+25502872,False,LigTerm-1S,,,C,,local_auc,0.716301
+25502872,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.777808
+25502872,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.771649
+25502872,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.804089
+25502872,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.865493
+25502872,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.771649
+25502872,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.837513
+28467828,False,LigTerm-GB,,,N,,bond_auroc,0.830380
+28467828,False,LigTerm-GB,,,C,,bond_auroc,0.801692
+28467828,False,LigTerm-GB,,,N,,local_auc,0.825931
+28467828,False,LigTerm-GB,,,C,,local_auc,0.787029
+28467828,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.864299
+28467828,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.857689
+28467828,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.866122
+28467828,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.918823
+28467828,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.857689
+28467828,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.897956
+28467828,False,Window MLP,,,N,,bond_auroc,0.851429
+28467828,False,Window MLP,,,C,,bond_auroc,0.830176
+28467828,False,Window MLP,,,N,,local_auc,0.828664
+28467828,False,Window MLP,,,C,,local_auc,0.782782
+28467828,False,Window MLP,,,,both_bonds,peptide_auroc,0.893862
+28467828,False,Window MLP,,,,both_bonds,length_matched_auc,0.889416
+28467828,False,Window MLP,,,,both_bonds,near_miss_auc,0.865450
+28467828,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.933644
+28467828,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.889416
+28467828,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.895265
+28467828,False,Scale-matched ensemble,,,N,,bond_auroc,0.855703
+28467828,False,Scale-matched ensemble,,,C,,bond_auroc,0.831205
+28467828,False,Scale-matched ensemble,,,N,,local_auc,0.843099
+28467828,False,Scale-matched ensemble,,,C,,local_auc,0.806671
+28467828,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.891978
+28467828,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.886378
+28467828,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.882621
+28467828,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.932911
+28467828,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.886378
+28467828,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.908023
+28467828,False,LigTerm-1S,,,N,,bond_auroc,0.855715
+28467828,False,LigTerm-1S,,,C,,bond_auroc,0.831302
+28467828,False,LigTerm-1S,,,N,,local_auc,0.843184
+28467828,False,LigTerm-1S,,,C,,local_auc,0.806583
+28467828,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.892022
+28467828,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.886434
+28467828,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.882586
+28467828,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.932916
+28467828,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.886434
+28467828,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.907841
+31611695,False,LigTerm-GB,,,N,,bond_auroc,0.762915
+31611695,False,LigTerm-GB,,,C,,bond_auroc,0.766715
+31611695,False,LigTerm-GB,,,N,,local_auc,0.728919
+31611695,False,LigTerm-GB,,,C,,local_auc,0.757803
+31611695,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.803610
+31611695,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.797869
+31611695,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.803728
+31611695,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.875670
+31611695,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.797869
+31611695,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.826843
+31611695,False,Window MLP,,,N,,bond_auroc,0.767484
+31611695,False,Window MLP,,,C,,bond_auroc,0.771956
+31611695,False,Window MLP,,,N,,local_auc,0.752501
+31611695,False,Window MLP,,,C,,local_auc,0.745516
+31611695,False,Window MLP,,,,both_bonds,peptide_auroc,0.813371
+31611695,False,Window MLP,,,,both_bonds,length_matched_auc,0.808801
+31611695,False,Window MLP,,,,both_bonds,near_miss_auc,0.813580
+31611695,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.879832
+31611695,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.808801
+31611695,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.829099
+31611695,False,Scale-matched ensemble,,,N,,bond_auroc,0.777206
+31611695,False,Scale-matched ensemble,,,C,,bond_auroc,0.781450
+31611695,False,Scale-matched ensemble,,,N,,local_auc,0.761196
+31611695,False,Scale-matched ensemble,,,C,,local_auc,0.767688
+31611695,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.818639
+31611695,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.812992
+31611695,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.828308
+31611695,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.882646
+31611695,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.812992
+31611695,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.840029
+31611695,False,LigTerm-1S,,,N,,bond_auroc,0.777020
+31611695,False,LigTerm-1S,,,C,,bond_auroc,0.781242
+31611695,False,LigTerm-1S,,,N,,local_auc,0.760481
+31611695,False,LigTerm-1S,,,C,,local_auc,0.769948
+31611695,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.818524
+31611695,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.812675
+31611695,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.828501
+31611695,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.882955
+31611695,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.812675
+31611695,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.838448
+32157095,False,LigTerm-GB,,,N,,bond_auroc,0.853873
+32157095,False,LigTerm-GB,,,C,,bond_auroc,0.852762
+32157095,False,LigTerm-GB,,,N,,local_auc,0.806243
+32157095,False,LigTerm-GB,,,C,,local_auc,0.800720
+32157095,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.899442
+32157095,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.891139
+32157095,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.861763
+32157095,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.942834
+32157095,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.891139
+32157095,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.890228
+32157095,False,Window MLP,,,N,,bond_auroc,0.856691
+32157095,False,Window MLP,,,C,,bond_auroc,0.861784
+32157095,False,Window MLP,,,N,,local_auc,0.801115
+32157095,False,Window MLP,,,C,,local_auc,0.801996
+32157095,False,Window MLP,,,,both_bonds,peptide_auroc,0.904657
+32157095,False,Window MLP,,,,both_bonds,length_matched_auc,0.899026
+32157095,False,Window MLP,,,,both_bonds,near_miss_auc,0.854131
+32157095,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.945790
+32157095,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.899026
+32157095,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.884866
+32157095,False,Scale-matched ensemble,,,N,,bond_auroc,0.867227
+32157095,False,Scale-matched ensemble,,,C,,bond_auroc,0.871192
+32157095,False,Scale-matched ensemble,,,N,,local_auc,0.819955
+32157095,False,Scale-matched ensemble,,,C,,local_auc,0.819290
+32157095,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.912648
+32157095,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.905602
+32157095,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.873102
+32157095,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.948992
+32157095,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.905602
+32157095,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.897387
+32157095,False,LigTerm-1S,,,N,,bond_auroc,0.867323
+32157095,False,LigTerm-1S,,,C,,bond_auroc,0.871284
+32157095,False,LigTerm-1S,,,N,,local_auc,0.820178
+32157095,False,LigTerm-1S,,,C,,local_auc,0.819406
+32157095,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.912989
+32157095,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.905783
+32157095,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.873449
+32157095,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.949142
+32157095,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.905783
+32157095,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.897214
+32983136,False,LigTerm-GB,,,N,,bond_auroc,0.775527
+32983136,False,LigTerm-GB,,,C,,bond_auroc,0.772203
+32983136,False,LigTerm-GB,,,N,,local_auc,0.789517
+32983136,False,LigTerm-GB,,,C,,local_auc,0.763495
+32983136,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.813365
+32983136,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.806610
+32983136,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.825541
+32983136,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.896752
+32983136,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.806610
+32983136,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.863977
+32983136,False,Window MLP,,,N,,bond_auroc,0.790790
+32983136,False,Window MLP,,,C,,bond_auroc,0.785867
+32983136,False,Window MLP,,,N,,local_auc,0.788937
+32983136,False,Window MLP,,,C,,local_auc,0.758223
+32983136,False,Window MLP,,,,both_bonds,peptide_auroc,0.829454
+32983136,False,Window MLP,,,,both_bonds,length_matched_auc,0.825704
+32983136,False,Window MLP,,,,both_bonds,near_miss_auc,0.819578
+32983136,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.900712
+32983136,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.825704
+32983136,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.856787
+32983136,False,Scale-matched ensemble,,,N,,bond_auroc,0.794828
+32983136,False,Scale-matched ensemble,,,C,,bond_auroc,0.792017
+32983136,False,Scale-matched ensemble,,,N,,local_auc,0.803853
+32983136,False,Scale-matched ensemble,,,C,,local_auc,0.779850
+32983136,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.831564
+32983136,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.826786
+32983136,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.838526
+32983136,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.905212
+32983136,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.826786
+32983136,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.871287
+32983136,False,LigTerm-1S,,,N,,bond_auroc,0.795119
+32983136,False,LigTerm-1S,,,C,,bond_auroc,0.792094
+32983136,False,LigTerm-1S,,,N,,local_auc,0.803646
+32983136,False,LigTerm-1S,,,C,,local_auc,0.779986
+32983136,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.831780
+32983136,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.826928
+32983136,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.838565
+32983136,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.904682
+32983136,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.826928
+32983136,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.871242
+33091337,False,LigTerm-GB,,,N,,bond_auroc,0.680786
+33091337,False,LigTerm-GB,,,C,,bond_auroc,0.657931
+33091337,False,LigTerm-GB,,,N,,local_auc,0.609957
+33091337,False,LigTerm-GB,,,C,,local_auc,0.585532
+33091337,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.691755
+33091337,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.689429
+33091337,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.605968
+33091337,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.723903
+33091337,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.689429
+33091337,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.623286
+33091337,False,Window MLP,,,N,,bond_auroc,0.677322
+33091337,False,Window MLP,,,C,,bond_auroc,0.655753
+33091337,False,Window MLP,,,N,,local_auc,0.619578
+33091337,False,Window MLP,,,C,,local_auc,0.590872
+33091337,False,Window MLP,,,,both_bonds,peptide_auroc,0.690217
+33091337,False,Window MLP,,,,both_bonds,length_matched_auc,0.688563
+33091337,False,Window MLP,,,,both_bonds,near_miss_auc,0.614035
+33091337,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.723873
+33091337,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.688563
+33091337,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.628647
+33091337,False,Scale-matched ensemble,,,N,,bond_auroc,0.685532
+33091337,False,Scale-matched ensemble,,,C,,bond_auroc,0.662903
+33091337,False,Scale-matched ensemble,,,N,,local_auc,0.622022
+33091337,False,Scale-matched ensemble,,,C,,local_auc,0.591682
+33091337,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.696850
+33091337,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.694328
+33091337,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.617127
+33091337,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.727206
+33091337,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.694328
+33091337,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.631739
+33091337,False,LigTerm-1S,,,N,,bond_auroc,0.685454
+33091337,False,LigTerm-1S,,,C,,bond_auroc,0.663031
+33091337,False,LigTerm-1S,,,N,,local_auc,0.622327
+33091337,False,LigTerm-1S,,,C,,local_auc,0.592814
+33091337,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.697267
+33091337,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.694781
+33091337,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.617694
+33091337,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.727284
+33091337,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.694781
+33091337,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.630914
+33392160,False,LigTerm-GB,,,N,,bond_auroc,0.651117
+33392160,False,LigTerm-GB,,,C,,bond_auroc,0.650464
+33392160,False,LigTerm-GB,,,N,,local_auc,0.611919
+33392160,False,LigTerm-GB,,,C,,local_auc,0.611559
+33392160,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.671166
+33392160,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.668655
+33392160,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.618078
+33392160,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.713510
+33392160,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.668655
+33392160,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.647278
+33392160,False,Window MLP,,,N,,bond_auroc,0.648226
+33392160,False,Window MLP,,,C,,bond_auroc,0.652433
+33392160,False,Window MLP,,,N,,local_auc,0.614950
+33392160,False,Window MLP,,,C,,local_auc,0.612003
+33392160,False,Window MLP,,,,both_bonds,peptide_auroc,0.673737
+33392160,False,Window MLP,,,,both_bonds,length_matched_auc,0.672491
+33392160,False,Window MLP,,,,both_bonds,near_miss_auc,0.625673
+33392160,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.714397
+33392160,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.672491
+33392160,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.651130
+33392160,False,Scale-matched ensemble,,,N,,bond_auroc,0.657504
+33392160,False,Scale-matched ensemble,,,C,,bond_auroc,0.657719
+33392160,False,Scale-matched ensemble,,,N,,local_auc,0.622322
+33392160,False,Scale-matched ensemble,,,C,,local_auc,0.619330
+33392160,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.678434
+33392160,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.676422
+33392160,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.628795
+33392160,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.717702
+33392160,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.676422
+33392160,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.654262
+33392160,False,LigTerm-1S,,,N,,bond_auroc,0.657466
+33392160,False,LigTerm-1S,,,C,,bond_auroc,0.657703
+33392160,False,LigTerm-1S,,,N,,local_auc,0.622735
+33392160,False,LigTerm-1S,,,C,,local_auc,0.619922
+33392160,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.678424
+33392160,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.676342
+33392160,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.628891
+33392160,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.717391
+33392160,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.676342
+33392160,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.654530
+33936100,False,LigTerm-GB,,,N,,bond_auroc,0.797437
+33936100,False,LigTerm-GB,,,C,,bond_auroc,0.774883
+33936100,False,LigTerm-GB,,,N,,local_auc,0.764561
+33936100,False,LigTerm-GB,,,C,,local_auc,0.735307
+33936100,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.837536
+33936100,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.831292
+33936100,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.809886
+33936100,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.891331
+33936100,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.831292
+33936100,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.843962
+33936100,False,Window MLP,,,N,,bond_auroc,0.803792
+33936100,False,Window MLP,,,C,,bond_auroc,0.776738
+33936100,False,Window MLP,,,N,,local_auc,0.765721
+33936100,False,Window MLP,,,C,,local_auc,0.724574
+33936100,False,Window MLP,,,,both_bonds,peptide_auroc,0.845320
+33936100,False,Window MLP,,,,both_bonds,length_matched_auc,0.840794
+33936100,False,Window MLP,,,,both_bonds,near_miss_auc,0.801549
+33936100,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.895543
+33936100,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.840794
+33936100,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.836333
+33936100,False,Scale-matched ensemble,,,N,,bond_auroc,0.812488
+33936100,False,Scale-matched ensemble,,,C,,bond_auroc,0.786501
+33936100,False,Scale-matched ensemble,,,N,,local_auc,0.777861
+33936100,False,Scale-matched ensemble,,,C,,local_auc,0.746854
+33936100,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.851651
+33936100,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.846198
+33936100,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.820575
+33936100,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.898738
+33936100,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.846198
+33936100,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.849874
+33936100,False,LigTerm-1S,,,N,,bond_auroc,0.812478
+33936100,False,LigTerm-1S,,,C,,bond_auroc,0.786518
+33936100,False,LigTerm-1S,,,N,,local_auc,0.777861
+33936100,False,LigTerm-1S,,,C,,local_auc,0.746262
+33936100,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.851552
+33936100,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.846029
+33936100,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.820429
+33936100,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.898666
+33936100,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.846029
+33936100,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.849915
+33968037,True,LigTerm-GB,,,N,,bond_auroc,0.778906
+33968037,True,LigTerm-GB,,,C,,bond_auroc,0.765038
+33968037,True,LigTerm-GB,,,N,,local_auc,0.749177
+33968037,True,LigTerm-GB,,,C,,local_auc,0.717375
+33968037,True,LigTerm-GB,,,,both_bonds,peptide_auroc,0.834259
+33968037,True,LigTerm-GB,,,,both_bonds,length_matched_auc,0.827183
+33968037,True,LigTerm-GB,,,,both_bonds,near_miss_auc,0.808389
+33968037,True,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.883476
+33968037,True,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.827183
+33968037,True,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.836408
+33968037,True,Window MLP,,,N,,bond_auroc,0.781258
+33968037,True,Window MLP,,,C,,bond_auroc,0.772535
+33968037,True,Window MLP,,,N,,local_auc,0.735314
+33968037,True,Window MLP,,,C,,local_auc,0.706858
+33968037,True,Window MLP,,,,both_bonds,peptide_auroc,0.842254
+33968037,True,Window MLP,,,,both_bonds,length_matched_auc,0.837924
+33968037,True,Window MLP,,,,both_bonds,near_miss_auc,0.792953
+33968037,True,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.887282
+33968037,True,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.837924
+33968037,True,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.824021
+33968037,True,Scale-matched ensemble,,,N,,bond_auroc,0.794106
+33968037,True,Scale-matched ensemble,,,C,,bond_auroc,0.783598
+33968037,True,Scale-matched ensemble,,,N,,local_auc,0.758923
+33968037,True,Scale-matched ensemble,,,C,,local_auc,0.731919
+33968037,True,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.851796
+33968037,True,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.845922
+33968037,True,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.820958
+33968037,True,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.891985
+33968037,True,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.845922
+33968037,True,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.842551
+33968037,True,LigTerm-1S,,,N,,bond_auroc,0.794096
+33968037,True,LigTerm-1S,,,C,,bond_auroc,0.783548
+33968037,True,LigTerm-1S,,,N,,local_auc,0.759170
+33968037,True,LigTerm-1S,,,C,,local_auc,0.731991
+33968037,True,LigTerm-1S,,,,both_bonds,peptide_auroc,0.851806
+33968037,True,LigTerm-1S,,,,both_bonds,length_matched_auc,0.845939
+33968037,True,LigTerm-1S,,,,both_bonds,near_miss_auc,0.821105
+33968037,True,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.891874
+33968037,True,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.845939
+33968037,True,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.842475
+34433824,False,LigTerm-GB,,,N,,bond_auroc,0.789017
+34433824,False,LigTerm-GB,,,C,,bond_auroc,0.729053
+34433824,False,LigTerm-GB,,,N,,local_auc,0.778920
+34433824,False,LigTerm-GB,,,C,,local_auc,0.716442
+34433824,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.808686
+34433824,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.798993
+34433824,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.813261
+34433824,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.873431
+34433824,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.798993
+34433824,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.832423
+34433824,False,Window MLP,,,N,,bond_auroc,0.778856
+34433824,False,Window MLP,,,C,,bond_auroc,0.726210
+34433824,False,Window MLP,,,N,,local_auc,0.768239
+34433824,False,Window MLP,,,C,,local_auc,0.684258
+34433824,False,Window MLP,,,,both_bonds,peptide_auroc,0.803122
+34433824,False,Window MLP,,,,both_bonds,length_matched_auc,0.797306
+34433824,False,Window MLP,,,,both_bonds,near_miss_auc,0.789576
+34433824,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.871031
+34433824,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.797306
+34433824,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.813449
+34433824,False,Scale-matched ensemble,,,N,,bond_auroc,0.794252
+34433824,False,Scale-matched ensemble,,,C,,bond_auroc,0.737683
+34433824,False,Scale-matched ensemble,,,N,,local_auc,0.791012
+34433824,False,Scale-matched ensemble,,,C,,local_auc,0.719640
+34433824,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.815855
+34433824,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.807361
+34433824,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.820775
+34433824,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.877892
+34433824,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.807361
+34433824,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.836127
+34433824,False,LigTerm-1S,,,N,,bond_auroc,0.794368
+34433824,False,LigTerm-1S,,,C,,bond_auroc,0.737750
+34433824,False,LigTerm-1S,,,N,,local_auc,0.791112
+34433824,False,LigTerm-1S,,,C,,local_auc,0.718641
+34433824,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.816325
+34433824,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.807875
+34433824,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.821352
+34433824,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.878246
+34433824,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.807875
+34433824,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.835966
+34932366,False,LigTerm-GB,,,N,,bond_auroc,0.781970
+34932366,False,LigTerm-GB,,,C,,bond_auroc,0.760632
+34932366,False,LigTerm-GB,,,N,,local_auc,0.754439
+34932366,False,LigTerm-GB,,,C,,local_auc,0.742468
+34932366,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.815923
+34932366,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.809337
+34932366,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.793109
+34932366,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.878571
+34932366,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.809337
+34932366,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.810711
+34932366,False,Window MLP,,,N,,bond_auroc,0.789301
+34932366,False,Window MLP,,,C,,bond_auroc,0.772719
+34932366,False,Window MLP,,,N,,local_auc,0.751016
+34932366,False,Window MLP,,,C,,local_auc,0.735773
+34932366,False,Window MLP,,,,both_bonds,peptide_auroc,0.829165
+34932366,False,Window MLP,,,,both_bonds,length_matched_auc,0.824503
+34932366,False,Window MLP,,,,both_bonds,near_miss_auc,0.793485
+34932366,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.885101
+34932366,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.824503
+34932366,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.814429
+34932366,False,Scale-matched ensemble,,,N,,bond_auroc,0.797543
+34932366,False,Scale-matched ensemble,,,C,,bond_auroc,0.778636
+34932366,False,Scale-matched ensemble,,,N,,local_auc,0.767487
+34932366,False,Scale-matched ensemble,,,C,,local_auc,0.750056
+34932366,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.833193
+34932366,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.827359
+34932366,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.808119
+34932366,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.887245
+34932366,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.827359
+34932366,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.822037
+34932366,False,LigTerm-1S,,,N,,bond_auroc,0.797301
+34932366,False,LigTerm-1S,,,C,,bond_auroc,0.778439
+34932366,False,LigTerm-1S,,,N,,local_auc,0.766631
+34932366,False,LigTerm-1S,,,C,,local_auc,0.749386
+34932366,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.833047
+34932366,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.827140
+34932366,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.808357
+34932366,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.887375
+34932366,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.827140
+34932366,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.820979
+35154160,False,LigTerm-GB,,,N,,bond_auroc,0.807210
+35154160,False,LigTerm-GB,,,C,,bond_auroc,0.767382
+35154160,False,LigTerm-GB,,,N,,local_auc,0.800682
+35154160,False,LigTerm-GB,,,C,,local_auc,0.729638
+35154160,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.835475
+35154160,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.827574
+35154160,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.825247
+35154160,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.912719
+35154160,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.827574
+35154160,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.863995
+35154160,False,Window MLP,,,N,,bond_auroc,0.813209
+35154160,False,Window MLP,,,C,,bond_auroc,0.782006
+35154160,False,Window MLP,,,N,,local_auc,0.794577
+35154160,False,Window MLP,,,C,,local_auc,0.739776
+35154160,False,Window MLP,,,,both_bonds,peptide_auroc,0.849873
+35154160,False,Window MLP,,,,both_bonds,length_matched_auc,0.843809
+35154160,False,Window MLP,,,,both_bonds,near_miss_auc,0.826217
+35154160,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.916886
+35154160,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.843809
+35154160,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.863211
+35154160,False,Scale-matched ensemble,,,N,,bond_auroc,0.826120
+35154160,False,Scale-matched ensemble,,,C,,bond_auroc,0.785649
+35154160,False,Scale-matched ensemble,,,N,,local_auc,0.815377
+35154160,False,Scale-matched ensemble,,,C,,local_auc,0.754255
+35154160,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.854939
+35154160,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.847497
+35154160,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.845052
+35154160,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.921583
+35154160,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.847497
+35154160,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.876853
+35154160,False,LigTerm-1S,,,N,,bond_auroc,0.826127
+35154160,False,LigTerm-1S,,,C,,bond_auroc,0.785908
+35154160,False,LigTerm-1S,,,N,,local_auc,0.815197
+35154160,False,LigTerm-1S,,,C,,local_auc,0.754027
+35154160,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.854437
+35154160,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.846968
+35154160,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.844488
+35154160,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.921106
+35154160,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.846968
+35154160,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.876222
+35251023,False,LigTerm-GB,,,N,,bond_auroc,0.784366
+35251023,False,LigTerm-GB,,,C,,bond_auroc,0.766853
+35251023,False,LigTerm-GB,,,N,,local_auc,0.732052
+35251023,False,LigTerm-GB,,,C,,local_auc,0.699259
+35251023,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.822165
+35251023,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.812899
+35251023,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.771023
+35251023,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.920917
+35251023,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.812899
+35251023,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.850605
+35251023,False,Window MLP,,,N,,bond_auroc,0.778821
+35251023,False,Window MLP,,,C,,bond_auroc,0.746463
+35251023,False,Window MLP,,,N,,local_auc,0.717877
+35251023,False,Window MLP,,,C,,local_auc,0.671920
+35251023,False,Window MLP,,,,both_bonds,peptide_auroc,0.813392
+35251023,False,Window MLP,,,,both_bonds,length_matched_auc,0.808073
+35251023,False,Window MLP,,,,both_bonds,near_miss_auc,0.746611
+35251023,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.911513
+35251023,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.808073
+35251023,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.824372
+35251023,False,Scale-matched ensemble,,,N,,bond_auroc,0.795742
+35251023,False,Scale-matched ensemble,,,C,,bond_auroc,0.772660
+35251023,False,Scale-matched ensemble,,,N,,local_auc,0.741552
+35251023,False,Scale-matched ensemble,,,C,,local_auc,0.705114
+35251023,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.831963
+35251023,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.823867
+35251023,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.778964
+35251023,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.925055
+35251023,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.823867
+35251023,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.855004
+35251023,False,LigTerm-1S,,,N,,bond_auroc,0.795465
+35251023,False,LigTerm-1S,,,C,,bond_auroc,0.772108
+35251023,False,LigTerm-1S,,,N,,local_auc,0.740720
+35251023,False,LigTerm-1S,,,C,,local_auc,0.704088
+35251023,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.831804
+35251023,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.823856
+35251023,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.778081
+35251023,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.923706
+35251023,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.823856
+35251023,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.853262
+36215666,False,LigTerm-GB,,,N,,bond_auroc,0.704623
+36215666,False,LigTerm-GB,,,C,,bond_auroc,0.684633
+36215666,False,LigTerm-GB,,,N,,local_auc,0.688295
+36215666,False,LigTerm-GB,,,C,,local_auc,0.653677
+36215666,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.724466
+36215666,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.719614
+36215666,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.716134
+36215666,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.786375
+36215666,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.719614
+36215666,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.761968
+36215666,False,Window MLP,,,N,,bond_auroc,0.712729
+36215666,False,Window MLP,,,C,,bond_auroc,0.685540
+36215666,False,Window MLP,,,N,,local_auc,0.694516
+36215666,False,Window MLP,,,C,,local_auc,0.658918
+36215666,False,Window MLP,,,,both_bonds,peptide_auroc,0.730101
+36215666,False,Window MLP,,,,both_bonds,length_matched_auc,0.726897
+36215666,False,Window MLP,,,,both_bonds,near_miss_auc,0.720187
+36215666,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.788034
+36215666,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.726897
+36215666,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.761299
+36215666,False,Scale-matched ensemble,,,N,,bond_auroc,0.717205
+36215666,False,Scale-matched ensemble,,,C,,bond_auroc,0.693870
+36215666,False,Scale-matched ensemble,,,N,,local_auc,0.702923
+36215666,False,Scale-matched ensemble,,,C,,local_auc,0.671715
+36215666,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.735094
+36215666,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.731155
+36215666,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.732129
+36215666,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.791439
+36215666,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.731155
+36215666,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.769896
+36215666,False,LigTerm-1S,,,N,,bond_auroc,0.717459
+36215666,False,LigTerm-1S,,,C,,bond_auroc,0.693813
+36215666,False,LigTerm-1S,,,N,,local_auc,0.702073
+36215666,False,LigTerm-1S,,,C,,local_auc,0.671811
+36215666,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.735296
+36215666,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.731388
+36215666,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.732121
+36215666,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.791589
+36215666,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.731388
+36215666,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.770365
+39617188,False,LigTerm-GB,,,N,,bond_auroc,0.767643
+39617188,False,LigTerm-GB,,,C,,bond_auroc,0.797577
+39617188,False,LigTerm-GB,,,N,,local_auc,0.737308
+39617188,False,LigTerm-GB,,,C,,local_auc,0.753627
+39617188,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.838540
+39617188,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.832203
+39617188,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.803133
+39617188,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.884247
+39617188,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.832203
+39617188,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.818375
+39617188,False,Window MLP,,,N,,bond_auroc,0.778299
+39617188,False,Window MLP,,,C,,bond_auroc,0.800623
+39617188,False,Window MLP,,,N,,local_auc,0.744971
+39617188,False,Window MLP,,,C,,local_auc,0.742481
+39617188,False,Window MLP,,,,both_bonds,peptide_auroc,0.844380
+39617188,False,Window MLP,,,,both_bonds,length_matched_auc,0.839875
+39617188,False,Window MLP,,,,both_bonds,near_miss_auc,0.799728
+39617188,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.886222
+39617188,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.839875
+39617188,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.815766
+39617188,False,Scale-matched ensemble,,,N,,bond_auroc,0.783726
+39617188,False,Scale-matched ensemble,,,C,,bond_auroc,0.810280
+39617188,False,Scale-matched ensemble,,,N,,local_auc,0.754949
+39617188,False,Scale-matched ensemble,,,C,,local_auc,0.763712
+39617188,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.850245
+39617188,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.844937
+39617188,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.816293
+39617188,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.889728
+39617188,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.844937
+39617188,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.824749
+39617188,False,LigTerm-1S,,,N,,bond_auroc,0.783775
+39617188,False,LigTerm-1S,,,C,,bond_auroc,0.810289
+39617188,False,LigTerm-1S,,,N,,local_auc,0.754470
+39617188,False,LigTerm-1S,,,C,,local_auc,0.763977
+39617188,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.850163
+39617188,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.844841
+39617188,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.816049
+39617188,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.889667
+39617188,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.844841
+39617188,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.824942
+40684438,False,LigTerm-GB,,,N,,bond_auroc,0.683903
+40684438,False,LigTerm-GB,,,C,,bond_auroc,0.699049
+40684438,False,LigTerm-GB,,,N,,local_auc,0.594404
+40684438,False,LigTerm-GB,,,C,,local_auc,0.589931
+40684438,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.714843
+40684438,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.712374
+40684438,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.598042
+40684438,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.793221
+40684438,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.712374
+40684438,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.644361
+40684438,False,Window MLP,,,N,,bond_auroc,0.682521
+40684438,False,Window MLP,,,C,,bond_auroc,0.704461
+40684438,False,Window MLP,,,N,,local_auc,0.597054
+40684438,False,Window MLP,,,C,,local_auc,0.593440
+40684438,False,Window MLP,,,,both_bonds,peptide_auroc,0.718762
+40684438,False,Window MLP,,,,both_bonds,length_matched_auc,0.717109
+40684438,False,Window MLP,,,,both_bonds,near_miss_auc,0.599373
+40684438,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.794487
+40684438,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.717109
+40684438,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.643932
+40684438,False,Scale-matched ensemble,,,N,,bond_auroc,0.690037
+40684438,False,Scale-matched ensemble,,,C,,bond_auroc,0.710350
+40684438,False,Scale-matched ensemble,,,N,,local_auc,0.598380
+40684438,False,Scale-matched ensemble,,,C,,local_auc,0.599085
+40684438,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.723722
+40684438,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.721764
+40684438,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.602509
+40684438,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.797143
+40684438,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.721764
+40684438,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.645827
+40684438,False,LigTerm-1S,,,N,,bond_auroc,0.690153
+40684438,False,LigTerm-1S,,,C,,bond_auroc,0.710165
+40684438,False,LigTerm-1S,,,N,,local_auc,0.597054
+40684438,False,LigTerm-1S,,,C,,local_auc,0.598780
+40684438,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.723871
+40684438,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.721917
+40684438,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.602193
+40684438,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.798387
+40684438,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.721917
+40684438,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.648061
+40689854,False,LigTerm-GB,,,N,,bond_auroc,0.828356
+40689854,False,LigTerm-GB,,,C,,bond_auroc,0.811821
+40689854,False,LigTerm-GB,,,N,,local_auc,0.786562
+40689854,False,LigTerm-GB,,,C,,local_auc,0.767307
+40689854,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.864448
+40689854,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.857420
+40689854,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.839448
+40689854,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.892567
+40689854,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.857420
+40689854,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.838816
+40689854,False,Window MLP,,,N,,bond_auroc,0.832544
+40689854,False,Window MLP,,,C,,bond_auroc,0.826247
+40689854,False,Window MLP,,,N,,local_auc,0.781386
+40689854,False,Window MLP,,,C,,local_auc,0.771129
+40689854,False,Window MLP,,,,both_bonds,peptide_auroc,0.873194
+40689854,False,Window MLP,,,,both_bonds,length_matched_auc,0.867365
+40689854,False,Window MLP,,,,both_bonds,near_miss_auc,0.835054
+40689854,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.898411
+40689854,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.867365
+40689854,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.841376
+40689854,False,Scale-matched ensemble,,,N,,bond_auroc,0.843935
+40689854,False,Scale-matched ensemble,,,C,,bond_auroc,0.830863
+40689854,False,Scale-matched ensemble,,,N,,local_auc,0.804831
+40689854,False,Scale-matched ensemble,,,C,,local_auc,0.782048
+40689854,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.879109
+40689854,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.872731
+40689854,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.853453
+40689854,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.900655
+40689854,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.872731
+40689854,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.848885
+40689854,False,LigTerm-1S,,,N,,bond_auroc,0.843911
+40689854,False,LigTerm-1S,,,C,,bond_auroc,0.830873
+40689854,False,LigTerm-1S,,,N,,local_auc,0.805237
+40689854,False,LigTerm-1S,,,C,,local_auc,0.782048
+40689854,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.878981
+40689854,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.872651
+40689854,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.853911
+40689854,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.900288
+40689854,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.872651
+40689854,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.848916
+41315082,False,LigTerm-GB,,,N,,bond_auroc,0.767581
+41315082,False,LigTerm-GB,,,C,,bond_auroc,0.694601
+41315082,False,LigTerm-GB,,,N,,local_auc,0.667441
+41315082,False,LigTerm-GB,,,C,,local_auc,0.614079
+41315082,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.788337
+41315082,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.785435
+41315082,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.685086
+41315082,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.784355
+41315082,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.785435
+41315082,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.650958
+41315082,False,Window MLP,,,N,,bond_auroc,0.767217
+41315082,False,Window MLP,,,C,,bond_auroc,0.706183
+41315082,False,Window MLP,,,N,,local_auc,0.669329
+41315082,False,Window MLP,,,C,,local_auc,0.625915
+41315082,False,Window MLP,,,,both_bonds,peptide_auroc,0.794196
+41315082,False,Window MLP,,,,both_bonds,length_matched_auc,0.793626
+41315082,False,Window MLP,,,,both_bonds,near_miss_auc,0.693003
+41315082,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.787319
+41315082,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.793626
+41315082,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.653873
+41315082,False,Scale-matched ensemble,,,N,,bond_auroc,0.777941
+41315082,False,Scale-matched ensemble,,,C,,bond_auroc,0.709120
+41315082,False,Scale-matched ensemble,,,N,,local_auc,0.679204
+41315082,False,Scale-matched ensemble,,,C,,local_auc,0.634481
+41315082,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.801805
+41315082,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.800642
+41315082,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.705574
+41315082,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.795612
+41315082,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.800642
+41315082,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.666631
+41315082,False,LigTerm-1S,,,N,,bond_auroc,0.777742
+41315082,False,LigTerm-1S,,,C,,bond_auroc,0.708817
+41315082,False,LigTerm-1S,,,N,,local_auc,0.678478
+41315082,False,LigTerm-1S,,,C,,local_auc,0.634792
+41315082,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.801260
+41315082,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.800378
+41315082,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.704156
+41315082,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.790647
+41315082,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.800378
+41315082,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.661763
+41534530,False,LigTerm-GB,,,N,,bond_auroc,0.737685
+41534530,False,LigTerm-GB,,,C,,bond_auroc,0.712601
+41534530,False,LigTerm-GB,,,N,,local_auc,0.694888
+41534530,False,LigTerm-GB,,,C,,local_auc,0.651910
+41534530,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.755236
+41534530,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.751795
+41534530,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.696589
+41534530,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.785542
+41534530,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.751795
+41534530,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.715845
+41534530,False,Window MLP,,,N,,bond_auroc,0.727691
+41534530,False,Window MLP,,,C,,bond_auroc,0.715448
+41534530,False,Window MLP,,,N,,local_auc,0.676578
+41534530,False,Window MLP,,,C,,local_auc,0.655106
+41534530,False,Window MLP,,,,both_bonds,peptide_auroc,0.751427
+41534530,False,Window MLP,,,,both_bonds,length_matched_auc,0.748524
+41534530,False,Window MLP,,,,both_bonds,near_miss_auc,0.692035
+41534530,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.782722
+41534530,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.748524
+41534530,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.714459
+41534530,False,Scale-matched ensemble,,,N,,bond_auroc,0.741549
+41534530,False,Scale-matched ensemble,,,C,,bond_auroc,0.721978
+41534530,False,Scale-matched ensemble,,,N,,local_auc,0.695913
+41534530,False,Scale-matched ensemble,,,C,,local_auc,0.663737
+41534530,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.760294
+41534530,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.756843
+41534530,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.705499
+41534530,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.788121
+41534530,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.756843
+41534530,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.721711
+41534530,False,LigTerm-1S,,,N,,bond_auroc,0.741872
+41534530,False,LigTerm-1S,,,C,,bond_auroc,0.721800
+41534530,False,LigTerm-1S,,,N,,local_auc,0.697232
+41534530,False,LigTerm-1S,,,C,,local_auc,0.662938
+41534530,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.760417
+41534530,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.756820
+41534530,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.705549
+41534530,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.787520
+41534530,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.756820
+41534530,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.721067
+42228098,False,LigTerm-GB,,,N,,bond_auroc,0.782967
+42228098,False,LigTerm-GB,,,C,,bond_auroc,0.747387
+42228098,False,LigTerm-GB,,,N,,local_auc,0.748504
+42228098,False,LigTerm-GB,,,C,,local_auc,0.696996
+42228098,False,LigTerm-GB,,,,both_bonds,peptide_auroc,0.834962
+42228098,False,LigTerm-GB,,,,both_bonds,length_matched_auc,0.829223
+42228098,False,LigTerm-GB,,,,both_bonds,near_miss_auc,0.774469
+42228098,False,LigTerm-GB,,,,both_bonds_and_length,peptide_auroc,0.865565
+42228098,False,LigTerm-GB,,,,both_bonds_and_length,length_matched_auc,0.829223
+42228098,False,LigTerm-GB,,,,both_bonds_and_length,near_miss_auc,0.755487
+42228098,False,Window MLP,,,N,,bond_auroc,0.782668
+42228098,False,Window MLP,,,C,,bond_auroc,0.774503
+42228098,False,Window MLP,,,N,,local_auc,0.743028
+42228098,False,Window MLP,,,C,,local_auc,0.700044
+42228098,False,Window MLP,,,,both_bonds,peptide_auroc,0.852373
+42228098,False,Window MLP,,,,both_bonds,length_matched_auc,0.848243
+42228098,False,Window MLP,,,,both_bonds,near_miss_auc,0.767669
+42228098,False,Window MLP,,,,both_bonds_and_length,peptide_auroc,0.877809
+42228098,False,Window MLP,,,,both_bonds_and_length,length_matched_auc,0.848243
+42228098,False,Window MLP,,,,both_bonds_and_length,near_miss_auc,0.755261
+42228098,False,Scale-matched ensemble,,,N,,bond_auroc,0.793510
+42228098,False,Scale-matched ensemble,,,C,,bond_auroc,0.775065
+42228098,False,Scale-matched ensemble,,,N,,local_auc,0.759455
+42228098,False,Scale-matched ensemble,,,C,,local_auc,0.716732
+42228098,False,Scale-matched ensemble,,,,both_bonds,peptide_auroc,0.855829
+42228098,False,Scale-matched ensemble,,,,both_bonds,length_matched_auc,0.851200
+42228098,False,Scale-matched ensemble,,,,both_bonds,near_miss_auc,0.787231
+42228098,False,Scale-matched ensemble,,,,both_bonds_and_length,peptide_auroc,0.878189
+42228098,False,Scale-matched ensemble,,,,both_bonds_and_length,length_matched_auc,0.851200
+42228098,False,Scale-matched ensemble,,,,both_bonds_and_length,near_miss_auc,0.765864
+42228098,False,LigTerm-1S,,,N,,bond_auroc,0.793551
+42228098,False,LigTerm-1S,,,C,,bond_auroc,0.774972
+42228098,False,LigTerm-1S,,,N,,local_auc,0.759200
+42228098,False,LigTerm-1S,,,C,,local_auc,0.716877
+42228098,False,LigTerm-1S,,,,both_bonds,peptide_auroc,0.855933
+42228098,False,LigTerm-1S,,,,both_bonds,length_matched_auc,0.851347
+42228098,False,LigTerm-1S,,,,both_bonds,near_miss_auc,0.787554
+42228098,False,LigTerm-1S,,,,both_bonds_and_length,peptide_auroc,0.878206
+42228098,False,LigTerm-1S,,,,both_bonds_and_length,length_matched_auc,0.851347
+42228098,False,LigTerm-1S,,,,both_bonds_and_length,near_miss_auc,0.766090

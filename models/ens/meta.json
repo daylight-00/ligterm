@@ -1,0 +1,68 @@
+{
+ "combination": "(GB + mean of the MLP seeds) / 2 per terminus",
+ "created": "2026-11-20 11:17:20",
+ "family": "ens",
+ "gb_meta_sha256": "be37c0b0fc4c1f462e716074d580b7dd7c7fc10cc50b78a820ef0628c204c13e",
+ "gb_npz_sha256": "d2d9f57e22bb74211a3542383a2a9905aa04bbbda6ec5a6f11ea9fa2bedcd123",
+ "mlp_e_star": {
+  "C": [
+   6,
+   6,
+   6
+  ],
+  "N": [
+   6,
+   6,
+   5
+  ]
+ },
+ "mlp_fit_device": {
+  "capability": "9.0",
+  "cuda": "13.2",
+  "device": "NVIDIA H100 PCIe",
+  "memory_mib": 81079,
+  "numpy": "2.5.4",
+  "python": "3.12.3",
+  "torch": "2.15.0+cu132"
+ },
+ "mlp_fit_seeds": {
+  "C": [
+   2070612744,
+   393222615,
+   434791113
+  ],
+  "N": [
+   578757013,
+   118025102,
+   711601904
+  ]
+ },
+ "mlp_numpy_vs_torch_max_abs_logit_difference": {
+  "C": [
+   5.0961971282958984e-06,
+   1.049041748046875e-05,
+   4.649162292480469e-06
+  ],
+  "N": [
+   4.76837158203125e-06,
+   5.245208740234375e-06,
+   6.198883056640625e-06
+  ]
+ },
+ "mlp_recipe": "one-hot window MLP (a per-residue projection shared over the positions, two dense layers), AdamW, 1,024 rows per step, 40 epochs at most, patience 3, E* then a fresh fit on all rows",
+ "mlp_seed_indices": [
+  0,
+  1,
+  2
+ ],
+ "mlp_seeds": 3,
+ "model_name": "LigTerm",
+ "note": "scores are logits that rank bonds within a protein; performance estimates of the protocol (development cohort, refits on held-out studies) describe the recipe, not this all-data fit, whose measured performance is that on the external test cohort (see the model card); a measure of observed ligand-terminal propensity, not of proteolytic cleavage",
+ "population": "all",
+ "release_artefact": true,
+ "scale": 1.0,
+ "schema_version": 1,
+ "training_rows_sha256": "caa5606ea7de31f160dc77bf5fa82e5abcedbc46698a5b3e663741cc93a84a3b",
+ "training_units": 417415,
+ "window": 16
+}

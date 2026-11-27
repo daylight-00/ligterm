@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligterm"
+version = "0.1.0"
+description = "Sequence-based ranking of observed MHC class II ligand termini"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "David Hyunyoo Jang" }]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["numpy"]
+
+[project.scripts]
+ligterm = "ligterm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

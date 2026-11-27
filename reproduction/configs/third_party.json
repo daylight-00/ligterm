@@ -1,0 +1,29 @@
+{
+ "netcleave": {
+  "repository": "https://github.com/BSC-CNS-EAPM/NetCleave",
+  "raw_url": "https://raw.githubusercontent.com/BSC-CNS-EAPM/NetCleave",
+  "commit": "bc90bf8490dcc5bc7628b1f0c06f860a50e6f338",
+  "files": [
+   {
+    "path": "predictor/ml_main/QSAR_table.csv",
+    "save_as": "code/QSAR_table.csv",
+    "sha256": "e7c0bfcb4cc6dd9bd5c889d89ee8077db621aaca5582f39b1ffb73fa02d99e2d"
+   },
+   {
+    "path": "data/models/II_mass-spectrometry_HLA/II_mass-spectrometry_HLA_model.h5",
+    "save_as": "weights/II_mass-spectrometry_HLA_model.h5",
+    "sha256": "a12bf86466ed4ae6be63201fd8e63135d3d562602fb83f763f5286072a8ffd85"
+   },
+   {
+    "path": "data/training_data/II_mass-spectrometry_HLA/II_mass-spectrometry_HLA_sequence_class.txt",
+    "save_as": "training/II_mass-spectrometry_HLA_sequence_class.txt",
+    "sha256": "e3e6204f603635e155d64c555932bf9d4cf7d2ad7a2c6885c80c1e595f8e35a8"
+   }
+  ],
+  "weights_npz": {
+   "from": "weights/II_mass-spectrometry_HLA_model.h5",
+   "to": "weights/II_mass-spectrometry_HLA.npz",
+   "arrays_sha256": "be046fa3592e48dd5aa130fbbe347275294e5b759195a7d58a01b052185bd648"
+  }
+ }
+}

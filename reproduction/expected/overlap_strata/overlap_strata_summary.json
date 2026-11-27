@@ -1,0 +1,417 @@
+{
+ "label": "Development studies stratified by overlap of the positive bonds with the training units (post hoc, exploratory, descriptive)",
+ "studies": [
+  "25502872",
+  "28467828",
+  "31611695",
+  "32157095",
+  "32983136",
+  "33091337",
+  "33392160",
+  "33936100",
+  "34433824",
+  "34932366",
+  "35154160",
+  "35251023",
+  "36215666",
+  "39617188",
+  "40684438",
+  "40689854",
+  "41315082",
+  "41534530",
+  "42228098"
+ ],
+ "min_positive_bonds": 20,
+ "models": [
+  {
+   "model": "LigTerm-GB"
+  },
+  {
+   "model": "LigTerm"
+  }
+ ],
+ "strata": [
+  "all",
+  "shared_with_training",
+  "novel_to_training"
+ ],
+ "guards": "the strict rows equal the stored information of the refits; the per-protein values of ALL positives equal the records of the ensemble seed-robustness stage (1e-9) for LigTerm-GB and LigTerm at both termini; shared + novel = all positives",
+ "share_shared_with_training": [
+  {
+   "terminus": "N",
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0
+  },
+  {
+   "terminus": "C",
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0
+  }
+ ],
+ "medians": [
+  {
+   "terminus": "N",
+   "model": "LigTerm-GB",
+   "stratum": "all",
+   "metric": "bond_auroc",
+   "median": 0.7755271308767473,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm-GB",
+   "stratum": "all",
+   "metric": "local_auc",
+   "median": 0.7485037565261683,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm-GB",
+   "stratum": "shared_with_training",
+   "metric": "bond_auroc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm-GB",
+   "stratum": "shared_with_training",
+   "metric": "local_auc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm-GB",
+   "stratum": "novel_to_training",
+   "metric": "bond_auroc",
+   "median": 0.7755271308767473,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm-GB",
+   "stratum": "novel_to_training",
+   "metric": "local_auc",
+   "median": 0.7485037565261683,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm",
+   "stratum": "all",
+   "metric": "bond_auroc",
+   "median": 0.7955182900343688,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm",
+   "stratum": "all",
+   "metric": "local_auc",
+   "median": 0.7630205017190882,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm",
+   "stratum": "shared_with_training",
+   "metric": "bond_auroc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm",
+   "stratum": "shared_with_training",
+   "metric": "local_auc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm",
+   "stratum": "novel_to_training",
+   "metric": "bond_auroc",
+   "median": 0.7955182900343688,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model": "LigTerm",
+   "stratum": "novel_to_training",
+   "metric": "local_auc",
+   "median": 0.7630205017190882,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm-GB",
+   "stratum": "all",
+   "metric": "bond_auroc",
+   "median": 0.7606320192170009,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm-GB",
+   "stratum": "all",
+   "metric": "local_auc",
+   "median": 0.7164417791104448,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm-GB",
+   "stratum": "shared_with_training",
+   "metric": "bond_auroc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm-GB",
+   "stratum": "shared_with_training",
+   "metric": "local_auc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm-GB",
+   "stratum": "novel_to_training",
+   "metric": "bond_auroc",
+   "median": 0.7606320192170009,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm-GB",
+   "stratum": "novel_to_training",
+   "metric": "local_auc",
+   "median": 0.7164417791104448,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm",
+   "stratum": "all",
+   "metric": "bond_auroc",
+   "median": 0.7751886595964945,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm",
+   "stratum": "all",
+   "metric": "local_auc",
+   "median": 0.7259370314842579,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm",
+   "stratum": "shared_with_training",
+   "metric": "bond_auroc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm",
+   "stratum": "shared_with_training",
+   "metric": "local_auc",
+   "median": null,
+   "studies_included": 0,
+   "studies_left_out": 19
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm",
+   "stratum": "novel_to_training",
+   "metric": "bond_auroc",
+   "median": 0.7751886595964945,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model": "LigTerm",
+   "stratum": "novel_to_training",
+   "metric": "local_auc",
+   "median": 0.7259370314842579,
+   "studies_included": 19,
+   "studies_left_out": 0
+  }
+ ],
+ "differences": [
+  {
+   "terminus": "N",
+   "model_a": "LigTerm-GB",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "bond_auroc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model_a": "LigTerm-GB",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "local_auc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "bond_auroc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "local_auc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "novel_to_training",
+   "metric": "bond_auroc",
+   "median": 0.013932076982302699,
+   "studies_positive": 19,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "N",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "novel_to_training",
+   "metric": "local_auc",
+   "median": 0.016283405842137944,
+   "studies_positive": 19,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model_a": "LigTerm-GB",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "bond_auroc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model_a": "LigTerm-GB",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "local_auc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "bond_auroc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "all",
+   "metric": "local_auc",
+   "median": 0.0,
+   "studies_positive": 0,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "novel_to_training",
+   "metric": "bond_auroc",
+   "median": 0.014256841605025605,
+   "studies_positive": 19,
+   "studies_included": 19,
+   "studies_left_out": 0
+  },
+  {
+   "terminus": "C",
+   "model_a": "LigTerm",
+   "model_b": "LigTerm-GB",
+   "stratum_a": "novel_to_training",
+   "stratum_b": "novel_to_training",
+   "metric": "local_auc",
+   "median": 0.0169467589323542,
+   "studies_positive": 19,
+   "studies_included": 19,
+   "studies_left_out": 0
+  }
+ ]
+}

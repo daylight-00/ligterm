@@ -1,0 +1,175 @@
+{
+ "seed_training": 20261113,
+ "seed_bootstrap": 20261114,
+ "studies": [
+  "33968037",
+  "35251023",
+  "35154160",
+  "32983136",
+  "36215666",
+  "25502872",
+  "33936100",
+  "28467828",
+  "39617188",
+  "34433824",
+  "33392160",
+  "32157095",
+  "40689854",
+  "42228098",
+  "31611695",
+  "41315082",
+  "41534530",
+  "34932366",
+  "40684438",
+  "33091337"
+ ],
+ "seen": [
+  "33858848",
+  "34357683",
+  "32350084",
+  "33968037",
+  "33592498",
+  "29242379"
+ ],
+ "post_training_date_studies": [
+  "35251023",
+  "35154160",
+  "36215666",
+  "39617188",
+  "40689854",
+  "42228098",
+  "41315082",
+  "41534530",
+  "34932366",
+  "40684438"
+ ],
+ "primary_grouping": "u30",
+ "primary_model": "LR-Both8",
+ "lr": {
+  "C_position_lr": 1.0,
+  "C_window_lr": 0.1,
+  "max_iter": 1000,
+  "tol": 0.0001
+ },
+ "kmer_overlap": 9,
+ "neg_ratio": 6,
+ "bootstrap": 2000,
+ "side_widths": [
+  2,
+  4,
+  8,
+  12,
+  16
+ ],
+ "directional_pairs": [
+  {
+   "a": "LR-Both8",
+   "b": "LR-Out8"
+  },
+  {
+   "a": "LR-Both8",
+   "b": "LR-In8"
+  },
+  {
+   "a": "LR-Out8",
+   "b": "LR-In8"
+  },
+  {
+   "a": "LR-Both4",
+   "b": "LR-Out8"
+  },
+  {
+   "a": "LR-Both4",
+   "b": "LR-In8"
+  },
+  {
+   "a": "LR-Out16",
+   "b": "LR-Out4"
+  },
+  {
+   "a": "LR-In16",
+   "b": "LR-In4"
+  },
+  {
+   "a": "LR-Both8",
+   "b": "LR-Both4"
+  },
+  {
+   "a": "LR-Both16",
+   "b": "LR-Both4"
+  }
+ ],
+ "study_exclusive_models": [
+  "LR-Both8",
+  "LR-Out8",
+  "LR-In8"
+ ],
+ "weights_for": [
+  "LR-Both8",
+  "LR-Out8",
+  "LR-In8",
+  "LR-Out16",
+  "LR-In16"
+ ],
+ "published_methods": {
+  "comparison_models": [
+   "LR-Both8",
+   "LR-Both4",
+   "Window-NB4",
+   "Paul-style motif",
+   "NetCleave-style (released decoys)",
+   "NetCleave-style (protocol negatives)",
+   "NetCleave (published weights)"
+  ],
+  "comparison_pairs": [
+   {
+    "a": "LR-Both8",
+    "b": "Paul-style motif"
+   },
+   {
+    "a": "LR-Both4",
+    "b": "Paul-style motif"
+   },
+   {
+    "a": "LR-Both8",
+    "b": "NetCleave-style (released decoys)"
+   },
+   {
+    "a": "LR-Both4",
+    "b": "NetCleave-style (released decoys)"
+   },
+   {
+    "a": "LR-Both8",
+    "b": "NetCleave-style (protocol negatives)"
+   },
+   {
+    "a": "LR-Both4",
+    "b": "NetCleave-style (protocol negatives)"
+   },
+   {
+    "a": "LR-Both8",
+    "b": "NetCleave (published weights)"
+   },
+   {
+    "a": "LR-Both4",
+    "b": "NetCleave (published weights)"
+   },
+   {
+    "a": "Window-NB4",
+    "b": "Paul-style motif"
+   },
+   {
+    "a": "NetCleave-style (protocol negatives)",
+    "b": "NetCleave-style (released decoys)"
+   }
+  ],
+  "weights_for": [
+   "Paul-style motif"
+  ],
+  "netcleave": {
+   "max_epochs": 300,
+   "seed": 20261114,
+   "frozen_weights": "II_mass-spectrometry_HLA"
+  }
+ }
+}

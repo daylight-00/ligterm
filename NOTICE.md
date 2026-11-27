@@ -1,0 +1,17 @@
+# Notice
+
+## Licence
+
+Everything that the authors wrote in this repository is released under the MIT licence ([LICENSE](LICENSE), copyright "David Hyunyoo Jang"): the scorer, the two model files (the weights), the test data, the scripts, the expected tables and the documents; the same holds for the tables and result files of the research data package that belongs to [`reproduction/`](reproduction/README.md).
+
+The MIT licence covers what the authors own. It does not replace the attribution below for material derived from the IEDB and from UniProt, which any redistribution of the models, of the derived input tables or of the UniProt-derived sequences must keep. It does not licence what is not in this repository: the raw responses of the MHCII-NP web service (withheld), the NetCleave files (downloaded by `reproduction/scripts/00_fetch_data.py` from their own repository, under their own terms), the embedding stores and the GPU environment, and the third-party ESMC model.
+
+## Attribution
+
+**Attribution.** "These files contain data derived from the Immune Epitope Database (IEDB, https://www.iedb.org), which states that its data are licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Data in the IEDB are attributed to the publishing or submitting authors: every unit carries the PubMed identifiers of the studies that list it, and `studies.tsv` gives authors, journal, date and title of those studies. Please cite the IEDB as it asks: Vita R, et al. The Immune Epitope Database (IEDB): 2024 update. Nucleic Acids Res 2025;53(D1):D436-D443, doi:10.1093/nar/gkae1092, and www.iedb.org. UniProt sequences: UniProt Consortium, CC BY 4.0."
+**Changes made** (the licence requires them to be indicated). "Rows of the IEDB `mhc_ligand_full` export (member timestamp 2026-11-03, downloaded 2026-11-11) were selected (MHC class II restriction; assay 'cellular MHC/mass spectrometry'; positive qualitative measure; human host; peptide of the 20 standard residues; UniProt parent accession; start and end consistent with the peptide length) and collapsed to distinct (accession, start, end, peptide) units with the PubMed identifiers of the studies that list them; assay, allele and sample fields were removed; units were verified against UniProt sequences at the stated positions (417,415 of 447,644 verified)."
+**Caveat of the IEDB terms.** "The IEDB terms note that submitters of the original data may claim rights in the data they submitted and that those who redistribute are expected to adhere to the terms asserted by the copyright holder. The units table has eight columns: the protein accession, the start and end position, the peptide sequence, the number of export rows that were collapsed into the unit, the PubMed identifiers of those rows and the earliest and latest year of their date field; it holds no assay, allele or sample field; no rights claim on it is known to the authors."
+
+**UniProt.** The test sequences in [`testdata/`](testdata/README.md) are UniProt sequences (UniProt Consortium, CC BY 4.0). Please cite UniProt as it asks: The UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2025. Nucleic Acids Res 2025;53(D1):D609-D617.
+
+**Models.** The model weights are derived from the IEDB data above: the models were fitted to bond-level labels derived from the verified units. The MIT licence of this repository does not remove the caveat of the IEDB terms for the weights.

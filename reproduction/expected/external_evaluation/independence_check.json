@@ -1,0 +1,16 @@
+{
+ "units_in_table": 447644,
+ "verified_units": 417415,
+ "proteins_with_verified_unit": 16873,
+ "distinct_pubmed_ids_any_unit": 131,
+ "distinct_pubmed_ids_verified_units": 125,
+ "cohort_studies_listed_as_training_source": {
+  "42797554": 0,
+  "29557506": 0,
+  "41191777": 0,
+  "29632711": 0
+ },
+ "candidate_studies": 27,
+ "units_listing_a_candidate_study": 0,
+ "candidate_studies_in_training_table": []
+}

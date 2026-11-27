@@ -1,0 +1,189 @@
+{
+ "checks": [
+  {
+   "name": "terminal_predictability",
+   "kind": "cells",
+   "results": "terminal_predictability",
+   "expected": "cells_terminal_predictability.tsv.gz"
+  },
+  {
+   "name": "directional_decomposition",
+   "kind": "cells",
+   "results": "directional_decomposition",
+   "expected": "cells_directional_decomposition.tsv.gz"
+  },
+  {
+   "name": "published_method_comparison",
+   "kind": "cells",
+   "results": "published_method_comparison",
+   "expected": "cells_published_method_comparison.tsv.gz"
+  },
+  {
+   "name": "exact_window_control",
+   "kind": "cells",
+   "results": "exact_window_control",
+   "expected": "cells_exact_window_control.tsv.gz"
+  },
+  {
+   "name": "composition_position_linear",
+   "kind": "cells",
+   "results": "composition_position/linear",
+   "expected": "cells_composition_position_linear.tsv.gz"
+  },
+  {
+   "name": "composition_position_boosted",
+   "kind": "cells",
+   "results": "composition_position/boosted",
+   "expected": "cells_composition_position_boosted.tsv.gz"
+  },
+  {
+   "name": "mhcii_np_comparison",
+   "kind": "json",
+   "results": "mhcii_np_comparison/comparison.json",
+   "expected": "mhcii_np_comparison/comparison.json",
+   "level": 1e-08
+  },
+  {
+   "name": "mhcii_np_comparison_supplement",
+   "kind": "json",
+   "results": "mhcii_np_comparison/supplement.json",
+   "expected": "mhcii_np_comparison/supplement.json",
+   "level": 1e-08
+  },
+  {
+   "name": "external_evaluation",
+   "kind": "json",
+   "results": "external_evaluation/checkpoint_evaluation.json",
+   "expected": "external_evaluation/checkpoint_evaluation.json",
+   "level": 0.0
+  },
+  {
+   "name": "external_window_audit",
+   "kind": "json",
+   "results": "external_evaluation/window_audit.json",
+   "expected": "external_evaluation/window_audit.json",
+   "level": 0.0
+  },
+  {
+   "name": "external_independence_check",
+   "kind": "json",
+   "results": "external_evaluation/independence_check.json",
+   "expected": "external_evaluation/independence_check.json",
+   "level": 0.0
+  },
+  {
+   "name": "peptide_ranking",
+   "kind": "json",
+   "results": "peptide_ranking/peptide_ranking_summary.json",
+   "expected": "peptide_ranking/peptide_ranking_summary.json",
+   "level": 0.0
+  },
+  {
+   "name": "peptide_ranking_per_study",
+   "kind": "csv",
+   "results": "peptide_ranking/peptide_ranking_per_study.csv",
+   "expected": "peptide_ranking/peptide_ranking_per_study.csv"
+  },
+  {
+   "name": "representation_comparison_bootstrap",
+   "kind": "csv",
+   "results": "representation_comparison/representation_comparison_bootstrap.csv",
+   "expected": "representation_comparison/representation_comparison_bootstrap.csv"
+  },
+  {
+   "name": "representation_comparison_per_study",
+   "kind": "csv",
+   "results": "representation_comparison/representation_comparison_per_study.csv",
+   "expected": "representation_comparison/representation_comparison_per_study.csv"
+  },
+  {
+   "name": "representation_comparison_report",
+   "kind": "text",
+   "results": "representation_comparison/representation_comparison_report.md",
+   "expected": "representation_comparison/representation_comparison_report.md"
+  },
+  {
+   "name": "representation_comparison_summary",
+   "kind": "json",
+   "results": "representation_comparison/representation_comparison_summary.json",
+   "expected": "representation_comparison/representation_comparison_summary.json",
+   "level": 0.0
+  },
+  {
+   "name": "ensemble_scaling_per_study",
+   "kind": "csv",
+   "results": "ensemble_scaling/ensemble_scaling_per_study.csv",
+   "expected": "ensemble_scaling/ensemble_scaling_per_study.csv"
+  },
+  {
+   "name": "ensemble_scaling_report",
+   "kind": "text",
+   "results": "ensemble_scaling/ensemble_scaling_report.txt",
+   "expected": "ensemble_scaling/ensemble_scaling_report.txt"
+  },
+  {
+   "name": "ensemble_scaling_summary",
+   "kind": "json",
+   "results": "ensemble_scaling/ensemble_scaling_summary.json",
+   "expected": "ensemble_scaling/ensemble_scaling_summary.json",
+   "level": 0.0
+  },
+  {
+   "name": "ensemble_seed_robustness_per_study",
+   "kind": "csv",
+   "results": "ensemble_seed_robustness/ensemble_seed_robustness_per_study.csv",
+   "expected": "ensemble_seed_robustness/ensemble_seed_robustness_per_study.csv"
+  },
+  {
+   "name": "ensemble_seed_robustness_report",
+   "kind": "text",
+   "results": "ensemble_seed_robustness/ensemble_seed_robustness_report.txt",
+   "expected": "ensemble_seed_robustness/ensemble_seed_robustness_report.txt"
+  },
+  {
+   "name": "ensemble_seed_robustness_summary",
+   "kind": "json",
+   "results": "ensemble_seed_robustness/ensemble_seed_robustness_summary.json",
+   "expected": "ensemble_seed_robustness/ensemble_seed_robustness_summary.json",
+   "level": 0.0
+  },
+  {
+   "name": "historical_test_per_study",
+   "kind": "csv",
+   "results": "historical_test/historical_test_per_study.csv",
+   "expected": "historical_test/historical_test_per_study.csv"
+  },
+  {
+   "name": "historical_test_report",
+   "kind": "text",
+   "results": "historical_test/historical_test_report.md",
+   "expected": "historical_test/historical_test_report.md"
+  },
+  {
+   "name": "historical_test_summary",
+   "kind": "json",
+   "results": "historical_test/historical_test_summary.json",
+   "expected": "historical_test/historical_test_summary.json",
+   "level": 0.0
+  },
+  {
+   "name": "overlap_strata_per_study",
+   "kind": "csv",
+   "results": "overlap_strata/overlap_strata_per_study.csv",
+   "expected": "overlap_strata/overlap_strata_per_study.csv"
+  },
+  {
+   "name": "overlap_strata_report",
+   "kind": "text",
+   "results": "overlap_strata/overlap_strata_report.txt",
+   "expected": "overlap_strata/overlap_strata_report.txt"
+  },
+  {
+   "name": "overlap_strata_summary",
+   "kind": "json",
+   "results": "overlap_strata/overlap_strata_summary.json",
+   "expected": "overlap_strata/overlap_strata_summary.json",
+   "level": 0.0
+  }
+ ]
+}

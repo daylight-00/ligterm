@@ -1,0 +1,4498 @@
+{
+ "K": 15,
+ "studies": [
+  "25502872",
+  "28467828",
+  "31611695",
+  "32157095",
+  "32983136",
+  "33091337",
+  "33392160",
+  "33936100",
+  "34433824",
+  "34932366",
+  "35154160",
+  "35251023",
+  "36215666",
+  "39617188",
+  "40684438",
+  "40689854",
+  "41315082",
+  "41534530",
+  "42228098"
+ ],
+ "dropped": [
+  {
+   "study": "41315082",
+   "pos": 1,
+   "acc": "P59797",
+   "L": 346,
+   "n_pos": 1,
+   "windows": 3597
+  }
+ ],
+ "per_study": {
+  "25502872": {
+   "n_proteins": 15,
+   "n_positives": 37,
+   "windows": 68508,
+   "eligible_proteins": 874,
+   "eligible_positives": 8341,
+   "share_of_eligible_proteins": 0.017162471395881007,
+   "share_of_eligible_positives": 0.004435918954561803,
+   "excluded_over_1000_positive_share": 0.10234610417563496,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.7981965568749412,
+     "length_matched_auc": 0.7743279766470692,
+     "near_miss_auc": 0.7579365079365079,
+     "near_miss_auc_same_length": 0.7583333333333333,
+     "peptide_auroc_length_free": 0.77137146275221,
+     "near_miss_auc_length_free": 0.7599206349206349
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.7676517639209273,
+     "length_matched_auc": 0.7050795372617424,
+     "near_miss_auc": 0.794973544973545,
+     "near_miss_auc_same_length": 0.75,
+     "peptide_auroc_length_free": 0.7083903441552535,
+     "near_miss_auc_length_free": 0.7380952380952381
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.7517268768579435,
+     "length_matched_auc": 0.6924262866853265,
+     "near_miss_auc": 0.7605820105820106,
+     "near_miss_auc_same_length": 0.6916666666666667,
+     "peptide_auroc_length_free": 0.6902339997489827,
+     "near_miss_auc_length_free": 0.6984126984126984
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8680940181752189,
+     "length_matched_auc": 0.8104865835444308,
+     "near_miss_auc": 0.8544973544973545,
+     "near_miss_auc_same_length": 0.825
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.8174117467657436,
+     "near_miss_auc_length_free": 0.8452380952380952
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.11636714131727544,
+      "lo": -0.22153143682058815,
+      "hi": -0.03555237286767538
+     },
+     "length_matched_auc": {
+      "value": -0.11806029685910435,
+      "lo": -0.23162701049216025,
+      "hi": -0.025472923583772403
+     },
+     "near_miss_auc": {
+      "value": -0.09391534391534395,
+      "lo": -0.1880048997772829,
+      "hi": 0.029397720012105975
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.1333333333333333,
+      "lo": -0.25532505910165476,
+      "hi": 0.03232370592648123
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.10044225425429165,
+      "lo": -0.20627936381729167,
+      "hi": -0.02123793350190881
+     },
+     "length_matched_auc": {
+      "value": -0.10540704628268838,
+      "lo": -0.2163585522987588,
+      "hi": -0.015831203372391543
+     },
+     "near_miss_auc": {
+      "value": -0.059523809523809534,
+      "lo": -0.14216646989374265,
+      "hi": 0.04198774608276416
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.07499999999999996,
+      "lo": -0.16535954528862704,
+      "hi": 0.03510338345864653
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.06989746130027774,
+      "lo": -0.10306829469218183,
+      "hi": -0.0365050771219292
+     },
+     "length_matched_auc": {
+      "value": -0.03615860689736161,
+      "lo": -0.08130934545347697,
+      "hi": 0.011924135821906634
+     },
+     "near_miss_auc": {
+      "value": -0.09656084656084662,
+      "lo": -0.14936676495935045,
+      "hi": -0.030568910256410318
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.06666666666666665,
+      "lo": -0.1392478657639093,
+      "hi": 0.030310760667903457
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": -0.015924887062983784,
+      "lo": -0.03141543572790065,
+      "hi": -0.002323015132105535
+     },
+     "length_matched_auc": {
+      "value": -0.012653250576415975,
+      "lo": -0.02829387278895088,
+      "hi": 0.003955987770613958
+     },
+     "near_miss_auc": {
+      "value": -0.03439153439153442,
+      "lo": -0.061655596531671256,
+      "hi": 0.0015953465040901785
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.05833333333333335,
+      "lo": -0.11515734265734262,
+      "hi": 0.010752688172043001
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": -0.046469680016997694,
+      "lo": -0.16147222331854583,
+      "hi": 0.052311493050883895
+     },
+     "length_matched_auc": {
+      "value": -0.08190168996174274,
+      "lo": -0.1843774172546557,
+      "hi": 0.016733109228021067
+     },
+     "near_miss_auc": {
+      "value": 0.002645502645502673,
+      "lo": -0.06353553602026377,
+      "hi": 0.09883334638239494
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.06666666666666665,
+      "lo": -0.14400824742268042,
+      "hi": 0.029419044845661
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": -0.03054479295401391,
+      "lo": -0.14537519901644427,
+      "hi": 0.0680489711191723
+     },
+     "length_matched_auc": {
+      "value": -0.06924843938532677,
+      "lo": -0.16654181427503498,
+      "hi": 0.02190944974881232
+     },
+     "near_miss_auc": {
+      "value": 0.03703703703703709,
+      "lo": -0.021309113411157342,
+      "hi": 0.11666728212703105
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.008333333333333304,
+      "lo": -0.058252427184465994,
+      "hi": 0.04347826086956519
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.04604028401353355,
+      "lo": -0.09239547873013605,
+      "hi": 0.0031507275178752504
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.08531746031746035,
+      "lo": -0.14409931471469398,
+      "hi": -0.007216370935765349
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.10902140261049009,
+      "lo": -0.22224226877978626,
+      "hi": -0.016523630240808405
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.1071428571428571,
+      "lo": -0.19038095499719196,
+      "hi": -0.004348478067932322
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.12717774701676088,
+      "lo": -0.2436253377170701,
+      "hi": -0.031563282801143226
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.14682539682539686,
+      "lo": -0.23565441229352957,
+      "hi": -0.03577242724913869
+     }
+    }
+   }
+  },
+  "28467828": {
+   "n_proteins": 15,
+   "n_positives": 65,
+   "windows": 70378,
+   "eligible_proteins": 1017,
+   "eligible_positives": 5762,
+   "share_of_eligible_proteins": 0.014749262536873156,
+   "share_of_eligible_positives": 0.011280805275945853,
+   "excluded_over_1000_positive_share": 0.1344449451704972,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8101879578035552,
+     "length_matched_auc": 0.735496128833391,
+     "near_miss_auc": 0.8148148148148148,
+     "near_miss_auc_same_length": 0.7887323943661971,
+     "peptide_auroc_length_free": 0.7422856777716291,
+     "near_miss_auc_length_free": 0.7851851851851852
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8762204022529801,
+     "length_matched_auc": 0.8205608689446912,
+     "near_miss_auc": 0.8796296296296297,
+     "near_miss_auc_same_length": 0.9014084507042254,
+     "peptide_auroc_length_free": 0.8265334533229738,
+     "near_miss_auc_length_free": 0.8703703703703703
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9001257535338566,
+     "length_matched_auc": 0.8653496871863564,
+     "near_miss_auc": 0.9018518518518519,
+     "near_miss_auc_same_length": 0.9014084507042254,
+     "peptide_auroc_length_free": 0.860212405285078,
+     "near_miss_auc_length_free": 0.8944444444444445
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8459236328626051,
+     "length_matched_auc": 0.76200297392891,
+     "near_miss_auc": 0.8518518518518519,
+     "near_miss_auc_same_length": 0.8309859154929577
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7688798357417259,
+     "near_miss_auc_length_free": 0.8111111111111111
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.05420212067125152,
+      "lo": -0.028812934659684653,
+      "hi": 0.122208908090777
+     },
+     "length_matched_auc": {
+      "value": 0.10334671325744638,
+      "lo": -0.03228883585546398,
+      "hi": 0.22368294827663063
+     },
+     "near_miss_auc": {
+      "value": 0.050000000000000044,
+      "lo": -0.017956621004566256,
+      "hi": 0.10610965286436112
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07042253521126762,
+      "lo": 0.0,
+      "hi": 0.13207547169811318
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.030296769390375067,
+      "lo": -0.07800016051572987,
+      "hi": 0.11751039776148557
+     },
+     "length_matched_auc": {
+      "value": 0.058557895015781125,
+      "lo": -0.100946593453675,
+      "hi": 0.20409424775612173
+     },
+     "near_miss_auc": {
+      "value": 0.02777777777777779,
+      "lo": -0.020134650820752935,
+      "hi": 0.06569534003251395
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07042253521126762,
+      "lo": 0.0,
+      "hi": 0.12658227848101267
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.03573567505904984,
+      "lo": -0.07777707841644792,
+      "hi": 0.0061455301711013125
+     },
+     "length_matched_auc": {
+      "value": -0.026506845095519038,
+      "lo": -0.10810502026794204,
+      "hi": 0.04651811874068595
+     },
+     "near_miss_auc": {
+      "value": -0.03703703703703709,
+      "lo": -0.08938056956204607,
+      "hi": -0.005356193009118528
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.04225352112676062,
+      "lo": -0.125,
+      "hi": 0.021288159111933363
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.023905351280876452,
+      "lo": -0.010072859569167624,
+      "hi": 0.05343984632366458
+     },
+     "length_matched_auc": {
+      "value": 0.04478881824166525,
+      "lo": -0.0008273458761541507,
+      "hi": 0.08898879305201594
+     },
+     "near_miss_auc": {
+      "value": 0.022222222222222254,
+      "lo": -0.002445137590488475,
+      "hi": 0.042735913102511944
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.04168133802816897,
+      "hi": 0.05002118644067779
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.08993779573030136,
+      "lo": 0.004995170861968929,
+      "hi": 0.15881509990042875
+     },
+     "length_matched_auc": {
+      "value": 0.12985355835296541,
+      "lo": 0.007307256789863509,
+      "hi": 0.24155571082600852
+     },
+     "near_miss_auc": {
+      "value": 0.08703703703703713,
+      "lo": 0.021596592846734954,
+      "hi": 0.14642475488042356
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11267605633802824,
+      "lo": 0.05813532187394674,
+      "hi": 0.1774283154121864
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.06603244444942491,
+      "lo": -0.03809572273837382,
+      "hi": 0.15946642849217674
+     },
+     "length_matched_auc": {
+      "value": 0.08506474011130016,
+      "lo": -0.05873651290190648,
+      "hi": 0.22363577432482043
+     },
+     "near_miss_auc": {
+      "value": 0.06481481481481488,
+      "lo": 0.010844815711923117,
+      "hi": 0.11208290606168841
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11267605633802824,
+      "lo": 0.061209029066171886,
+      "hi": 0.16666666666666663
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.026594157970096788,
+      "lo": -0.10806018402330825,
+      "hi": 0.04851010908828887
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.025925925925925908,
+      "lo": -0.10002365930599368,
+      "hi": 0.03599834712086321
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.057653617581247874,
+      "lo": -0.10256666734972945,
+      "hi": 0.20186278069401556
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.059259259259259234,
+      "lo": -0.046344542990884495,
+      "hi": 0.1292261751737456
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.09133256954335212,
+      "lo": -0.04480837707293134,
+      "hi": 0.21535258776041835
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.08333333333333337,
+      "lo": -0.03914227292294446,
+      "hi": 0.1644330394948478
+     }
+    }
+   }
+  },
+  "31611695": {
+   "n_proteins": 15,
+   "n_positives": 63,
+   "windows": 62997,
+   "eligible_proteins": 546,
+   "eligible_positives": 1999,
+   "share_of_eligible_proteins": 0.027472527472527472,
+   "share_of_eligible_positives": 0.03151575787893947,
+   "excluded_over_1000_positive_share": 0.1365010799136069,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8393174857452766,
+     "length_matched_auc": 0.7592975129948765,
+     "near_miss_auc": 0.8338414634146342,
+     "near_miss_auc_same_length": 0.8842105263157894,
+     "peptide_auroc_length_free": 0.7548115831405036,
+     "near_miss_auc_length_free": 0.8521341463414634
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8818234901014479,
+     "length_matched_auc": 0.8440965998395238,
+     "near_miss_auc": 0.8734756097560976,
+     "near_miss_auc_same_length": 0.8842105263157894,
+     "peptide_auroc_length_free": 0.8477968016298044,
+     "near_miss_auc_length_free": 0.8445121951219512
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.8931061957243711,
+     "length_matched_auc": 0.8560490660217397,
+     "near_miss_auc": 0.8795731707317073,
+     "near_miss_auc_same_length": 0.8947368421052632,
+     "peptide_auroc_length_free": 0.8620196284052841,
+     "near_miss_auc_length_free": 0.8658536585365854
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8166461876813218,
+     "length_matched_auc": 0.6918523974037744,
+     "near_miss_auc": 0.8262195121951219,
+     "near_miss_auc_same_length": 0.8
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.6936289220562561,
+     "near_miss_auc_length_free": 0.7728658536585366
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.07646000804304931,
+      "lo": 0.011240330589043418,
+      "hi": 0.14775906904873057
+     },
+     "length_matched_auc": {
+      "value": 0.16419666861796534,
+      "lo": 0.06435509209116605,
+      "hi": 0.2633470090983432
+     },
+     "near_miss_auc": {
+      "value": 0.05335365853658536,
+      "lo": -0.035826908220893815,
+      "hi": 0.13664707985164665
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.09473684210526312,
+      "lo": -0.03775399129172713,
+      "hi": 0.21839321935670813
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.0651773024201261,
+      "lo": -0.012953756377680006,
+      "hi": 0.1474586647965214
+     },
+     "length_matched_auc": {
+      "value": 0.15224420243574943,
+      "lo": 0.03656410470657999,
+      "hi": 0.26301765071536254
+     },
+     "near_miss_auc": {
+      "value": 0.04725609756097571,
+      "lo": -0.06189891435552124,
+      "hi": 0.1387241590977662
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0842105263157894,
+      "lo": -0.07548363983759253,
+      "hi": 0.2325581395348837
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.022671298063954848,
+      "lo": -0.03177031949218742,
+      "hi": 0.09577346296471155
+     },
+     "length_matched_auc": {
+      "value": 0.06744511559110211,
+      "lo": 0.014322674825146204,
+      "hi": 0.1286695646723425
+     },
+     "near_miss_auc": {
+      "value": 0.007621951219512257,
+      "lo": -0.044171830354878504,
+      "hi": 0.07247035573122525
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0842105263157894,
+      "lo": -0.016813905049199215,
+      "hi": 0.20562192889488384
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.011282705622923217,
+      "lo": -0.007065203729224065,
+      "hi": 0.03233595410162919
+     },
+     "length_matched_auc": {
+      "value": 0.011952466182215904,
+      "lo": -0.012494198472917644,
+      "hi": 0.03860456089774298
+     },
+     "near_miss_auc": {
+      "value": 0.0060975609756096505,
+      "lo": -0.017903960915469842,
+      "hi": 0.028927817830138806
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.010526315789473717,
+      "lo": -0.03280054644808746,
+      "hi": 0.05813953488372092
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.05378870997909446,
+      "lo": 0.009693854181400983,
+      "hi": 0.10069007079144128
+     },
+     "length_matched_auc": {
+      "value": 0.09675155302686322,
+      "lo": 0.0160544613705428,
+      "hi": 0.1761416389959024
+     },
+     "near_miss_auc": {
+      "value": 0.0457317073170731,
+      "lo": -0.045458866228828276,
+      "hi": 0.1321069182389935
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.010526315789473717,
+      "lo": -0.11340791940018748,
+      "hi": 0.129417211328976
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.042506004356171245,
+      "lo": -0.010470798860383644,
+      "hi": 0.08628924691869795
+     },
+     "length_matched_auc": {
+      "value": 0.08479908684464732,
+      "lo": -0.008922462812526089,
+      "hi": 0.16914093346615988
+     },
+     "near_miss_auc": {
+      "value": 0.03963414634146345,
+      "lo": -0.06521890096618353,
+      "hi": 0.12525636829760525
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.1413115621392843,
+      "hi": 0.126130867709815
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.061182661084247414,
+      "lo": 0.010090967599737644,
+      "hi": 0.12096052446922204
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.0792682926829269,
+      "lo": -0.017049212361712293,
+      "hi": 0.1965543800194651
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.15416787957354827,
+      "lo": 0.03863593228764837,
+      "hi": 0.26709249392839457
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.07164634146341464,
+      "lo": -0.08228228034391055,
+      "hi": 0.20281759220791204
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.16839070634902797,
+      "lo": 0.06674746265056605,
+      "hi": 0.27033568332103014
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.09298780487804881,
+      "lo": -0.03250170881749836,
+      "hi": 0.21132367913406905
+     }
+    }
+   }
+  },
+  "32157095": {
+   "n_proteins": 15,
+   "n_positives": 53,
+   "windows": 74976,
+   "eligible_proteins": 891,
+   "eligible_positives": 3563,
+   "share_of_eligible_proteins": 0.016835016835016835,
+   "share_of_eligible_positives": 0.014875105248386191,
+   "excluded_over_1000_positive_share": 0.19534778681120143,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.9155828315806323,
+     "length_matched_auc": 0.8390339652086856,
+     "near_miss_auc": 0.8645533141210374,
+     "near_miss_auc_same_length": 0.7927927927927928,
+     "peptide_auroc_length_free": 0.8411725366760424,
+     "near_miss_auc_length_free": 0.8285302593659942
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.9653596609803176,
+     "length_matched_auc": 0.9342198274659868,
+     "near_miss_auc": 0.920749279538905,
+     "near_miss_auc_same_length": 0.9369369369369369,
+     "peptide_auroc_length_free": 0.9436027869468548,
+     "near_miss_auc_length_free": 0.9221902017291066
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.97284134636989,
+     "length_matched_auc": 0.9512549132485595,
+     "near_miss_auc": 0.9452449567723343,
+     "near_miss_auc_same_length": 0.972972972972973,
+     "peptide_auroc_length_free": 0.9565267031457014,
+     "near_miss_auc_length_free": 0.9481268011527377
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.928438209050255,
+     "length_matched_auc": 0.8458713865284895,
+     "near_miss_auc": 0.8948126801152738,
+     "near_miss_auc_same_length": 0.8738738738738738
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.8511644701359168,
+     "near_miss_auc_length_free": 0.8559077809798271
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.04440313731963497,
+      "lo": 0.013828636634927952,
+      "hi": 0.07241548826927867
+     },
+     "length_matched_auc": {
+      "value": 0.10538352672007001,
+      "lo": 0.05010941016237112,
+      "hi": 0.15786784194806358
+     },
+     "near_miss_auc": {
+      "value": 0.050432276657060515,
+      "lo": 0.012541100151070886,
+      "hi": 0.0726890670514251
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0990990990990992,
+      "lo": 0.013333333333333308,
+      "hi": 0.15328467153284675
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.036921451930062577,
+      "lo": 0.00583836078895231,
+      "hi": 0.06636805906313693
+     },
+     "length_matched_auc": {
+      "value": 0.08834844093749727,
+      "lo": 0.025112548608593698,
+      "hi": 0.14710548408510427
+     },
+     "near_miss_auc": {
+      "value": 0.025936599423631135,
+      "lo": -0.016792237287674594,
+      "hi": 0.051964550321056194
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06306306306306309,
+      "lo": -0.03798685491723464,
+      "hi": 0.12568384074941455
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.01285537746962273,
+      "lo": -0.04592361593447154,
+      "hi": 0.02223445206843023
+     },
+     "length_matched_auc": {
+      "value": -0.006837421319803916,
+      "lo": -0.06473509152250569,
+      "hi": 0.06247138872685937
+     },
+     "near_miss_auc": {
+      "value": -0.030259365994236398,
+      "lo": -0.0632522903453136,
+      "hi": 0.01699379950520776
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.08108108108108103,
+      "lo": -0.1829454952712793,
+      "hi": 0.0
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.00748168538957239,
+      "lo": -0.005437482477948332,
+      "hi": 0.01849533678710576
+     },
+     "length_matched_auc": {
+      "value": 0.017035085782572734,
+      "lo": -0.003654872866874525,
+      "hi": 0.03705352402446288
+     },
+     "near_miss_auc": {
+      "value": 0.02449567723342938,
+      "lo": -0.0023115407140567867,
+      "hi": 0.04484279317207591
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.03603603603603611,
+      "lo": 0.012816455696202487,
+      "hi": 0.07200722891566257
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.0572585147892577,
+      "lo": 0.004725337521472795,
+      "hi": 0.10352950496489541
+     },
+     "length_matched_auc": {
+      "value": 0.11222094803987392,
+      "lo": 0.013540978100243328,
+      "hi": 0.1906385523169909
+     },
+     "near_miss_auc": {
+      "value": 0.08069164265129691,
+      "lo": 0.017368554737109416,
+      "hi": 0.12015391662574998
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.18018018018018023,
+      "lo": 0.05405405405405406,
+      "hi": 0.2592663273960984
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.04977682939968531,
+      "lo": 0.00581159449179294,
+      "hi": 0.0922442951841701
+     },
+     "length_matched_auc": {
+      "value": 0.09518586225730119,
+      "lo": 0.005581537114883365,
+      "hi": 0.17298098277070104
+     },
+     "near_miss_auc": {
+      "value": 0.05619596541786753,
+      "lo": 0.006908836074138211,
+      "hi": 0.08628361243542018
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.14414414414414412,
+      "lo": 0.0273972602739726,
+      "hi": 0.21506203473945407
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.00999193345987437,
+      "lo": -0.06507782785756823,
+      "hi": 0.05634678543677382
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.02737752161383289,
+      "lo": -0.07512445075732432,
+      "hi": 0.047943760837668305
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.09243831681093806,
+      "lo": 0.033588887027606235,
+      "hi": 0.1477476106812918
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.06628242074927948,
+      "lo": 0.0058789722785666885,
+      "hi": 0.09829234972677593
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.10536223300978464,
+      "lo": 0.05103721001833311,
+      "hi": 0.15699820612557
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.09221902017291062,
+      "lo": 0.04072610357216411,
+      "hi": 0.12209815646730822
+     }
+    }
+   }
+  },
+  "32983136": {
+   "n_proteins": 15,
+   "n_positives": 52,
+   "windows": 55957,
+   "eligible_proteins": 1691,
+   "eligible_positives": 10327,
+   "share_of_eligible_proteins": 0.008870490833826138,
+   "share_of_eligible_positives": 0.005035344243245861,
+   "excluded_over_1000_positive_share": 0.16061123303259367,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8269816431339516,
+     "length_matched_auc": 0.807557373788827,
+     "near_miss_auc": 0.7976973684210527,
+     "near_miss_auc_same_length": 0.8095238095238095,
+     "peptide_auroc_length_free": 0.8105628014336727,
+     "near_miss_auc_length_free": 0.8157894736842105
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8503072511932299,
+     "length_matched_auc": 0.8088878392662449,
+     "near_miss_auc": 0.8782894736842105,
+     "near_miss_auc_same_length": 0.8690476190476191,
+     "peptide_auroc_length_free": 0.8123233121256127,
+     "near_miss_auc_length_free": 0.8585526315789473
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.8577193388246633,
+     "length_matched_auc": 0.8154759535763766,
+     "near_miss_auc": 0.8552631578947368,
+     "near_miss_auc_same_length": 0.8095238095238095,
+     "peptide_auroc_length_free": 0.8190461803836441,
+     "near_miss_auc_length_free": 0.8388157894736842
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8317001930614453,
+     "length_matched_auc": 0.7348210500582594,
+     "near_miss_auc": 0.7796052631578947,
+     "near_miss_auc_same_length": 0.6904761904761905
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7378084000744953,
+     "near_miss_auc_length_free": 0.7532894736842105
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.026019145763218066,
+      "lo": -0.0664644495600165,
+      "hi": 0.107612140034955
+     },
+     "length_matched_auc": {
+      "value": 0.08065490351811722,
+      "lo": -0.0383317141815796,
+      "hi": 0.2037468175684644
+     },
+     "near_miss_auc": {
+      "value": 0.07565789473684215,
+      "lo": 0.014104519774011339,
+      "hi": 0.13282552083333327
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11904761904761907,
+      "lo": 0.02777140672782876,
+      "hi": 0.25863665389527446
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.01860705813178465,
+      "lo": -0.06387613134201739,
+      "hi": 0.0929712158702847
+     },
+     "length_matched_auc": {
+      "value": 0.07406678920798548,
+      "lo": -0.0383171033929168,
+      "hi": 0.19645220923841109
+     },
+     "near_miss_auc": {
+      "value": 0.09868421052631582,
+      "lo": 0.05139794425991991,
+      "hi": 0.1663687477328604
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.1785714285714286,
+      "lo": 0.07935463659147864,
+      "hi": 0.33333333333333326
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.004718549927493654,
+      "lo": -0.058413154140431814,
+      "hi": 0.0478997883290227
+     },
+     "length_matched_auc": {
+      "value": 0.0727363237305676,
+      "lo": 0.008443882675237315,
+      "hi": 0.14556994494356293
+     },
+     "near_miss_auc": {
+      "value": 0.018092105263157965,
+      "lo": -0.03584675113889965,
+      "hi": 0.08635886722376972
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11904761904761907,
+      "lo": -0.009433962264150941,
+      "hi": 0.279078317373461
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.007412087631433417,
+      "lo": -0.00857169414305769,
+      "hi": 0.024749591657781674
+     },
+     "length_matched_auc": {
+      "value": 0.006588114310131732,
+      "lo": -0.009505384269630717,
+      "hi": 0.0206829290801303
+     },
+     "near_miss_auc": {
+      "value": -0.023026315789473673,
+      "lo": -0.07313291695988743,
+      "hi": 0.011016249370005136
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.059523809523809534,
+      "lo": -0.14458227647431834,
+      "hi": 0.008773870517000482
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.03073769569071172,
+      "lo": -0.0850048476277087,
+      "hi": 0.12761936383774086
+     },
+     "length_matched_auc": {
+      "value": 0.007918579787549618,
+      "lo": -0.11690113727608463,
+      "hi": 0.11642040554594357
+     },
+     "near_miss_auc": {
+      "value": 0.05756578947368418,
+      "lo": -0.017858030389094053,
+      "hi": 0.12346359070935338
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.1525482580037664,
+      "hi": 0.13559322033898302
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.023325608059278302,
+      "lo": -0.08062568526026624,
+      "hi": 0.10569519033744522
+     },
+     "length_matched_auc": {
+      "value": 0.001330465477417886,
+      "lo": -0.11794616860548306,
+      "hi": 0.10381755220191038
+     },
+     "near_miss_auc": {
+      "value": 0.08059210526315785,
+      "lo": 0.035703781512605025,
+      "hi": 0.1351372599014108
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.059523809523809534,
+      "lo": -0.017241379310344754,
+      "hi": 0.1568627450980392
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.07275440135917732,
+      "lo": 0.011719726325469613,
+      "hi": 0.14179187471513813
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.0625,
+      "lo": -0.009410899164376874,
+      "hi": 0.17728581123774292
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.07451491205111738,
+      "lo": -0.03901249519481831,
+      "hi": 0.1981569405936801
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.10526315789473684,
+      "lo": 0.05334239635140431,
+      "hi": 0.1807726242512546
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.08123778030914874,
+      "lo": -0.040763109409825124,
+      "hi": 0.2073371478284223
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.08552631578947367,
+      "lo": 0.037231026540908124,
+      "hi": 0.1387295033620385
+     }
+    }
+   }
+  },
+  "33091337": {
+   "n_proteins": 15,
+   "n_positives": 35,
+   "windows": 72479,
+   "eligible_proteins": 489,
+   "eligible_positives": 1202,
+   "share_of_eligible_proteins": 0.03067484662576687,
+   "share_of_eligible_positives": 0.029118136439267885,
+   "excluded_over_1000_positive_share": 0.12645348837209303,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.5452826954974659,
+     "length_matched_auc": 0.611720756046828,
+     "near_miss_auc": 0.5384615384615384,
+     "near_miss_auc_same_length": 0.59375,
+     "peptide_auroc_length_free": 0.6266860023807154,
+     "near_miss_auc_length_free": 0.5576923076923077
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.7025929371380694,
+     "length_matched_auc": 0.7256656550694012,
+     "near_miss_auc": 0.6201923076923077,
+     "near_miss_auc_same_length": 0.671875,
+     "peptide_auroc_length_free": 0.739653368612984,
+     "near_miss_auc_length_free": 0.6634615384615384
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.722936572278482,
+     "length_matched_auc": 0.7676330550632408,
+     "near_miss_auc": 0.7043269230769231,
+     "near_miss_auc_same_length": 0.796875,
+     "peptide_auroc_length_free": 0.77443174109337,
+     "near_miss_auc_length_free": 0.7836538461538461
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.5438325112532779,
+     "length_matched_auc": 0.5322803417835718,
+     "near_miss_auc": 0.4963942307692308,
+     "near_miss_auc_same_length": 0.4375
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.5365438698535544,
+     "near_miss_auc_length_free": 0.45913461538461536
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.17910406102520404,
+      "lo": 0.08950548913392004,
+      "hi": 0.2783591064549765
+     },
+     "length_matched_auc": {
+      "value": 0.235352713279669,
+      "lo": 0.13204309793030672,
+      "hi": 0.3593652189868676
+     },
+     "near_miss_auc": {
+      "value": 0.20793269230769235,
+      "lo": 0.09825759594882731,
+      "hi": 0.3068533448507533
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.359375,
+      "lo": 0.17543859649122806,
+      "hi": 0.5224052812858782
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.15876042588479145,
+      "lo": 0.06306396450288126,
+      "hi": 0.2631540051068594
+     },
+     "length_matched_auc": {
+      "value": 0.19338531328582942,
+      "lo": 0.0881661823805953,
+      "hi": 0.30603002483818653
+     },
+     "near_miss_auc": {
+      "value": 0.12379807692307693,
+      "lo": 0.009664325077743788,
+      "hi": 0.2346973171290988
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.234375,
+      "lo": 0.05555555555555558,
+      "hi": 0.40626324152542365
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.0014501842441879687,
+      "lo": -0.051815237470734854,
+      "hi": 0.0750583945226681
+     },
+     "length_matched_auc": {
+      "value": 0.07944041426325621,
+      "lo": -0.013343327121835256,
+      "hi": 0.1882448148496063
+     },
+     "near_miss_auc": {
+      "value": 0.042067307692307654,
+      "lo": -0.05516236884547776,
+      "hi": 0.14793447293447293
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.15625,
+      "lo": 0.03389830508474578,
+      "hi": 0.28358713190802737
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.020343635140412597,
+      "lo": -0.005296689838226856,
+      "hi": 0.04461745841521244
+     },
+     "length_matched_auc": {
+      "value": 0.04196739999383958,
+      "lo": 0.009264936007020427,
+      "hi": 0.07280736806477874
+     },
+     "near_miss_auc": {
+      "value": 0.08413461538461542,
+      "lo": 0.03503807639915364,
+      "hi": 0.13212750802447615
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.125,
+      "lo": 0.031746031746031744,
+      "hi": 0.22668181818181812
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.17765387678101607,
+      "lo": 0.10228492932169464,
+      "hi": 0.2637092546067826
+     },
+     "length_matched_auc": {
+      "value": 0.1559122990164128,
+      "lo": 0.07932880367828371,
+      "hi": 0.22733931230093005
+     },
+     "near_miss_auc": {
+      "value": 0.1658653846153847,
+      "lo": 0.07121530124948211,
+      "hi": 0.26525459628907905
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.203125,
+      "lo": 0.07139724310776939,
+      "hi": 0.3333333333333333
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.15731024164060348,
+      "lo": 0.06955490016134637,
+      "hi": 0.2553866238777774
+     },
+     "length_matched_auc": {
+      "value": 0.11394489902257321,
+      "lo": 0.029679092151238064,
+      "hi": 0.19213320132009792
+     },
+     "near_miss_auc": {
+      "value": 0.08173076923076927,
+      "lo": -0.0194808359282043,
+      "hi": 0.19298363200225768
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.078125,
+      "lo": -0.08196721311475408,
+      "hi": 0.246159420289855
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.09014213252716097,
+      "lo": -0.007622459830321157,
+      "hi": 0.19668782474239432
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.09855769230769235,
+      "lo": 0.0,
+      "hi": 0.2184186082788547
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.20310949875942963,
+      "lo": 0.10588012764533923,
+      "hi": 0.313488996045053
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.20432692307692307,
+      "lo": 0.07827888257575763,
+      "hi": 0.31903889194752966
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.23788787123981558,
+      "lo": 0.13535350524551013,
+      "hi": 0.3573077720632879
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.3245192307692308,
+      "lo": 0.1710215988083417,
+      "hi": 0.45949928876244645
+     }
+    }
+   }
+  },
+  "33392160": {
+   "n_proteins": 15,
+   "n_positives": 46,
+   "windows": 72974,
+   "eligible_proteins": 1008,
+   "eligible_positives": 2898,
+   "share_of_eligible_proteins": 0.01488095238095238,
+   "share_of_eligible_positives": 0.015873015873015872,
+   "excluded_over_1000_positive_share": 0.15608619685497963,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.6864665988367201,
+     "length_matched_auc": 0.7791116805933379,
+     "near_miss_auc": 0.7601547388781431,
+     "near_miss_auc_same_length": 0.8533333333333334,
+     "peptide_auroc_length_free": 0.7758133664359564,
+     "near_miss_auc_length_free": 0.8065764023210832
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.734484332042819,
+     "length_matched_auc": 0.7356918337011855,
+     "near_miss_auc": 0.7117988394584139,
+     "near_miss_auc_same_length": 0.6933333333333334,
+     "peptide_auroc_length_free": 0.7401541759797678,
+     "near_miss_auc_length_free": 0.6924564796905223
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.7375771236362446,
+     "length_matched_auc": 0.743524632620673,
+     "near_miss_auc": 0.7272727272727273,
+     "near_miss_auc_same_length": 0.6933333333333334,
+     "peptide_auroc_length_free": 0.7473438728020011,
+     "near_miss_auc_length_free": 0.7059961315280464
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.7051161892562693,
+     "length_matched_auc": 0.7288543109947435,
+     "near_miss_auc": 0.7640232108317214,
+     "near_miss_auc_same_length": 0.8
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7266181170469704,
+     "near_miss_auc_length_free": 0.781431334622824
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.032460934379975326,
+      "lo": -0.05181740284706828,
+      "hi": 0.10753213729253087
+     },
+     "length_matched_auc": {
+      "value": 0.014670321625929517,
+      "lo": -0.12014104334115405,
+      "hi": 0.14510073880566166
+     },
+     "near_miss_auc": {
+      "value": -0.03675048355899413,
+      "lo": -0.1139359099193568,
+      "hi": 0.03315513725000506
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.10666666666666669,
+      "lo": -0.22975571725571728,
+      "hi": 0.0
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.029368142786549756,
+      "lo": -0.05688845859947335,
+      "hi": 0.10691161605118563
+     },
+     "length_matched_auc": {
+      "value": 0.006837522706442001,
+      "lo": -0.13263154732803437,
+      "hi": 0.14541982685693897
+     },
+     "near_miss_auc": {
+      "value": -0.05222437137330749,
+      "lo": -0.11810143702451388,
+      "hi": 0.012240460157126758
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.10666666666666669,
+      "lo": -0.22862637362637364,
+      "hi": 0.014503569110966907
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.018649590419549167,
+      "lo": -0.07071068500956282,
+      "hi": 0.03567897510022105
+     },
+     "length_matched_auc": {
+      "value": 0.05025736959859439,
+      "lo": -0.036488881860757084,
+      "hi": 0.1461581438489985
+     },
+     "near_miss_auc": {
+      "value": -0.003868471953578312,
+      "lo": -0.07641718175825175,
+      "hi": 0.08803759539933356
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.053333333333333344,
+      "lo": -0.07999999999999996,
+      "hi": 0.1917808219178082
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.00309279159342557,
+      "lo": -0.016671701358413886,
+      "hi": 0.027205866490328568
+     },
+     "length_matched_auc": {
+      "value": 0.007832798919487516,
+      "lo": -0.01918863927897012,
+      "hi": 0.040131987157499306
+     },
+     "near_miss_auc": {
+      "value": 0.015473887814313358,
+      "lo": -0.02419505296100153,
+      "hi": 0.06307230738200885
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.08108108108108109,
+      "hi": 0.07145445134575563
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.05111052479952449,
+      "lo": -0.03930522813537127,
+      "hi": 0.13439798393594615
+     },
+     "length_matched_auc": {
+      "value": -0.035587047972664876,
+      "lo": -0.1870611395214034,
+      "hi": 0.10726504281494316
+     },
+     "near_miss_auc": {
+      "value": -0.03288201160541582,
+      "lo": -0.14313375475759652,
+      "hi": 0.05138498786268955
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.16000000000000003,
+      "lo": -0.35141372141372135,
+      "hi": 0.01820804195804182
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.04801773320609892,
+      "lo": -0.04871720038957985,
+      "hi": 0.136179241320676
+     },
+     "length_matched_auc": {
+      "value": -0.04341984689215239,
+      "lo": -0.2090590750963603,
+      "hi": 0.10324167292800247
+     },
+     "near_miss_auc": {
+      "value": -0.048355899419729176,
+      "lo": -0.14675670924645495,
+      "hi": 0.04075918334539019
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.16000000000000003,
+      "lo": -0.36363636363636365,
+      "hi": 0.015182563338300861
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.049195249388986007,
+      "lo": -0.03789660364407449,
+      "hi": 0.14492735756403233
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.025145067698259194,
+      "lo": -0.08717301016612936,
+      "hi": 0.1458953654405985
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.013536058932797412,
+      "lo": -0.12649696827490559,
+      "hi": 0.1551334086572279
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.08897485493230173,
+      "lo": -0.14842912046879192,
+      "hi": -0.01939472971847408
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.02072575575503066,
+      "lo": -0.11780114710663878,
+      "hi": 0.15381123616153589
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.07543520309477758,
+      "lo": -0.15385687732342007,
+      "hi": 0.016200271806276156
+     }
+    }
+   }
+  },
+  "33936100": {
+   "n_proteins": 15,
+   "n_positives": 139,
+   "windows": 84436,
+   "eligible_proteins": 1028,
+   "eligible_positives": 6538,
+   "share_of_eligible_proteins": 0.014591439688715954,
+   "share_of_eligible_positives": 0.02126032425818293,
+   "excluded_over_1000_positive_share": 0.1355282295385429,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.7635932265205368,
+     "length_matched_auc": 0.764372877138423,
+     "near_miss_auc": 0.7762237762237763,
+     "near_miss_auc_same_length": 0.8023255813953488,
+     "peptide_auroc_length_free": 0.7624154406075203,
+     "near_miss_auc_length_free": 0.8026418026418026
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8818845485692195,
+     "length_matched_auc": 0.8622655091292967,
+     "near_miss_auc": 0.8383838383838383,
+     "near_miss_auc_same_length": 0.8604651162790697,
+     "peptide_auroc_length_free": 0.8667443102339758,
+     "near_miss_auc_length_free": 0.8391608391608392
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.8976688470880705,
+     "length_matched_auc": 0.8868765570932293,
+     "near_miss_auc": 0.8484848484848485,
+     "near_miss_auc_same_length": 0.877906976744186,
+     "peptide_auroc_length_free": 0.8895426573676287,
+     "near_miss_auc_length_free": 0.8453768453768454
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8092498220345659,
+     "length_matched_auc": 0.7678541392450201,
+     "near_miss_auc": 0.8080808080808081,
+     "near_miss_auc_same_length": 0.813953488372093
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7701279953456691,
+     "near_miss_auc_length_free": 0.8088578088578089
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.08841902505350463,
+      "lo": 0.04993567218707271,
+      "hi": 0.13324717576248238
+     },
+     "length_matched_auc": {
+      "value": 0.11902241784820922,
+      "lo": 0.0739409937285146,
+      "hi": 0.1669813875775267
+     },
+     "near_miss_auc": {
+      "value": 0.04040404040404044,
+      "lo": -0.03657438286014956,
+      "hi": 0.08517659826361469
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06395348837209303,
+      "lo": -0.13101190476190475,
+      "hi": 0.21739130434782605
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.07263472653465364,
+      "lo": 0.03624423751845726,
+      "hi": 0.1138757180214263
+     },
+     "length_matched_auc": {
+      "value": 0.09441136988427656,
+      "lo": 0.05046377152609842,
+      "hi": 0.1405029366590857
+     },
+     "near_miss_auc": {
+      "value": 0.030303030303030276,
+      "lo": -0.048955481919031846,
+      "hi": 0.06944802405498278
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.046511627906976716,
+      "lo": -0.08975225225225227,
+      "hi": 0.197372482131254
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.04565659551402901,
+      "lo": -0.06796958877755188,
+      "hi": -0.024122794382563158
+     },
+     "length_matched_auc": {
+      "value": -0.0034812621065971605,
+      "lo": -0.04342606840235026,
+      "hi": 0.038367391255054915
+     },
+     "near_miss_auc": {
+      "value": -0.031857031857031815,
+      "lo": -0.07166396521359665,
+      "hi": -0.006561353594198106
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.011627906976744207,
+      "lo": -0.08916613435537099,
+      "hi": 0.10687704471101421
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.015784298518850992,
+      "lo": 0.004904874100603673,
+      "hi": 0.027235058398018402
+     },
+     "length_matched_auc": {
+      "value": 0.024611047963932653,
+      "lo": 0.01118562905318812,
+      "hi": 0.038940847840188815
+     },
+     "near_miss_auc": {
+      "value": 0.010101010101010166,
+      "lo": -0.007071244358478446,
+      "hi": 0.03385581282022247
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.01744186046511631,
+      "lo": -0.05129870129870134,
+      "hi": 0.0578542340400048
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.13407562056753364,
+      "lo": 0.08909981837419928,
+      "hi": 0.18589960323845267
+     },
+     "length_matched_auc": {
+      "value": 0.12250367995480638,
+      "lo": 0.06382138946068582,
+      "hi": 0.18941288680845467
+     },
+     "near_miss_auc": {
+      "value": 0.07226107226107226,
+      "lo": 0.027218130569194404,
+      "hi": 0.1051761411422892
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07558139534883723,
+      "lo": -0.0865808823529412,
+      "hi": 0.1923076923076923
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.11829132204868265,
+      "lo": 0.0752344649828038,
+      "hi": 0.1677080964666508
+     },
+     "length_matched_auc": {
+      "value": 0.09789263199087372,
+      "lo": 0.03294924061249108,
+      "hi": 0.16876068466131555
+     },
+     "near_miss_auc": {
+      "value": 0.06216006216006209,
+      "lo": 0.006543017160008413,
+      "hi": 0.10229297248423606
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.05813953488372092,
+      "lo": -0.07451114488348536,
+      "hi": 0.1842206477732792
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.0077125547381488024,
+      "lo": -0.0475766799313702,
+      "hi": 0.03397096018344324
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.006216006216006265,
+      "lo": -0.038842725356735636,
+      "hi": 0.04420395970009358
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.09661631488830669,
+      "lo": 0.05145536005080574,
+      "hi": 0.14539953188764745
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.030303030303030276,
+      "lo": -0.08056807035274031,
+      "hi": 0.117195670664499
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.1194146620219596,
+      "lo": 0.07341049189416496,
+      "hi": 0.1681850905133927
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.03651903651903654,
+      "lo": -0.09144472194472193,
+      "hi": 0.13358562705734783
+     }
+    }
+   }
+  },
+  "34433824": {
+   "n_proteins": 15,
+   "n_positives": 48,
+   "windows": 61171,
+   "eligible_proteins": 606,
+   "eligible_positives": 3610,
+   "share_of_eligible_proteins": 0.024752475247524754,
+   "share_of_eligible_positives": 0.013296398891966758,
+   "excluded_over_1000_positive_share": 0.09045099521289998,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.7906373505061425,
+     "length_matched_auc": 0.760033366552408,
+     "near_miss_auc": 0.7612137203166227,
+     "near_miss_auc_same_length": 0.8389830508474576,
+     "peptide_auroc_length_free": 0.7600510281519196,
+     "near_miss_auc_length_free": 0.837730870712401
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8366953566584009,
+     "length_matched_auc": 0.7925259371252397,
+     "near_miss_auc": 0.8482849604221636,
+     "near_miss_auc_same_length": 0.8813559322033898,
+     "peptide_auroc_length_free": 0.8026654764259508,
+     "near_miss_auc_length_free": 0.8693931398416886
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.8672714681591714,
+     "length_matched_auc": 0.829724043034909,
+     "near_miss_auc": 0.8535620052770448,
+     "near_miss_auc_same_length": 0.864406779661017,
+     "peptide_auroc_length_free": 0.837806742202926,
+     "near_miss_auc_length_free": 0.8588390501319261
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8523338316285689,
+     "length_matched_auc": 0.7807956623841691,
+     "near_miss_auc": 0.8443271767810027,
+     "near_miss_auc_same_length": 0.8813559322033898
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7845061822065014,
+     "near_miss_auc_length_free": 0.8311345646437994
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.014937636530602538,
+      "lo": -0.08826171239396606,
+      "hi": 0.1453650936649612
+     },
+     "length_matched_auc": {
+      "value": 0.0489283806507399,
+      "lo": -0.07649811073041735,
+      "hi": 0.19827040489002143
+     },
+     "near_miss_auc": {
+      "value": 0.00923482849604218,
+      "lo": -0.07265393724097095,
+      "hi": 0.10956593923682001
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.016949152542372836,
+      "lo": -0.13019893899204243,
+      "hi": 0.11113945578231282
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.015638474970168015,
+      "lo": -0.13952862151128323,
+      "hi": 0.13324913376863234
+     },
+     "length_matched_auc": {
+      "value": 0.011730274741070579,
+      "lo": -0.14186285413222902,
+      "hi": 0.18300802696457083
+     },
+     "near_miss_auc": {
+      "value": 0.00395778364116095,
+      "lo": -0.06988622100006567,
+      "hi": 0.09969562931890695
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.09413539553752535,
+      "hi": 0.11768753372908777
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.06169648112242643,
+      "lo": -0.14379842699789136,
+      "hi": 0.03631292727533782
+     },
+     "length_matched_auc": {
+      "value": -0.020762295831761035,
+      "lo": -0.0963060852203317,
+      "hi": 0.05302068941548878
+     },
+     "near_miss_auc": {
+      "value": -0.08311345646437995,
+      "lo": -0.14543054812426773,
+      "hi": -0.033206386171281806
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.0423728813559322,
+      "lo": -0.14018691588785048,
+      "hi": 0.03572504302925993
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.030576111500770553,
+      "lo": -0.0048739148185211354,
+      "hi": 0.06953782158329158
+     },
+     "length_matched_auc": {
+      "value": 0.03719810590966932,
+      "lo": -0.010305125859441202,
+      "hi": 0.08732188305550842
+     },
+     "near_miss_auc": {
+      "value": 0.00527704485488123,
+      "lo": -0.03534095031085589,
+      "hi": 0.05334259259259244
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.016949152542372836,
+      "lo": -0.06870887075546196,
+      "hi": 0.03671731651376136
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.07663411765302897,
+      "lo": 0.031444396582547336,
+      "hi": 0.12643825097592917
+     },
+     "length_matched_auc": {
+      "value": 0.06969067648250094,
+      "lo": -0.036819998591090586,
+      "hi": 0.192979880480216
+     },
+     "near_miss_auc": {
+      "value": 0.09234828496042213,
+      "lo": 0.016924890705958588,
+      "hi": 0.19149034128756703
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.025423728813559365,
+      "lo": -0.0852713178294573,
+      "hi": 0.17392568250758333
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.04605800615225841,
+      "lo": -0.01452536757715826,
+      "hi": 0.1092638471798617
+     },
+     "length_matched_auc": {
+      "value": 0.032492570572831614,
+      "lo": -0.10581262706298256,
+      "hi": 0.17916467060058333
+     },
+     "near_miss_auc": {
+      "value": 0.0870712401055409,
+      "lo": 0.012190724671669803,
+      "hi": 0.18226763028260304
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0423728813559322,
+      "lo": -0.0593241315656989,
+      "hi": 0.17647058823529416
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.024455154054581763,
+      "lo": -0.09895041780549421,
+      "hi": 0.046613907730362905
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.006596306068601621,
+      "lo": -0.0554445415541077,
+      "hi": 0.05215407783617781
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.018159294219449396,
+      "lo": -0.1338385175984796,
+      "hi": 0.1892922738023985
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.03825857519788922,
+      "lo": -0.039790685068590306,
+      "hi": 0.14852221829325787
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.05330055999642458,
+      "lo": -0.0739780764544808,
+      "hi": 0.20393937298691403
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.02770448548812665,
+      "lo": -0.06392464214858415,
+      "hi": 0.14360865051903107
+     }
+    }
+   }
+  },
+  "34932366": {
+   "n_proteins": 15,
+   "n_positives": 108,
+   "windows": 62480,
+   "eligible_proteins": 494,
+   "eligible_positives": 1957,
+   "share_of_eligible_proteins": 0.030364372469635626,
+   "share_of_eligible_positives": 0.05518650996423097,
+   "excluded_over_1000_positive_share": 0.14653292629742695,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8359218481915479,
+     "length_matched_auc": 0.6900687175876483,
+     "near_miss_auc": 0.8858858858858859,
+     "near_miss_auc_same_length": 0.813953488372093,
+     "peptide_auroc_length_free": 0.6841561444843108,
+     "near_miss_auc_length_free": 0.8048048048048048
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.9179859757748089,
+     "length_matched_auc": 0.8629110829326916,
+     "near_miss_auc": 0.9039039039039038,
+     "near_miss_auc_same_length": 0.8837209302325582,
+     "peptide_auroc_length_free": 0.8674900817757256,
+     "near_miss_auc_length_free": 0.8678678678678678
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9348906393862612,
+     "length_matched_auc": 0.8882248497963192,
+     "near_miss_auc": 0.9309309309309309,
+     "near_miss_auc_same_length": 0.9534883720930233,
+     "peptide_auroc_length_free": 0.8950047800451902,
+     "near_miss_auc_length_free": 0.8918918918918919
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8388534721867746,
+     "length_matched_auc": 0.7145869441425727,
+     "near_miss_auc": 0.9099099099099099,
+     "near_miss_auc_same_length": 0.8837209302325582
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7107109638956361,
+     "near_miss_auc_length_free": 0.8228228228228228
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.09603716719948652,
+      "lo": 0.02641034071451434,
+      "hi": 0.1595583236935069
+     },
+     "length_matched_auc": {
+      "value": 0.17363790565374648,
+      "lo": 0.07336755401820516,
+      "hi": 0.2653391458092021
+     },
+     "near_miss_auc": {
+      "value": 0.02102102102102099,
+      "lo": -0.02231218364732328,
+      "hi": 0.06304124370213351
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06976744186046513,
+      "lo": -0.03336206896551724,
+      "hi": 0.2174252717391302
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.07913250358803425,
+      "lo": -0.00703642790917795,
+      "hi": 0.15222510509200113
+     },
+     "length_matched_auc": {
+      "value": 0.14832413879011885,
+      "lo": 0.022651570256371753,
+      "hi": 0.24840575524823488
+     },
+     "near_miss_auc": {
+      "value": -0.006006006006006093,
+      "lo": -0.12368951612903226,
+      "hi": 0.07523510971786829
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.17948717948717952,
+      "hi": 0.19444444444444442
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.0029316239952267287,
+      "lo": -0.027285077399349673,
+      "hi": 0.019053055198661347
+     },
+     "length_matched_auc": {
+      "value": -0.024518226554924416,
+      "lo": -0.10531444211033665,
+      "hi": 0.042710651451462
+     },
+     "near_miss_auc": {
+      "value": -0.024024024024024038,
+      "lo": -0.06181995854308564,
+      "hi": 0.012449429460580861
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.06976744186046513,
+      "lo": -0.19148936170212771,
+      "hi": 0.0789736842105262
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.016904663611452264,
+      "lo": -0.00576298742288476,
+      "hi": 0.049598391968762784
+     },
+     "length_matched_auc": {
+      "value": 0.02531376686362763,
+      "lo": -0.012175993156660589,
+      "hi": 0.07386236597753457
+     },
+     "near_miss_auc": {
+      "value": 0.027027027027027084,
+      "lo": -0.023356313460571057,
+      "hi": 0.11164094762008252
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06976744186046513,
+      "lo": 0.0,
+      "hi": 0.22229166666666628
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.09896879119471325,
+      "lo": 0.034635490514295854,
+      "hi": 0.1554513683498637
+     },
+     "length_matched_auc": {
+      "value": 0.1981561322086709,
+      "lo": 0.12682792810900223,
+      "hi": 0.2694330296614534
+     },
+     "near_miss_auc": {
+      "value": 0.04504504504504503,
+      "lo": 0.018276464346602746,
+      "hi": 0.07031525088028168
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.13953488372093026,
+      "lo": 0.050826271186440765,
+      "hi": 0.22499999999999998
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.08206412758326098,
+      "lo": 0.006887881425053539,
+      "hi": 0.14671561164558344
+     },
+     "length_matched_auc": {
+      "value": 0.17284236534504327,
+      "lo": 0.10704040182843634,
+      "hi": 0.2361999231593142
+     },
+     "near_miss_auc": {
+      "value": 0.018018018018017945,
+      "lo": -0.07234005997750842,
+      "hi": 0.07483418367346945
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06976744186046513,
+      "lo": -0.027027027027026976,
+      "hi": 0.15384615384615385
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.026554819411325314,
+      "lo": -0.10931762742650988,
+      "hi": 0.040775310621506806
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.018018018018018056,
+      "lo": -0.12057251516085923,
+      "hi": 0.09510022010958644
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.15677911788008947,
+      "lo": 0.022910682796260507,
+      "hi": 0.26441301020227037
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.04504504504504503,
+      "lo": -0.09908018867924531,
+      "hi": 0.1766884057971013
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.1842938161495541,
+      "lo": 0.0759982130945169,
+      "hi": 0.28501059365941817
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.06906906906906907,
+      "lo": 0.003115556318681254,
+      "hi": 0.1678355823863637
+     }
+    }
+   }
+  },
+  "35154160": {
+   "n_proteins": 15,
+   "n_positives": 86,
+   "windows": 81444,
+   "eligible_proteins": 1854,
+   "eligible_positives": 15328,
+   "share_of_eligible_proteins": 0.008090614886731391,
+   "share_of_eligible_positives": 0.005610647181628393,
+   "excluded_over_1000_positive_share": 0.16208385721314164,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8690288429710353,
+     "length_matched_auc": 0.8542756534175654,
+     "near_miss_auc": 0.846875,
+     "near_miss_auc_same_length": 0.8571428571428571,
+     "peptide_auroc_length_free": 0.8528311578075519,
+     "near_miss_auc_length_free": 0.853125
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.9664409262828351,
+     "length_matched_auc": 0.9501674704527485,
+     "near_miss_auc": 0.8875,
+     "near_miss_auc_same_length": 0.8831168831168831,
+     "peptide_auroc_length_free": 0.9536840662347902,
+     "near_miss_auc_length_free": 0.8739583333333333
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9780972009021998,
+     "length_matched_auc": 0.9691310246670388,
+     "near_miss_auc": 0.9208333333333333,
+     "near_miss_auc_same_length": 0.9285714285714286,
+     "peptide_auroc_length_free": 0.9719346549415903,
+     "near_miss_auc_length_free": 0.91875
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.9135930832617515,
+     "length_matched_auc": 0.862376833086627,
+     "near_miss_auc": 0.89375,
+     "near_miss_auc_same_length": 0.8571428571428571
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.8612367491034422,
+     "near_miss_auc_length_free": 0.8510416666666667
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.06450411764044828,
+      "lo": 0.034857888583779285,
+      "hi": 0.09854354555358436
+     },
+     "length_matched_auc": {
+      "value": 0.10675419158041177,
+      "lo": 0.05595142610717225,
+      "hi": 0.15764441099455093
+     },
+     "near_miss_auc": {
+      "value": 0.027083333333333237,
+      "lo": -0.010233371013802974,
+      "hi": 0.0727052218853016
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07142857142857151,
+      "lo": -0.006296549155908637,
+      "hi": 0.14383561643835607
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.052847843021083585,
+      "lo": 0.024740628644574332,
+      "hi": 0.08462273542738476
+     },
+     "length_matched_auc": {
+      "value": 0.08779063736612147,
+      "lo": 0.04111006134682828,
+      "hi": 0.13666575733314706
+     },
+     "near_miss_auc": {
+      "value": -0.006250000000000089,
+      "lo": -0.06822647186196516,
+      "hi": 0.055671001921432206
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.025974025974025983,
+      "lo": -0.04926195101644343,
+      "hi": 0.1046539313399778
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.04456424029071615,
+      "lo": -0.07916652873364187,
+      "hi": -0.013381130522693659
+     },
+     "length_matched_auc": {
+      "value": -0.008101179669061653,
+      "lo": -0.042160311367309466,
+      "hi": 0.02147133290451922
+     },
+     "near_miss_auc": {
+      "value": -0.046875,
+      "lo": -0.09931364461310013,
+      "hi": -0.01969919696061906
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.04764216366158119,
+      "hi": 0.045454545454545414
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.011656274619364693,
+      "lo": 0.003563167854749133,
+      "hi": 0.022279712970492114
+     },
+     "length_matched_auc": {
+      "value": 0.0189635542142903,
+      "lo": 0.005406343154488946,
+      "hi": 0.03625406539330158
+     },
+     "near_miss_auc": {
+      "value": 0.033333333333333326,
+      "lo": -0.0050939868242932534,
+      "hi": 0.09254668771593691
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.045454545454545525,
+      "lo": -0.02469907407407407,
+      "hi": 0.15173103448275865
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.10906835793116443,
+      "lo": 0.07039910003818864,
+      "hi": 0.1485526086134439
+     },
+     "length_matched_auc": {
+      "value": 0.11485537124947343,
+      "lo": 0.056466870826986315,
+      "hi": 0.17557888511271297
+     },
+     "near_miss_auc": {
+      "value": 0.07395833333333324,
+      "lo": 0.028769390696035117,
+      "hi": 0.1336319559316283
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07142857142857151,
+      "lo": -0.026320146392471214,
+      "hi": 0.16260162601626016
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.09741208331179974,
+      "lo": 0.05868004904512951,
+      "hi": 0.1387250533566873
+     },
+     "length_matched_auc": {
+      "value": 0.09589181703518312,
+      "lo": 0.04290445422278863,
+      "hi": 0.15149816949079617
+     },
+     "near_miss_auc": {
+      "value": 0.04062499999999991,
+      "lo": -0.007221156817671828,
+      "hi": 0.10505375010336546
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.025974025974025983,
+      "lo": -0.07477219626168224,
+      "hi": 0.13559624697336567
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.008405591295890247,
+      "lo": -0.040649058008873085,
+      "hi": 0.01869349417578263
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.002083333333333326,
+      "lo": -0.025616325331493665,
+      "hi": 0.025963865153400396
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.09244731713134802,
+      "lo": 0.04385838969037295,
+      "hi": 0.14416171144414386
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.022916666666666585,
+      "lo": -0.042554030471843696,
+      "hi": 0.0851392289335854
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.11069790583814809,
+      "lo": 0.05836740812897329,
+      "hi": 0.16394331770115805
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.06770833333333326,
+      "lo": 0.03041581216951749,
+      "hi": 0.11577745834974897
+     }
+    }
+   }
+  },
+  "35251023": {
+   "n_proteins": 15,
+   "n_positives": 80,
+   "windows": 66704,
+   "eligible_proteins": 2739,
+   "eligible_positives": 20691,
+   "share_of_eligible_proteins": 0.00547645125958379,
+   "share_of_eligible_positives": 0.003866415349668938,
+   "excluded_over_1000_positive_share": 0.15876565295169948,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8608682272799889,
+     "length_matched_auc": 0.78168358053349,
+     "near_miss_auc": 0.8112712975098296,
+     "near_miss_auc_same_length": 0.7235023041474654,
+     "peptide_auroc_length_free": 0.7825538936732234,
+     "near_miss_auc_length_free": 0.7391874180865007
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.941067624583864,
+     "length_matched_auc": 0.8958478818166857,
+     "near_miss_auc": 0.8709043250327654,
+     "near_miss_auc_same_length": 0.8571428571428571,
+     "peptide_auroc_length_free": 0.9074953766856625,
+     "near_miss_auc_length_free": 0.8387942332896461
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9494728879140092,
+     "length_matched_auc": 0.911302031871056,
+     "near_miss_auc": 0.8833551769331586,
+     "near_miss_auc_same_length": 0.8433179723502304,
+     "peptide_auroc_length_free": 0.9188474655582916,
+     "near_miss_auc_length_free": 0.8328964613368283
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8463093190623374,
+     "length_matched_auc": 0.7360814694674942,
+     "near_miss_auc": 0.8007863695937091,
+     "near_miss_auc_same_length": 0.7235023041474654
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.737496701790775,
+     "near_miss_auc_length_free": 0.7018348623853211
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.10316356885167177,
+      "lo": 0.051282053181805176,
+      "hi": 0.1708538677790814
+     },
+     "length_matched_auc": {
+      "value": 0.17522056240356176,
+      "lo": 0.0923711354305193,
+      "hi": 0.2702890764950379
+     },
+     "near_miss_auc": {
+      "value": 0.08256880733944949,
+      "lo": 0.02757024615628948,
+      "hi": 0.16125257027194878
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11981566820276501,
+      "lo": 0.02555464556202462,
+      "hi": 0.24546224961479196
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.09475830552152653,
+      "lo": 0.04591323293863027,
+      "hi": 0.15726497895641633
+     },
+     "length_matched_auc": {
+      "value": 0.15976641234919153,
+      "lo": 0.0811477685491686,
+      "hi": 0.25223780048249606
+     },
+     "near_miss_auc": {
+      "value": 0.0701179554390563,
+      "lo": -0.0018980688685572894,
+      "hi": 0.14869970523212975
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.13364055299539168,
+      "lo": 0.038461538461538436,
+      "hi": 0.2486809747373128
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.01455890821765149,
+      "lo": -0.03684264097601619,
+      "hi": 0.06116585890627488
+     },
+     "length_matched_auc": {
+      "value": 0.045602111065995765,
+      "lo": -0.043539075340735374,
+      "hi": 0.15152420913637837
+     },
+     "near_miss_auc": {
+      "value": 0.010484927916120546,
+      "lo": -0.046602442303799764,
+      "hi": 0.08265655808197339
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": -0.09448818897637801,
+      "hi": 0.10679522939309397
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.00840526333014524,
+      "lo": -0.000700805083434125,
+      "hi": 0.01806286707166392
+     },
+     "length_matched_auc": {
+      "value": 0.01545415005437023,
+      "lo": -0.002405188268755806,
+      "hi": 0.03479157939602824
+     },
+     "near_miss_auc": {
+      "value": 0.01245085190039319,
+      "lo": -0.02388766775103708,
+      "hi": 0.05434496100598514
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.013824884792626668,
+      "lo": -0.06573285869060512,
+      "hi": 0.05660377358490565
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.08860466063402028,
+      "lo": 0.03780802850436383,
+      "hi": 0.15082962675496803
+     },
+     "length_matched_auc": {
+      "value": 0.129618451337566,
+      "lo": 0.06334637508791105,
+      "hi": 0.19893664142626588
+     },
+     "near_miss_auc": {
+      "value": 0.07208387942332894,
+      "lo": 0.04387744134411576,
+      "hi": 0.11659325909319816
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11981566820276501,
+      "lo": 0.04854155083187201,
+      "hi": 0.23160342717258253
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.08019939730387504,
+      "lo": 0.03135253062403835,
+      "hi": 0.1393240312594349
+     },
+     "length_matched_auc": {
+      "value": 0.11416430128319577,
+      "lo": 0.04979034472780164,
+      "hi": 0.18278976070423095
+     },
+     "near_miss_auc": {
+      "value": 0.059633027522935755,
+      "lo": 0.018343419558611417,
+      "hi": 0.10520942593230263
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.13364055299539168,
+      "lo": 0.041093083314619305,
+      "hi": 0.23904051602499488
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.04505719188244839,
+      "lo": -0.042494234484805216,
+      "hi": 0.14740364224717536
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.03735255570117957,
+      "lo": -0.04262167562628627,
+      "hi": 0.11701753826078318
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.1699986748948875,
+      "lo": 0.09421869925034133,
+      "hi": 0.2583700064561489
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.13695937090432497,
+      "lo": 0.03081865526293494,
+      "hi": 0.2646912771375186
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.18135076376751658,
+      "lo": 0.09807129679043719,
+      "hi": 0.27517015740415884
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.13106159895150715,
+      "lo": 0.03310294719346464,
+      "hi": 0.26117064723691163
+     }
+    }
+   }
+  },
+  "36215666": {
+   "n_proteins": 15,
+   "n_positives": 79,
+   "windows": 81235,
+   "eligible_proteins": 2329,
+   "eligible_positives": 8050,
+   "share_of_eligible_proteins": 0.006440532417346501,
+   "share_of_eligible_positives": 0.009813664596273293,
+   "excluded_over_1000_positive_share": 0.22003681813777734,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.6636875787394948,
+     "length_matched_auc": 0.5969884795312466,
+     "near_miss_auc": 0.697391304347826,
+     "near_miss_auc_same_length": 0.656441717791411,
+     "peptide_auroc_length_free": 0.5932449541447832,
+     "near_miss_auc_length_free": 0.6269565217391304
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.7372572414612993,
+     "length_matched_auc": 0.6810992902631062,
+     "near_miss_auc": 0.7408695652173913,
+     "near_miss_auc_same_length": 0.7239263803680982,
+     "peptide_auroc_length_free": 0.6781062158914466,
+     "near_miss_auc_length_free": 0.6478260869565218
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.7533945914567571,
+     "length_matched_auc": 0.7086276451659344,
+     "near_miss_auc": 0.7530434782608696,
+     "near_miss_auc_same_length": 0.7300613496932515,
+     "peptide_auroc_length_free": 0.7033781507814162,
+     "near_miss_auc_length_free": 0.6860869565217391
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.6742293117975497,
+     "length_matched_auc": 0.5798753188640846,
+     "near_miss_auc": 0.6991304347826087,
+     "near_miss_auc_same_length": 0.5950920245398773
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.5751703119720653,
+     "near_miss_auc_length_free": 0.611304347826087
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.07916527965920739,
+      "lo": 0.00993670291538562,
+      "hi": 0.15638410939291397
+     },
+     "length_matched_auc": {
+      "value": 0.12875232630184974,
+      "lo": 0.028143643788368138,
+      "hi": 0.24614944784803797
+     },
+     "near_miss_auc": {
+      "value": 0.05391304347826087,
+      "lo": -0.019465397215397237,
+      "hi": 0.1040964798465574
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.13496932515337423,
+      "lo": 0.02305970149253723,
+      "hi": 0.22702767985376682
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.0630279296637496,
+      "lo": -0.009207800529885077,
+      "hi": 0.1430484182081228
+     },
+     "length_matched_auc": {
+      "value": 0.10122397139902162,
+      "lo": -0.006394728986796474,
+      "hi": 0.21934950045930746
+     },
+     "near_miss_auc": {
+      "value": 0.04173913043478261,
+      "lo": -0.015771725562574116,
+      "hi": 0.10564451258210288
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.1288343558282209,
+      "lo": 0.0,
+      "hi": 0.2592681623931623
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.010541733058054947,
+      "lo": -0.06705830179417002,
+      "hi": 0.04754461783480545
+     },
+     "length_matched_auc": {
+      "value": 0.017113160667161953,
+      "lo": -0.07794837171607191,
+      "hi": 0.11320584854199894
+     },
+     "near_miss_auc": {
+      "value": -0.0017391304347826875,
+      "lo": -0.053698967104605554,
+      "hi": 0.060665816416351305
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06134969325153372,
+      "lo": -0.022222222222222254,
+      "hi": 0.1641842159067675
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.016137349995457795,
+      "lo": 0.001997492200849338,
+      "hi": 0.031626845208808964
+     },
+     "length_matched_auc": {
+      "value": 0.027528354902828123,
+      "lo": 0.006597764243646415,
+      "hi": 0.05060880111601438
+     },
+     "near_miss_auc": {
+      "value": 0.012173913043478257,
+      "lo": -0.04162749391973032,
+      "hi": 0.03716698450496261
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.006134969325153339,
+      "lo": -0.10002808988764042,
+      "hi": 0.0795629910213243
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.08970701271726234,
+      "lo": 0.011299263261096388,
+      "hi": 0.1614938006066594
+     },
+     "length_matched_auc": {
+      "value": 0.11163916563468779,
+      "lo": -0.01736956967825566,
+      "hi": 0.2334357209450342
+     },
+     "near_miss_auc": {
+      "value": 0.05565217391304356,
+      "lo": -0.024177854112207253,
+      "hi": 0.10010991287534378
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07361963190184051,
+      "lo": -0.050000000000000044,
+      "hi": 0.12946841931216926
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.07356966272180454,
+      "lo": -0.004968609188080987,
+      "hi": 0.1451943080877738
+     },
+     "length_matched_auc": {
+      "value": 0.08411081073185966,
+      "lo": -0.0473029555306204,
+      "hi": 0.2066945306933963
+     },
+     "near_miss_auc": {
+      "value": 0.0434782608695653,
+      "lo": -0.014018384165840796,
+      "hi": 0.09888298481992763
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06748466257668717,
+      "lo": -0.03298700256739402,
+      "hi": 0.14167109929078017
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.018074642172717925,
+      "lo": -0.08171717145771074,
+      "hi": 0.11546812473390966
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.01565217391304341,
+      "lo": -0.05064349705829921,
+      "hi": 0.10102931488801042
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.10293590391938134,
+      "lo": -0.0019517562419621903,
+      "hi": 0.21877845491241588
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.03652173913043477,
+      "lo": -0.07686889239913255,
+      "hi": 0.12459176041798338
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.12820783880935094,
+      "lo": 0.02615987441423492,
+      "hi": 0.24888445523003339
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.07478260869565212,
+      "lo": -0.05081548510816807,
+      "hi": 0.14441264487934638
+     }
+    }
+   }
+  },
+  "39617188": {
+   "n_proteins": 15,
+   "n_positives": 72,
+   "windows": 62832,
+   "eligible_proteins": 961,
+   "eligible_positives": 3974,
+   "share_of_eligible_proteins": 0.015608740894901144,
+   "share_of_eligible_positives": 0.018117765475591345,
+   "excluded_over_1000_positive_share": 0.16107240869748787,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.7955602478573931,
+     "length_matched_auc": 0.6754517541053107,
+     "near_miss_auc": 0.8240917782026769,
+     "near_miss_auc_same_length": 0.8082191780821918,
+     "peptide_auroc_length_free": 0.6681918412092145,
+     "near_miss_auc_length_free": 0.780114722753346
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.9138954939524861,
+     "length_matched_auc": 0.9074615035135334,
+     "near_miss_auc": 0.875717017208413,
+     "near_miss_auc_same_length": 0.863013698630137,
+     "peptide_auroc_length_free": 0.9120199794186129,
+     "near_miss_auc_length_free": 0.8661567877629063
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9262286995267786,
+     "length_matched_auc": 0.9296124290464703,
+     "near_miss_auc": 0.9005736137667304,
+     "near_miss_auc_same_length": 0.8767123287671232,
+     "peptide_auroc_length_free": 0.9300567904443333,
+     "near_miss_auc_length_free": 0.887189292543021
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.7832163729862914,
+     "length_matched_auc": 0.7061178123115861,
+     "near_miss_auc": 0.8451242829827916,
+     "near_miss_auc_same_length": 0.7808219178082192
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7027027953344303,
+     "near_miss_auc_length_free": 0.7915869980879541
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.14301232654048712,
+      "lo": 0.06937161611375063,
+      "hi": 0.24615193281106892
+     },
+     "length_matched_auc": {
+      "value": 0.22349461673488424,
+      "lo": 0.13215295710164315,
+      "hi": 0.3438131884442875
+     },
+     "near_miss_auc": {
+      "value": 0.055449330783938766,
+      "lo": 0.004916077836970326,
+      "hi": 0.10089696198440588
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.09589041095890405,
+      "lo": -0.032271285034373424,
+      "hi": 0.2264150943396227
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.13067912096619472,
+      "lo": 0.057877269227436696,
+      "hi": 0.2351291205697343
+     },
+     "length_matched_auc": {
+      "value": 0.20134369120194728,
+      "lo": 0.11000813930062413,
+      "hi": 0.3216261380503538
+     },
+     "near_miss_auc": {
+      "value": 0.030592734225621365,
+      "lo": -0.02915421680260568,
+      "hi": 0.08130791972255383
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0821917808219178,
+      "lo": -0.05481354642313546,
+      "hi": 0.20370370370370372
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.012343874871101668,
+      "lo": -0.037324145576976324,
+      "hi": 0.08236334817911858
+     },
+     "length_matched_auc": {
+      "value": -0.030666058206275437,
+      "lo": -0.09901529496848112,
+      "hi": 0.04957666217814604
+     },
+     "near_miss_auc": {
+      "value": -0.021032504780114758,
+      "lo": -0.07543065277398325,
+      "hi": 0.017658184984520108
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0273972602739726,
+      "lo": -0.08222031963470319,
+      "hi": 0.15191482514481855
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.012333205574292405,
+      "lo": 0.0021871866764875793,
+      "hi": 0.02790749773142498
+     },
+     "length_matched_auc": {
+      "value": 0.02215092553293696,
+      "lo": 0.007731766523599074,
+      "hi": 0.04040106310359904
+     },
+     "near_miss_auc": {
+      "value": 0.0248565965583174,
+      "lo": 0.0056254195569478025,
+      "hi": 0.05138557893513139
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.013698630136986245,
+      "lo": -0.03389830508474578,
+      "hi": 0.06818960149439603
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.13066845166938545,
+      "lo": 0.06977620411102706,
+      "hi": 0.21435371810150014
+     },
+     "length_matched_auc": {
+      "value": 0.2541606749411597,
+      "lo": 0.17533666114718582,
+      "hi": 0.34125339928579324
+     },
+     "near_miss_auc": {
+      "value": 0.07648183556405352,
+      "lo": 0.022380844396800482,
+      "hi": 0.13302454473475847
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06849315068493145,
+      "lo": -0.02440548780487807,
+      "hi": 0.19999999999999996
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.11833524609509305,
+      "lo": 0.05833534260665349,
+      "hi": 0.2010143705072644
+     },
+     "length_matched_auc": {
+      "value": 0.23200974940822272,
+      "lo": 0.15909437139229196,
+      "hi": 0.31915112508154847
+     },
+     "near_miss_auc": {
+      "value": 0.05162523900573612,
+      "lo": 0.0034039809290571854,
+      "hi": 0.09303313089418841
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0547945205479452,
+      "lo": -0.04921664245694122,
+      "hi": 0.1842105263157895
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.034510954125215765,
+      "lo": -0.1022206310490112,
+      "hi": 0.04612311283729362
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.01147227533460804,
+      "lo": -0.1037013356067065,
+      "hi": 0.06889782756279696
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.20931718408418265,
+      "lo": 0.11977075713816611,
+      "hi": 0.32842250980942406
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.0745697896749522,
+      "lo": -0.011609398111275386,
+      "hi": 0.14682728557363164
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.22735399510990306,
+      "lo": 0.13531785833614557,
+      "hi": 0.34673355554572216
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.09560229445506696,
+      "lo": 0.006329000044982195,
+      "hi": 0.16716939666076389
+     }
+    }
+   }
+  },
+  "40684438": {
+   "n_proteins": 15,
+   "n_positives": 24,
+   "windows": 67177,
+   "eligible_proteins": 644,
+   "eligible_positives": 1784,
+   "share_of_eligible_proteins": 0.023291925465838508,
+   "share_of_eligible_positives": 0.013452914798206279,
+   "excluded_over_1000_positive_share": 0.11901234567901235,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.7470449180623306,
+     "length_matched_auc": 0.5399560916099961,
+     "near_miss_auc": 0.6239837398373984,
+     "near_miss_auc_same_length": 0.569620253164557,
+     "peptide_auroc_length_free": 0.5365606508545421,
+     "near_miss_auc_length_free": 0.5487804878048781
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.7739734764172251,
+     "length_matched_auc": 0.6905693655838518,
+     "near_miss_auc": 0.6666666666666666,
+     "near_miss_auc_same_length": 0.6582278481012658,
+     "peptide_auroc_length_free": 0.6930469548186639,
+     "near_miss_auc_length_free": 0.6300813008130082
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.8004199675086802,
+     "length_matched_auc": 0.7174362852814121,
+     "near_miss_auc": 0.6504065040650406,
+     "near_miss_auc_same_length": 0.6075949367088608,
+     "peptide_auroc_length_free": 0.7238474657474014,
+     "near_miss_auc_length_free": 0.6117886178861789
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.7648794059275876,
+     "length_matched_auc": 0.607848143831667,
+     "near_miss_auc": 0.6361788617886179,
+     "near_miss_auc_same_length": 0.5443037974683544
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.6160118582851589,
+     "near_miss_auc_length_free": 0.5447154471544715
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.035540561581092533,
+      "lo": -0.0550024715505189,
+      "hi": 0.11763051851836835
+     },
+     "length_matched_auc": {
+      "value": 0.10958814144974516,
+      "lo": -0.016898534833004557,
+      "hi": 0.2242305272734351
+     },
+     "near_miss_auc": {
+      "value": 0.014227642276422703,
+      "lo": -0.1313073638463409,
+      "hi": 0.14935023328589728
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06329113924050633,
+      "lo": -0.14707087753134038,
+      "hi": 0.2603055848261326
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.009094070489637507,
+      "lo": -0.099536530116627,
+      "hi": 0.09771703555140555
+     },
+     "length_matched_auc": {
+      "value": 0.08272122175218488,
+      "lo": -0.06005057705452895,
+      "hi": 0.20713819909120793
+     },
+     "near_miss_auc": {
+      "value": 0.030487804878048697,
+      "lo": -0.14765836168061047,
+      "hi": 0.18218897976754186
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11392405063291133,
+      "lo": -0.08513389581804844,
+      "hi": 0.3000520833333331
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.017834487865256987,
+      "lo": -0.07928092747899815,
+      "hi": 0.04908611276541612
+     },
+     "length_matched_auc": {
+      "value": -0.06789205222167083,
+      "lo": -0.18855359957207696,
+      "hi": 0.05519142283816411
+     },
+     "near_miss_auc": {
+      "value": -0.012195121951219523,
+      "lo": -0.15039149731632642,
+      "hi": 0.0944532482300721
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.025316455696202556,
+      "lo": -0.18036512667660207,
+      "hi": 0.19541920216362396
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.026446491091455027,
+      "lo": -0.014389437305253166,
+      "hi": 0.06676693554853183
+     },
+     "length_matched_auc": {
+      "value": 0.026866919697560276,
+      "lo": -0.02795347802716355,
+      "hi": 0.07943620314858602
+     },
+     "near_miss_auc": {
+      "value": -0.016260162601625994,
+      "lo": -0.06137219859170031,
+      "hi": 0.03031389716840528
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.050632911392405,
+      "lo": -0.11842662801070476,
+      "hi": 0.015625
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.05337504944634952,
+      "lo": -0.028517389760010236,
+      "hi": 0.13156309663831858
+     },
+     "length_matched_auc": {
+      "value": 0.177480193671416,
+      "lo": 0.04591882291743801,
+      "hi": 0.2920043967227885
+     },
+     "near_miss_auc": {
+      "value": 0.026422764227642226,
+      "lo": -0.07499999999999996,
+      "hi": 0.13961377778301542
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.03797468354430378,
+      "lo": -0.05660377358490565,
+      "hi": 0.15152474108170313
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.026928558354894494,
+      "lo": -0.05726138315148216,
+      "hi": 0.11004752135185306
+     },
+     "length_matched_auc": {
+      "value": 0.1506132739738557,
+      "lo": 0.040417289986944153,
+      "hi": 0.25959867445197554
+     },
+     "near_miss_auc": {
+      "value": 0.04268292682926822,
+      "lo": -0.06370507084265474,
+      "hi": 0.14805247490845871
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.08860759493670878,
+      "lo": 0.010635498320268716,
+      "hi": 0.17567567567567566
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.07945120743061684,
+      "lo": -0.19876736114100219,
+      "hi": 0.03833184014188163
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.004065040650406582,
+      "lo": -0.14737548569410103,
+      "hi": 0.1650433684672812
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.07703509653350493,
+      "lo": -0.06721145365330457,
+      "hi": 0.20003789430921345
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.08536585365853666,
+      "lo": -0.08370577394976876,
+      "hi": 0.2702112120931094
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.10783560746224252,
+      "lo": -0.024944894947054264,
+      "hi": 0.2269902991537661
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.06707317073170738,
+      "lo": -0.09048210428879977,
+      "hi": 0.23763142644258603
+     }
+    }
+   }
+  },
+  "40689854": {
+   "n_proteins": 15,
+   "n_positives": 54,
+   "windows": 70323,
+   "eligible_proteins": 762,
+   "eligible_positives": 3476,
+   "share_of_eligible_proteins": 0.01968503937007874,
+   "share_of_eligible_positives": 0.015535097813578827,
+   "excluded_over_1000_positive_share": 0.17356157869709937,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8456085849710445,
+     "length_matched_auc": 0.8115237466676679,
+     "near_miss_auc": 0.8174157303370787,
+     "near_miss_auc_same_length": 0.8545454545454545,
+     "peptide_auroc_length_free": 0.8106833679259838,
+     "near_miss_auc_length_free": 0.7893258426966292
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.9315531058101321,
+     "length_matched_auc": 0.9053508962161405,
+     "near_miss_auc": 0.8286516853932584,
+     "near_miss_auc_same_length": 0.8181818181818182,
+     "peptide_auroc_length_free": 0.907922097824199,
+     "near_miss_auc_length_free": 0.7191011235955056
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9523201872207376,
+     "length_matched_auc": 0.9305123897748013,
+     "near_miss_auc": 0.8370786516853933,
+     "near_miss_auc_same_length": 0.8363636363636363,
+     "peptide_auroc_length_free": 0.9328235436742982,
+     "near_miss_auc_length_free": 0.7752808988764045
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8629222707908473,
+     "length_matched_auc": 0.7984753969204558,
+     "near_miss_auc": 0.8146067415730337,
+     "near_miss_auc_same_length": 0.8
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7990933481304011,
+     "near_miss_auc_length_free": 0.7471910112359551
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.08939791642989037,
+      "lo": 0.03527797143161127,
+      "hi": 0.14713646795774982
+     },
+     "length_matched_auc": {
+      "value": 0.13203699285434556,
+      "lo": 0.05169221678717463,
+      "hi": 0.21555273029656122
+     },
+     "near_miss_auc": {
+      "value": 0.022471910112359605,
+      "lo": -0.07727501341201717,
+      "hi": 0.09907710622841565
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.036363636363636265,
+      "lo": -0.17443313953488382,
+      "hi": 0.25719576719576687
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.0686308350192848,
+      "lo": -0.0009082698791503695,
+      "hi": 0.1346120135275609
+     },
+     "length_matched_auc": {
+      "value": 0.10687549929568474,
+      "lo": 0.014458548325159895,
+      "hi": 0.19635604133663964
+     },
+     "near_miss_auc": {
+      "value": 0.014044943820224698,
+      "lo": -0.06638390100843794,
+      "hi": 0.08366083916083912
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.018181818181818188,
+      "lo": -0.14458704382748386,
+      "hi": 0.19512195121951215
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.01731368581980275,
+      "lo": -0.05675961316287769,
+      "hi": 0.021477481948541603
+     },
+     "length_matched_auc": {
+      "value": 0.01304834974721214,
+      "lo": -0.08082174836499495,
+      "hi": 0.10186222479650923
+     },
+     "near_miss_auc": {
+      "value": 0.002808988764045006,
+      "lo": -0.06835547528063056,
+      "hi": 0.1096966286514605
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.05454545454545445,
+      "lo": -0.18335526315789474,
+      "hi": 0.33333333333333326
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.02076708141060557,
+      "lo": 0.00444425348895742,
+      "hi": 0.0478242245133211
+     },
+     "length_matched_auc": {
+      "value": 0.02516149355866082,
+      "lo": 0.007314814339447306,
+      "hi": 0.05314787797184198
+     },
+     "near_miss_auc": {
+      "value": 0.008426966292134908,
+      "lo": -0.024536822690944444,
+      "hi": 0.03580273819901968
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.018181818181818077,
+      "lo": -0.0447930800542741,
+      "hi": 0.06896551724137934
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.10671160224969312,
+      "lo": 0.04325664915927529,
+      "hi": 0.16745210943521185
+     },
+     "length_matched_auc": {
+      "value": 0.11898864310713342,
+      "lo": 0.03192521292807287,
+      "hi": 0.21297286308071234
+     },
+     "near_miss_auc": {
+      "value": 0.0196629213483146,
+      "lo": -0.12619423070572303,
+      "hi": 0.13654709759434014
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.018181818181818188,
+      "lo": -0.2592592592592593,
+      "hi": 0.1923076923076923
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.08594452083908755,
+      "lo": 0.0027697766025086114,
+      "hi": 0.15887680682813882
+     },
+     "length_matched_auc": {
+      "value": 0.0938271495484726,
+      "lo": -0.01229064107531409,
+      "hi": 0.19356300023306783
+     },
+     "near_miss_auc": {
+      "value": 0.011235955056179692,
+      "lo": -0.10137989443737373,
+      "hi": 0.10855620709382147
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.036363636363636265,
+      "lo": -0.2340738423028786,
+      "hi": 0.14707087753134038
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.011590019795582718,
+      "lo": -0.08400839830778914,
+      "hi": 0.10019979722644104
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.042134831460674094,
+      "lo": -0.13938261105795924,
+      "hi": 0.25758046301524556
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.10882874969379785,
+      "lo": 0.018226695967586946,
+      "hi": 0.1963129778502333
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.028089887640449507,
+      "lo": -0.14471794711703556,
+      "hi": 0.11712078528039441
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.1337301955438971,
+      "lo": 0.05580483922806502,
+      "hi": 0.21388084701028776
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.028089887640449396,
+      "lo": -0.10047604344393796,
+      "hi": 0.16667789757412388
+     }
+    }
+   }
+  },
+  "41315082": {
+   "n_proteins": 14,
+   "n_positives": 107,
+   "windows": 54659,
+   "eligible_proteins": 241,
+   "eligible_positives": 1318,
+   "share_of_eligible_proteins": 0.058091286307053944,
+   "share_of_eligible_positives": 0.08118361153262518,
+   "excluded_over_1000_positive_share": 0.09353507565337002,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.6830433591749243,
+     "length_matched_auc": 0.7481207852557029,
+     "near_miss_auc": 0.6328671328671329,
+     "near_miss_auc_same_length": 0.7844827586206896,
+     "peptide_auroc_length_free": 0.7465512672612622,
+     "near_miss_auc_length_free": 0.7494172494172494
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.7840514266218156,
+     "length_matched_auc": 0.7584467861469127,
+     "near_miss_auc": 0.7400932400932401,
+     "near_miss_auc_same_length": 0.7758620689655172,
+     "peptide_auroc_length_free": 0.76359084855931,
+     "near_miss_auc_length_free": 0.7668997668997669
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.8149464277949854,
+     "length_matched_auc": 0.8139945920562575,
+     "near_miss_auc": 0.7867132867132867,
+     "near_miss_auc_same_length": 0.8879310344827587,
+     "peptide_auroc_length_free": 0.8137390190229823,
+     "near_miss_auc_length_free": 0.8298368298368298
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.6998031493159689,
+     "length_matched_auc": 0.6868642740053239,
+     "near_miss_auc": 0.6771561771561772,
+     "near_miss_auc_same_length": 0.7241379310344828
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.6773656191619046,
+     "near_miss_auc_length_free": 0.7482517482517482
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.11514327847901651,
+      "lo": 0.053417280147965235,
+      "hi": 0.17857725087242612
+     },
+     "length_matched_auc": {
+      "value": 0.12713031805093356,
+      "lo": 0.043132535619798705,
+      "hi": 0.2105326391870108
+     },
+     "near_miss_auc": {
+      "value": 0.10955710955710951,
+      "lo": 0.0846679218874966,
+      "hi": 0.13526069681182698
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.1637931034482759,
+      "lo": 0.10203216879972328,
+      "hi": 0.2875
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.08424827730584672,
+      "lo": 0.012980652539043383,
+      "hi": 0.15427983300730777
+     },
+     "length_matched_auc": {
+      "value": 0.07158251214158884,
+      "lo": -0.014360641606192923,
+      "hi": 0.15564664512486004
+     },
+     "near_miss_auc": {
+      "value": 0.06293706293706292,
+      "lo": 0.03729242592476521,
+      "hi": 0.09492069146542675
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.051724137931034475,
+      "lo": -0.020847259358288805,
+      "hi": 0.16666666666666663
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.01675979014104456,
+      "lo": -0.071402763093294,
+      "hi": 0.04106527299672267
+     },
+     "length_matched_auc": {
+      "value": 0.06125651125037901,
+      "lo": -0.01953100171292305,
+      "hi": 0.15113882647242405
+     },
+     "near_miss_auc": {
+      "value": -0.04428904428904423,
+      "lo": -0.08317670028838328,
+      "hi": 0.012523028466155632
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.06034482758620685,
+      "lo": -0.02454621507884204,
+      "hi": 0.18000000000000005
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.03089500117316979,
+      "lo": 0.0018802652848006866,
+      "hi": 0.06304631353189435
+     },
+     "length_matched_auc": {
+      "value": 0.055547805909344716,
+      "lo": 0.018208842092658033,
+      "hi": 0.09901254640455134
+     },
+     "near_miss_auc": {
+      "value": 0.046620046620046596,
+      "lo": 0.012672962460958202,
+      "hi": 0.06988116298187663
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11206896551724144,
+      "lo": 0.0377183787561146,
+      "hi": 0.17333884297520658
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.13190306862006107,
+      "lo": 0.04905844509145426,
+      "hi": 0.21863760611656607
+     },
+     "length_matched_auc": {
+      "value": 0.06587380680055455,
+      "lo": -0.02472239159809934,
+      "hi": 0.15802090026673596
+     },
+     "near_miss_auc": {
+      "value": 0.15384615384615374,
+      "lo": 0.09332240437158464,
+      "hi": 0.19871981159006563
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.10344827586206906,
+      "lo": 0.0,
+      "hi": 0.22226368159203966
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.10100806744689128,
+      "lo": 0.007032033548745687,
+      "hi": 0.19723463692370574
+     },
+     "length_matched_auc": {
+      "value": 0.01032600089120983,
+      "lo": -0.07732563426252508,
+      "hi": 0.10343026479397001
+     },
+     "near_miss_auc": {
+      "value": 0.10722610722610715,
+      "lo": 0.06804518297236745,
+      "hi": 0.14848317710082615
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.008620689655172376,
+      "lo": -0.09016547516331812,
+      "hi": 0.10002525252525236
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.06918564809935757,
+      "lo": -0.010334766381845445,
+      "hi": 0.15521283204293676
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.0011655011655011815,
+      "lo": -0.04475581868684452,
+      "hi": 0.08459034614163213
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.0862252293974054,
+      "lo": 0.0069767126681778095,
+      "hi": 0.1640241240498893
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.018648018648018683,
+      "lo": -0.03082139330552365,
+      "hi": 0.09963511822432955
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.13637339986107766,
+      "lo": 0.05359293522720933,
+      "hi": 0.2177098369266123
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.0815850815850816,
+      "lo": 0.04371566605146026,
+      "hi": 0.14331613508442764
+     }
+    }
+   }
+  },
+  "41534530": {
+   "n_proteins": 15,
+   "n_positives": 38,
+   "windows": 45485,
+   "eligible_proteins": 596,
+   "eligible_positives": 1980,
+   "share_of_eligible_proteins": 0.025167785234899327,
+   "share_of_eligible_positives": 0.01919191919191919,
+   "excluded_over_1000_positive_share": 0.08502772643253234,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.7889191107158843,
+     "length_matched_auc": 0.7229004048345132,
+     "near_miss_auc": 0.7268170426065163,
+     "near_miss_auc_same_length": 0.6346153846153846,
+     "peptide_auroc_length_free": 0.7229437524593206,
+     "near_miss_auc_length_free": 0.6491228070175439
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8886007484994739,
+     "length_matched_auc": 0.8774845304957631,
+     "near_miss_auc": 0.7619047619047619,
+     "near_miss_auc_same_length": 0.7692307692307693,
+     "peptide_auroc_length_free": 0.8816323029663764,
+     "near_miss_auc_length_free": 0.7268170426065163
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.884145751112633,
+     "length_matched_auc": 0.8812054691553537,
+     "near_miss_auc": 0.7568922305764411,
+     "near_miss_auc_same_length": 0.75,
+     "peptide_auroc_length_free": 0.8835459588283965,
+     "near_miss_auc_length_free": 0.7243107769423559
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8470516137508292,
+     "length_matched_auc": 0.7897044124254066,
+     "near_miss_auc": 0.7744360902255639,
+     "near_miss_auc_same_length": 0.6923076923076923
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7889979447027805,
+     "near_miss_auc_length_free": 0.7493734335839599
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.03709413736180389,
+      "lo": -0.000793757789311475,
+      "hi": 0.07351640328091558
+     },
+     "length_matched_auc": {
+      "value": 0.09150105672994713,
+      "lo": 0.026971688396981768,
+      "hi": 0.15436331825902574
+     },
+     "near_miss_auc": {
+      "value": -0.01754385964912286,
+      "lo": -0.10056762851724659,
+      "hi": 0.09375
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.05769230769230771,
+      "lo": -0.07692307692307687,
+      "hi": 0.23917069243156172
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.041549134748644745,
+      "lo": -0.011235115124740345,
+      "hi": 0.09357536212996384
+     },
+     "length_matched_auc": {
+      "value": 0.08778011807035657,
+      "lo": 0.0009337126103674215,
+      "hi": 0.16444012226056917
+     },
+     "near_miss_auc": {
+      "value": -0.01253132832080206,
+      "lo": -0.125,
+      "hi": 0.11500961538461532
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.07692307692307698,
+      "lo": -0.08512158054711247,
+      "hi": 0.2777777777777777
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.05813250303494488,
+      "lo": -0.12490247034050737,
+      "hi": 0.006114838338853865
+     },
+     "length_matched_auc": {
+      "value": -0.06680400759089333,
+      "lo": -0.13580147864747172,
+      "hi": 0.0024667856989491373
+     },
+     "near_miss_auc": {
+      "value": -0.04761904761904767,
+      "lo": -0.12560301313913616,
+      "hi": 0.04387153227897326
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.05769230769230771,
+      "lo": -0.21622747747747748,
+      "hi": 0.09999999999999998
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": -0.004454997386840853,
+      "lo": -0.0343766582478638,
+      "hi": 0.0289463079339786
+     },
+     "length_matched_auc": {
+      "value": 0.003720938659590556,
+      "lo": -0.024680140724858433,
+      "hi": 0.04081753744738419
+     },
+     "near_miss_auc": {
+      "value": -0.005012531328320802,
+      "lo": -0.05507723112128155,
+      "hi": 0.05084828684201795
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.019230769230769273,
+      "lo": -0.1594670406732117,
+      "hi": 0.10258620689655157
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.09522664039674877,
+      "lo": 0.02880868475925679,
+      "hi": 0.15831441190773554
+     },
+     "length_matched_auc": {
+      "value": 0.15830506432084046,
+      "lo": 0.06848588155602156,
+      "hi": 0.2525513917965734
+     },
+     "near_miss_auc": {
+      "value": 0.03007518796992481,
+      "lo": -0.052749709639953575,
+      "hi": 0.10667379679144383
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.11538461538461542,
+      "lo": -0.11908866995073893,
+      "hi": 0.3157894736842105
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.09968163778358963,
+      "lo": 0.017128295381170416,
+      "hi": 0.1852816483004499
+     },
+     "length_matched_auc": {
+      "value": 0.1545841256612499,
+      "lo": 0.05806409093096728,
+      "hi": 0.26637721458735997
+     },
+     "near_miss_auc": {
+      "value": 0.03508771929824561,
+      "lo": -0.03802118413034411,
+      "hi": 0.1171431560071727
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.1346153846153847,
+      "lo": -0.04619047619047624,
+      "hi": 0.33333333333333337
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.06605419224345987,
+      "lo": -0.14262199251224897,
+      "hi": 0.012590726658759963
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.10025062656641603,
+      "lo": -0.2489695858940075,
+      "hi": 0.056662244408466636
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.0926343582635959,
+      "lo": 0.015859830720783712,
+      "hi": 0.161654081459652
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.022556390977443663,
+      "lo": -0.16136369557005725,
+      "hi": 0.14151085473971364
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.09454801412561598,
+      "lo": 0.03550522806789204,
+      "hi": 0.153451170838124
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.02506265664160401,
+      "lo": -0.15106827241727097,
+      "hi": 0.14780747728860938
+     }
+    }
+   }
+  },
+  "42228098": {
+   "n_proteins": 15,
+   "n_positives": 37,
+   "windows": 50061,
+   "eligible_proteins": 661,
+   "eligible_positives": 2106,
+   "share_of_eligible_proteins": 0.0226928895612708,
+   "share_of_eligible_positives": 0.017568850902184234,
+   "excluded_over_1000_positive_share": 0.1361771944216571,
+   "values": {
+    "Paul-style motif": {
+     "peptide_auroc": 0.8606768312306188,
+     "length_matched_auc": 0.7744119476580348,
+     "near_miss_auc": 0.8065693430656934,
+     "near_miss_auc_same_length": 0.8043478260869565,
+     "peptide_auroc_length_free": 0.7748450784341622,
+     "near_miss_auc_length_free": 0.7956204379562044
+    },
+    "LigTerm-GB": {
+     "peptide_auroc": 0.8995479726089483,
+     "length_matched_auc": 0.8520268682355586,
+     "near_miss_auc": 0.791970802919708,
+     "near_miss_auc_same_length": 0.717391304347826,
+     "peptide_auroc_length_free": 0.8528015300141006,
+     "near_miss_auc_length_free": 0.7627737226277372
+    },
+    "LigTerm-1S": {
+     "peptide_auroc": 0.9366016760086036,
+     "length_matched_auc": 0.8989135458480076,
+     "near_miss_auc": 0.8211678832116789,
+     "near_miss_auc_same_length": 0.7608695652173914,
+     "peptide_auroc_length_free": 0.9034650336428417,
+     "near_miss_auc_length_free": 0.7591240875912408
+    },
+    "MHCII-NP": {
+     "peptide_auroc": 0.8795549403494941,
+     "length_matched_auc": 0.7745427053693309,
+     "near_miss_auc": 0.8540145985401459,
+     "near_miss_auc_same_length": 0.8043478260869565
+    },
+    "MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": 0.7779671937567153,
+     "near_miss_auc_length_free": 0.7956204379562044
+    }
+   },
+   "differences": {
+    "LigTerm-1S - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.05704673565910945,
+      "lo": -0.009918815950941176,
+      "hi": 0.11408142824584301
+     },
+     "length_matched_auc": {
+      "value": 0.12437084047867675,
+      "lo": 0.024721164567653768,
+      "hi": 0.21951001960965447
+     },
+     "near_miss_auc": {
+      "value": -0.03284671532846706,
+      "lo": -0.12058349451966469,
+      "hi": 0.05556853582554513
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.04347826086956519,
+      "lo": -0.12767321331151124,
+      "hi": 0.11111111111111116
+     }
+    },
+    "LigTerm-GB - MHCII-NP": {
+     "peptide_auroc": {
+      "value": 0.019993032259454147,
+      "lo": -0.05292240349523001,
+      "hi": 0.08259270165513716
+     },
+     "length_matched_auc": {
+      "value": 0.07748416286622772,
+      "lo": -0.031911440860823495,
+      "hi": 0.17957413429728422
+     },
+     "near_miss_auc": {
+      "value": -0.062043795620437936,
+      "lo": -0.24688002657528496,
+      "hi": 0.030929832973707334
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.08695652173913049,
+      "lo": -0.3500462962962963,
+      "hi": 0.08113738738738714
+     }
+    },
+    "Paul-style motif - MHCII-NP": {
+     "peptide_auroc": {
+      "value": -0.01887810911887533,
+      "lo": -0.04920756241954867,
+      "hi": 0.013086532394546288
+     },
+     "length_matched_auc": {
+      "value": -0.00013075771129611446,
+      "lo": -0.04727665657163207,
+      "hi": 0.045301517131092095
+     },
+     "near_miss_auc": {
+      "value": -0.04744525547445255,
+      "lo": -0.13495670995671002,
+      "hi": 9.398496240550285e-05
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+     }
+    },
+    "LigTerm-1S - LigTerm-GB": {
+     "peptide_auroc": {
+      "value": 0.0370537033996553,
+      "lo": 0.0016852549741141537,
+      "hi": 0.08354074248291575
+     },
+     "length_matched_auc": {
+      "value": 0.046886677612449024,
+      "lo": -0.005015017944891892,
+      "hi": 0.11235250540540433
+     },
+     "near_miss_auc": {
+      "value": 0.02919708029197088,
+      "lo": -0.06641276041666666,
+      "hi": 0.18000000000000005
+     },
+     "near_miss_auc_same_length": {
+      "value": 0.0434782608695653,
+      "lo": -0.11111111111111116,
+      "hi": 0.3078124999999994
+     }
+    },
+    "LigTerm-1S - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.07592484477798478,
+      "lo": -0.0021350614930233268,
+      "hi": 0.14026786304457523
+     },
+     "length_matched_auc": {
+      "value": 0.12450159818997286,
+      "lo": 0.027601149195960777,
+      "hi": 0.2189575790155417
+     },
+     "near_miss_auc": {
+      "value": 0.014598540145985495,
+      "lo": -0.07628158469377147,
+      "hi": 0.14014769375454192
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.04347826086956519,
+      "lo": -0.12767321331151124,
+      "hi": 0.11111111111111116
+     }
+    },
+    "LigTerm-GB - Paul-style motif": {
+     "peptide_auroc": {
+      "value": 0.03887114137832948,
+      "lo": -0.046484298465916146,
+      "hi": 0.10751363071249821
+     },
+     "length_matched_auc": {
+      "value": 0.07761492057752384,
+      "lo": -0.029658763570470568,
+      "hi": 0.18459735208650913
+     },
+     "near_miss_auc": {
+      "value": -0.014598540145985384,
+      "lo": -0.21928565720222395,
+      "hi": 0.10457706338349289
+     },
+     "near_miss_auc_same_length": {
+      "value": -0.08695652173913049,
+      "lo": -0.3500462962962963,
+      "hi": 0.08113738738738714
+     }
+    },
+    "Paul-style motif - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": -0.0031221153225531317,
+      "lo": -0.047629203177627276,
+      "hi": 0.03862616047081166
+     },
+     "near_miss_auc_length_free": {
+      "value": 0.0,
+      "lo": -0.04286330049261079,
+      "hi": 0.040616635902168866
+     }
+    },
+    "LigTerm-GB - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.07483433625738534,
+      "lo": -0.033276381505825764,
+      "hi": 0.1767045411035115
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.03284671532846717,
+      "lo": -0.25162599944858016,
+      "hi": 0.08235294117647052
+     }
+    },
+    "LigTerm-1S - MHCII-NP (length-adjusted)": {
+     "peptide_auroc_length_free": {
+      "value": 0.1254978398861264,
+      "lo": 0.022789713812280878,
+      "hi": 0.2216024197248002
+     },
+     "near_miss_auc_length_free": {
+      "value": -0.03649635036496357,
+      "lo": -0.10136386386386383,
+      "hi": 0.07924978159580648
+     }
+    }
+   }
+  }
+ },
+ "contrasts": {
+  "LigTerm-1S - MHCII-NP": {
+   "peptide_auroc": {
+    "median": 0.06450411764044828,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.039443014079561106,
+    "ci_hi": 0.09635952053926959,
+    "half_width": 0.028458253229854243,
+    "min": -0.11636714131727544,
+    "max": 0.17910406102520404,
+    "reading": "exceeds"
+   },
+   "length_matched_auc": {
+    "median": 0.11902241784820922,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.08397501557639928,
+    "ci_hi": 0.1566684612095105,
+    "half_width": 0.03634672281655561,
+    "min": -0.11806029685910435,
+    "max": 0.235352713279669,
+    "reading": "exceeds"
+   },
+   "near_miss_auc": {
+    "median": 0.04040404040404044,
+    "n_positive": 15,
+    "n_negative": 4,
+    "ci_lo": 0.005791087732858654,
+    "ci_hi": 0.064980236557842,
+    "half_width": 0.029594574412491675,
+    "min": -0.09391534391534395,
+    "max": 0.20793269230769235,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_same_length": {
+    "median": 0.07042253521126762,
+    "n_positive": 15,
+    "n_negative": 4,
+    "ci_lo": 0.020826903292181,
+    "ci_hi": 0.126584388185654,
+    "half_width": 0.05287874244673651,
+    "min": -0.1333333333333333,
+    "max": 0.359375,
+    "reading": "exceeds"
+   }
+  },
+  "LigTerm-GB - MHCII-NP": {
+   "peptide_auroc": {
+    "median": 0.052847843021083585,
+    "n_positive": 17,
+    "n_negative": 2,
+    "ci_lo": 0.026192856412452982,
+    "ci_hi": 0.07948816772937527,
+    "half_width": 0.026647655658461143,
+    "min": -0.10044225425429165,
+    "max": 0.15876042588479145,
+    "reading": "exceeds"
+   },
+   "length_matched_auc": {
+    "median": 0.08779063736612147,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.05536431138105869,
+    "ci_hi": 0.13181911566981216,
+    "half_width": 0.03822740214437674,
+    "min": -0.10540704628268838,
+    "max": 0.20134369120194728,
+    "reading": "exceeds"
+   },
+   "near_miss_auc": {
+    "median": 0.02777777777777779,
+    "n_positive": 13,
+    "n_negative": 6,
+    "ci_lo": -0.007043188333541062,
+    "ci_hi": 0.05300988319856237,
+    "half_width": 0.030026535766051715,
+    "min": -0.062043795620437936,
+    "max": 0.12379807692307693,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_same_length": {
+    "median": 0.06306306306306309,
+    "n_positive": 14,
+    "n_negative": 3,
+    "ci_lo": 0.0,
+    "ci_hi": 0.1139405327004219,
+    "half_width": 0.05697026635021095,
+    "min": -0.10666666666666669,
+    "max": 0.234375,
+    "reading": "exceeds"
+   }
+  },
+  "Paul-style motif - MHCII-NP": {
+   "peptide_auroc": {
+    "median": -0.01731368581980275,
+    "n_positive": 4,
+    "n_negative": 15,
+    "ci_lo": -0.039745943835369994,
+    "ci_hi": -0.0005972045762753319,
+    "half_width": 0.019574369629547332,
+    "min": -0.06989746130027774,
+    "max": 0.022671298063954848,
+    "reading": "reversed"
+   },
+   "length_matched_auc": {
+    "median": -0.0034812621065971605,
+    "n_positive": 8,
+    "n_negative": 11,
+    "ci_lo": -0.027472885070318483,
+    "ci_hi": 0.035915701607416924,
+    "half_width": 0.0316942933388677,
+    "min": -0.06789205222167083,
+    "max": 0.07944041426325621,
+    "reading": "no consistent difference"
+   },
+   "near_miss_auc": {
+    "median": -0.024024024024024038,
+    "n_positive": 5,
+    "n_negative": 14,
+    "ci_lo": -0.046365039116247994,
+    "ci_hi": -0.0025092017758232585,
+    "half_width": 0.02192791867021237,
+    "min": -0.09656084656084662,
+    "max": 0.042067307692307654,
+    "reading": "reversed"
+   },
+   "near_miss_auc_same_length": {
+    "median": 0.0,
+    "n_positive": 9,
+    "n_negative": 7,
+    "ci_lo": -0.03246753246753242,
+    "ci_hi": 0.05825810480894788,
+    "half_width": 0.045362818638240154,
+    "min": -0.08108108108108103,
+    "max": 0.15625,
+    "reading": "no consistent difference"
+   }
+  },
+  "LigTerm-1S - LigTerm-GB": {
+   "peptide_auroc": {
+    "median": 0.015784298518850992,
+    "n_positive": 17,
+    "n_negative": 2,
+    "ci_lo": 0.006598312814333087,
+    "ci_hi": 0.021054696428932086,
+    "half_width": 0.007228191807299499,
+    "min": -0.015924887062983784,
+    "max": 0.0370537033996553,
+    "reading": "exceeds"
+   },
+   "length_matched_auc": {
+    "median": 0.024611047963932653,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.01093273438783177,
+    "ci_hi": 0.032567928416737446,
+    "half_width": 0.010817597014452838,
+    "min": -0.012653250576415975,
+    "max": 0.055547805909344716,
+    "reading": "exceeds"
+   },
+   "near_miss_auc": {
+    "median": 0.01245085190039319,
+    "n_positive": 15,
+    "n_negative": 4,
+    "ci_lo": -0.0024780772943558405,
+    "ci_hi": 0.028242177815242724,
+    "half_width": 0.015360127554799282,
+    "min": -0.03439153439153442,
+    "max": 0.08413461538461542,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_same_length": {
+    "median": 0.010526315789473717,
+    "n_positive": 11,
+    "n_negative": 6,
+    "ci_lo": -0.01802211302211295,
+    "ci_hi": 0.036036036036036,
+    "half_width": 0.027029074529074475,
+    "min": -0.059523809523809534,
+    "max": 0.125,
+    "reading": "no consistent difference"
+   }
+  },
+  "LigTerm-1S - Paul-style motif": {
+   "peptide_auroc": {
+    "median": 0.08970701271726234,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.059392188397241134,
+    "ci_hi": 0.11507736971584433,
+    "half_width": 0.027842590659301596,
+    "min": -0.046469680016997694,
+    "max": 0.17765387678101607,
+    "reading": "exceeds"
+   },
+   "length_matched_auc": {
+    "median": 0.11898864310713342,
+    "n_positive": 17,
+    "n_negative": 2,
+    "ci_lo": 0.07215205245403863,
+    "ci_hi": 0.1561036048736913,
+    "half_width": 0.04197577620982633,
+    "min": -0.08190168996174274,
+    "max": 0.2541606749411597,
+    "reading": "exceeds"
+   },
+   "near_miss_auc": {
+    "median": 0.05756578947368418,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.03361266148250344,
+    "ci_hi": 0.08658038888485811,
+    "half_width": 0.026483863701177335,
+    "min": -0.03288201160541582,
+    "max": 0.1658653846153847,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_same_length": {
+    "median": 0.07142857142857151,
+    "n_positive": 14,
+    "n_negative": 4,
+    "ci_lo": 0.010632757092198653,
+    "ci_hi": 0.11711959211959214,
+    "half_width": 0.05324341751369674,
+    "min": -0.16000000000000003,
+    "max": 0.203125,
+    "reading": "exceeds"
+   }
+  },
+  "LigTerm-GB - Paul-style motif": {
+   "peptide_auroc": {
+    "median": 0.07356966272180454,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.04186432300317369,
+    "ci_hi": 0.10039128760372391,
+    "half_width": 0.02926348230027511,
+    "min": -0.03054479295401391,
+    "max": 0.15731024164060348,
+    "reading": "exceeds"
+   },
+   "length_matched_auc": {
+    "median": 0.0938271495484726,
+    "n_positive": 17,
+    "n_negative": 2,
+    "ci_lo": 0.04559926521058934,
+    "ci_hi": 0.1298731151216927,
+    "half_width": 0.04213692495555168,
+    "min": -0.06924843938532677,
+    "max": 0.23200974940822272,
+    "reading": "exceeds"
+   },
+   "near_miss_auc": {
+    "median": 0.0434782608695653,
+    "n_positive": 17,
+    "n_negative": 2,
+    "ci_lo": 0.026653216006404794,
+    "ci_hi": 0.07351104813045826,
+    "half_width": 0.023428916062026735,
+    "min": -0.048355899419729176,
+    "max": 0.10722610722610715,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_same_length": {
+    "median": 0.05813953488372092,
+    "n_positive": 13,
+    "n_negative": 5,
+    "ci_lo": 0.0,
+    "ci_hi": 0.0980392156862745,
+    "half_width": 0.04901960784313725,
+    "min": -0.16000000000000003,
+    "max": 0.14414414414414412,
+    "reading": "exceeds"
+   }
+  },
+  "Paul-style motif - MHCII-NP (length-adjusted)": {
+   "peptide_auroc_length_free": {
+    "median": -0.0077125547381488024,
+    "n_positive": 8,
+    "n_negative": 11,
+    "ci_lo": -0.028589617391954758,
+    "ci_hi": 0.03361635214501633,
+    "half_width": 0.031102984768485543,
+    "min": -0.07945120743061684,
+    "max": 0.09014213252716097,
+    "reading": "no consistent difference"
+   },
+   "near_miss_auc_length_free": {
+    "median": 0.002083333333333326,
+    "n_positive": 11,
+    "n_negative": 7,
+    "ci_lo": -0.020478565619667315,
+    "ci_hi": 0.03155829673819976,
+    "half_width": 0.026018431178933536,
+    "min": -0.10025062656641603,
+    "max": 0.09855769230769235,
+    "reading": "no consistent difference"
+   }
+  },
+  "LigTerm-GB - MHCII-NP (length-adjusted)": {
+   "peptide_auroc_length_free": {
+    "median": 0.09244731713134802,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.05954798322397213,
+    "ci_hi": 0.13781930453085267,
+    "half_width": 0.03913566065344027,
+    "min": -0.10902140261049009,
+    "max": 0.20931718408418265,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_length_free": {
+    "median": 0.03825857519788922,
+    "n_positive": 14,
+    "n_negative": 5,
+    "ci_lo": -0.002366389600432156,
+    "ci_hi": 0.08085123937925708,
+    "half_width": 0.04160881448984462,
+    "min": -0.1071428571428571,
+    "max": 0.20432692307692307,
+    "reading": "exceeds"
+   }
+  },
+  "LigTerm-1S - MHCII-NP (length-adjusted)": {
+   "peptide_auroc_length_free": {
+    "median": 0.1194146620219596,
+    "n_positive": 18,
+    "n_negative": 1,
+    "ci_lo": 0.0848421224630443,
+    "ci_hi": 0.16070855072022752,
+    "half_width": 0.03793321412859161,
+    "min": -0.12717774701676088,
+    "max": 0.23788787123981558,
+    "reading": "exceeds"
+   },
+   "near_miss_auc_length_free": {
+    "median": 0.06906906906906907,
+    "n_positive": 15,
+    "n_negative": 4,
+    "ci_lo": 0.017113032777502153,
+    "ci_hi": 0.09892180005995198,
+    "half_width": 0.04090438364122491,
+    "min": -0.14682539682539686,
+    "max": 0.3245192307692308,
+    "reading": "exceeds"
+   }
+  }
+ },
+ "headline": "exceeds_in_both",
+ "headline_text": "LigTerm-1S exceeds the published tool in Peptide-AUROC and in Length-matched AUC",
+ "precision": {
+  "primary_contrast": "LigTerm-1S - MHCII-NP, peptide_auroc",
+  "criterion_half_width": 0.03,
+  "half_width_across_study_median": 0.028458253229854243,
+  "per_study_half_width_median": 0.06825936922984358
+ }
+}

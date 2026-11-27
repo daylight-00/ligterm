@@ -1,0 +1,67 @@
+{
+ "cpu": "INTEL(R) XEON(R) GOLD 6526Y",
+ "created": "2026-11-17 11:54:22",
+ "family": "gb",
+ "fits": {
+  "C": {
+   "fit_seconds": 156.5,
+   "loss": [
+    0.3702617015648652,
+    0.36523961250472525,
+    0.36264852348234916,
+    0.36117167506106723,
+    0.35974409287423226
+   ],
+   "n_neg": 1330026,
+   "n_pos": 221671,
+   "nstar": 800,
+   "rows": 1551697
+  },
+  "N": {
+   "fit_seconds": 152.3,
+   "loss": [
+    0.36742862324863684,
+    0.3623631698805388,
+    0.3598156362769497,
+    0.3587014789050028,
+    0.35670551694691566
+   ],
+   "n_neg": 1299966,
+   "n_pos": 216661,
+   "nstar": 800,
+   "rows": 1516627
+  }
+ },
+ "groups_sha256": "04874e7ac2c04e1c8310a5e06090633712c27726ddb1f7cad2e7470a3fa994e5",
+ "hgb": {
+  "early_stopping": false,
+  "l2_regularization": 1.0,
+  "learning_rate": 0.1,
+  "max_bins": 255,
+  "max_leaf_nodes": 31,
+  "min_samples_leaf": 200,
+  "random_state": 0
+ },
+ "length_prior": "log of add-one smoothed counts of verified ligand lengths 9..30 of the training units",
+ "model_name": "LigTerm-GB",
+ "n_trees": {
+  "C": 800,
+  "N": 800
+ },
+ "note": "scores are logits that rank bonds within a protein; performance estimates of the protocol (development cohort and historical test cohort, refits on held-out or reserved studies) describe the recipe, not this all-data fit, whose measured performance is that on the external test cohort (see the model card); a measure of observed ligand-terminal propensity, not of proteolytic cleavage; the class II identity of the lung list of PMID 35051231 is unresolved (see the model card)",
+ "numpy": "2.5.2",
+ "population": "all",
+ "python": "3.12.3",
+ "recipe": "LigTerm-GB: 72 features (32 residue tokens as categorical columns, 20 residue counts of the interior-facing and of the outward-facing 16 residues); the HistGradientBoosting settings of the development protocol (see hgb); the number of iterations chosen from (50, 100, 200, 400, 800) on three group-disjoint folds (sequence-similarity grouping u30), one fit of 800 iterations, the first n_iter trees kept",
+ "release_artefact": true,
+ "schema_version": 1,
+ "scipy": "1.18.1",
+ "seeds": "[20261116, 1, terminus index]",
+ "seqs_sha256": "23a07da98eeba33ba9a57c413085f21c03a80c4fd758f60ffcf3868ac09449a1",
+ "sklearn": "1.9.1",
+ "training_rows_sha256": "caa5606ea7de31f160dc77bf5fa82e5abcedbc46698a5b3e663741cc93a84a3b",
+ "training_units": 417415,
+ "units_sha256": "61583711029a0ba2635e00defabf59626eca64e400d247486456197e102a97d1",
+ "verified_units_in_database": 417415,
+ "window": 16
+}

@@ -1,0 +1,94 @@
+{
+ "seed_training": 20261113,
+ "studies": [
+  "33968037",
+  "35251023",
+  "35154160",
+  "32983136",
+  "36215666",
+  "25502872",
+  "33936100",
+  "28467828",
+  "39617188",
+  "34433824",
+  "33392160",
+  "32157095",
+  "40689854",
+  "42228098",
+  "31611695",
+  "41315082",
+  "41534530",
+  "34932366",
+  "40684438",
+  "33091337"
+ ],
+ "seen": [
+  "33858848",
+  "34357683",
+  "32350084",
+  "33968037",
+  "33592498",
+  "29242379"
+ ],
+ "primary_grouping": "u30",
+ "neg_ratio": 6,
+ "kmer_overlap": 9,
+ "lr": {
+  "C_position_lr": 1.0,
+  "C_window_lr": 0.1,
+  "max_iter": 1000,
+  "tol": 0.0001
+ },
+ "peptide_length": {
+  "min": 9,
+  "max": 30
+ },
+ "near_miss_shift": 3,
+ "models": [
+  {
+   "model": "LR-Both8"
+  },
+  {
+   "model": "LR-Both16"
+  },
+  {
+   "model": "LR-Comp8+Prox2",
+   "fit": "cv"
+  },
+  {
+   "model": "GB-Both8",
+   "fit": "cv"
+  },
+  {
+   "model": "Paul-style motif"
+  }
+ ],
+ "reference_model": {
+  "model": "LR-Both16"
+ },
+ "guard_models": [
+  {
+   "model": "LR-Both16"
+  },
+  {
+   "model": "GB-Both8",
+   "fit": "cv"
+  },
+  {
+   "model": "Paul-style motif"
+  }
+ ],
+ "bond_level_guard_abort": 1e-05,
+ "aggregation": {
+  "bootstrap": 2000,
+  "seed": 20261116,
+  "levels": {
+   "length_matched_auc_median": 0.6,
+   "length_matched_auc_per_study": 0.55,
+   "peptide_auroc_gain_median": 0.03,
+   "peptide_auroc_gain_per_study": 0.01,
+   "near_miss_auc_median": 0.55,
+   "min_studies": 16
+  }
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "seed": 20261116,
+ "neg_ratio": 6,
+ "grouping": "u30",
+ "window": 16,
+ "check_proteins": 200
+}
